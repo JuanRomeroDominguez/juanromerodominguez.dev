@@ -1,0 +1,26 @@
+Sitemap: https://pingtest.lol/sitemap.php
+
+# Bots bloqueados
+User-agent: AhrefsBot
+User-agent: BLEXBot
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: DataForSeoBot
+User-agent: dotbot
+User-agent: meta-externalagent
+User-agent: MJ12bot
+User-agent: Go-http-client
+User-agent: GPTBot
+User-agent: Photon
+User-agent: python-requests
+User-agent: SiteAuditBot
+User-agent: SemrushBot-BA
+User-agent: SemrushBot-SI
+User-agent: SemrushBot-SWA
+User-agent: SplitSignalBot
+User-agent: SemrushBot-OCOB
+User-agent: TurnitinBot
+User-agent: zgrab
+User-Agent: ZoomBot
+User-agent: ZoominfoBot
+Disallow: /
