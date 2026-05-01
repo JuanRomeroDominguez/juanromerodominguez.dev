@@ -20,32 +20,23 @@
 <link href="https://juanromerodominguez.dev/imagenes/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
 <link href="https://juanromerodominguez.dev/imagenes/favicon/favicon.ico" rel="icon" type="image/x-icon"/>
 <meta name="theme-color" content="#ffffff"/>
-<style>
-body{margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f9f9f9;color:#fff;background-color:transparent!important;background-attachment:fixed;background-repeat:no-repeat;background-size:cover;background-image:url(https://juanromerodominguez.dev/imagenes/fondo.webp)}
-.container{max-width:1100px;margin:0 auto;padding:0 15px}
-.header{color:#fff;padding:10px 0;background-color:rgba(15,20,28,0.8);background-repeat:repeat-x;border:0 solid #428bca;border-bottom:1px;box-shadow:0 2px 10px #428bca;position:fixed;width:100%;z-index:7}
-.header h1 a{color:#fff;text-decoration:none}
-.nav a{margin:0 10px;color:#fff;text-decoration:none}
-.nav a:hover{text-decoration:underline}
-.main{padding-top:50px;position:relative}
-.hero{text-align:center;padding:20px;margin-bottom:5px;border-radius:5px;background-color:rgba(15,20,28,0.5);background-repeat:repeat-x;border:1px solid #000;box-shadow:0 1px 3px #000;color:white}
-.hero h1{margin:0}
-.section{padding:20px;margin-bottom:5px;border-radius:5px;background-color:rgba(15,20,28,0.5);background-repeat:repeat-x;border:1px solid #000;box-shadow:0 1px 3px #000;color:white}
-.section h2{margin-top:0}
-.section a{color:#fff;text-decoration:underline}
-.section table{width:100%;border-collapse:collapse;margin:10px 0;background:rgba(255,255,255,0.05)}
-.section th,.section td{border:1px solid rgba(255,255,255,0.25);padding:8px;text-align:left;vertical-align:top}
-footer{text-align:center;padding:20px;background:#222;color:#fff}
-footer a{color:#fff;margin:0 10px}
-@media (max-width:768px){.section table{font-size:14px}}
-</style>
+<link rel="stylesheet" href="/assets/css/style.css"/>
 </head>
 <body>
-<header class="header">
-  <div class="container">
-    <nav class="nav"><a href="/">JuanRomeroDominguez.dev</a></nav>
-  </div>
-</header>
+<header class="header" id="header-container"></header>
+<script>
+(function(){
+  var target=document.getElementById('header-container');
+  if(!target){return;}
+  fetch('/header.html')
+    .then(function(response){return response.text();})
+    .then(function(html){target.innerHTML=html;})
+    .catch(function(error){console.error('Error cargando la cabecera:', error);});
+})();
+</script>
+<div id="stars"></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
 <main class="main container">
 <section class="hero">
   <h1>Términos y Condiciones</h1>
@@ -222,5 +213,33 @@ País: España</p>
   <p>© 2026 Juan Romero Domínguez</p>
   <p><a href="mailto:contacto@juanromerodominguez.dev">contacto@juanromerodominguez.dev</a></p>
 </footer>
+<script>
+function closePopup(){
+  var overlay=document.getElementById('popup-overlay');
+  if(overlay){overlay.style.display='none';}
+}
+function openPopup(id){
+  var overlay=document.getElementById('popup-overlay');
+  if(overlay){overlay.style.display='flex';}
+  document.querySelectorAll('.popup-content').forEach(function(el){el.classList.remove('active');});
+  var content=document.getElementById(id);
+  if(content){content.classList.add('active');}
+}
+function enviarCorreo(event){
+  event.preventDefault();
+  var nombre=document.getElementById('name').value.trim();
+  var email=document.getElementById('email').value.trim();
+  var abot=document.getElementById('abot').value.trim();
+  var mensaje=document.getElementById('message').value.trim();
+  if(abot !== '7'){
+    alert("La respuesta a '1 + 6' no es correcta.");
+    return;
+  }
+  var destino='contacto@juanromerodominguez.dev';
+  var asunto=encodeURIComponent('Contacto desde juanromerodominguez.dev');
+  var cuerpo=encodeURIComponent('Nombre: '+nombre+'\n'+'Email: '+email+'\n\n'+'Mensaje:\n'+mensaje);
+  window.location.href='mailto:'+destino+'?subject='+asunto+'&body='+cuerpo;
+}
+</script>
 </body>
 </html>
