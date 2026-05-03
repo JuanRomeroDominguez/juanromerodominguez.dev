@@ -65,9 +65,7 @@
 
 					const destino = "contacto@juanromerodominguez.dev";
 					const asunto = encodeURIComponent("Contacto desde juanromerodominguez.dev");
-					const cuerpo = encodeURIComponent(
-						"Nombre: " + nombre + "\n" + "Email: " + email + "\n\n" + "Mensaje:\n" + mensaje
-					);
+					const cuerpo = encodeURIComponent('Nombre: ' + nombre + "\n" + 'Email: ' + email + "\n\n" + "Mensaje:\n" + mensaje);
 					window.location.href = "mailto:${destino}?subject=${asunto}&body=${cuerpo}";
 				}
 			</script>
