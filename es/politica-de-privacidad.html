@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Política de Privacidad | Juan Romero Domínguez Apps</title>
-<link rel="stylesheet" href="/assets/css/style.css"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
 <header class="header" id="header-container"></header>
@@ -35,15 +36,15 @@
 <tr><td>QR SMS: Scan &amp; Send</td><td>Escanea códigos QR con datos de SMS y ayuda al usuario a abrir la aplicación de mensajería para redactar el mensaje.</td></tr>
 <tr><td>QR Text: Scan &amp; Read</td><td>Escanea códigos QR con texto plano y muestra el texto decodificado al usuario.</td></tr>
 <tr><td>QR URL: Scan &amp; Open</td><td>Escanea códigos QR con URLs y ayuda al usuario a abrirlas en un navegador o aplicación compatible.</td></tr>
+<tr><td>QR PDF: Scan &amp; View</td><td>Escanea códigos QR que contienen URLs de PDF, abre un visor nativo de PDF mediante Android PdfRenderer y permite compartir o guardar el archivo PDF.</td></tr>
 <tr><td>QR WiFi: Scan &amp; Connect</td><td>Escanea códigos QR con información de redes Wi-Fi y ayuda al usuario a conectarse mediante funciones del sistema del dispositivo.</td></tr>
 <tr><td>Table Clock</td><td>Muestra un reloj de mesa/escritorio y puede guardar preferencias locales de visualización.</td></tr>
 <tr><td>Vanity Mirror: Makeup Camera</td><td>Usa la cámara frontal como espejo/cámara de maquillaje y permite al usuario hacer y guardar fotos.</td></tr>
 <tr><td>Volume Boost: Sound Booster</td><td>Mejora o ajusta la reproducción de audio según la configuración del usuario y puede guardar preferencias locales de audio.</td></tr></tbody></table></section>
-
 <section class="section">
 <h2>Información tratada por las aplicaciones</h2>
 <h3>Contenido de códigos QR</h3>
-<p>Las aplicaciones QR tratan el contenido incluido en el código QR seleccionado o escaneado por el usuario. Según la aplicación, esto puede incluir datos de contacto, direcciones de correo electrónico, datos de eventos, texto de mapa o ubicación, números de teléfono, texto de SMS, texto plano, URLs o información de redes Wi-Fi. Este contenido del QR se trata localmente en el dispositivo para mostrárselo al usuario o para preparar la acción elegida por el usuario.</p>
+<p>Las aplicaciones QR tratan el contenido incluido en el código QR seleccionado o escaneado por el usuario. Según la aplicación, esto puede incluir datos de contacto, direcciones de correo electrónico, datos de eventos, texto de mapa o ubicación, números de teléfono, texto de SMS, texto plano, URLs, URLs de PDF y archivos PDF, o información de redes Wi-Fi. Este contenido del QR se trata localmente en el dispositivo para mostrárselo al usuario o para preparar la acción elegida por el usuario.</p>
 <h3>Cámara, fotos, contenido multimedia y almacenamiento local</h3>
 <p>Las aplicaciones que escanean códigos QR o incluyen funciones de cámara pueden usar el permiso de cámara para mostrar una vista previa en directo y escanear o capturar contenido. Vanity Mirror: Makeup Camera usa la cámara frontal para mostrar la vista previa de espejo/cámara y permite al usuario hacer una foto solo cuando pulsa el botón de captura. La vista previa de la cámara, el contenido QR escaneado y las fotos se tratan localmente en el dispositivo. Las fotos no se suben a nuestros servidores.</p>
 <p>Cuando una aplicación permite al usuario guardar una foto o archivo, los permisos de almacenamiento o contenido multimedia pueden usarse únicamente para guardar, leer, modificar o eliminar contenido creado o seleccionado por el usuario dentro de la aplicación. No usamos estos permisos para acceder a archivos personales no relacionados.</p>
@@ -77,9 +78,18 @@
 <section class="section"><h2>Seguridad</h2><p>Usamos medidas técnicas y organizativas razonables para proteger la información tratada por nuestras aplicaciones. Sin embargo, ningún método de transmisión o almacenamiento es completamente seguro.</p></section>
 <section class="section"><h2>Cambios en esta Política</h2><p>Podemos actualizar esta Política de Privacidad para reflejar cambios en nuestras aplicaciones, SDKs, requisitos legales o requisitos de plataforma. La versión actualizada se identificará mediante la fecha de "Última actualización" indicada arriba.</p></section>
 <section class="section"><h2>Contacto</h2><p>Si tiene preguntas sobre esta Política de Privacidad o sobre nuestras aplicaciones, puede contactar con nosotros mediante el método de contacto indicado en la ficha correspondiente de la tienda de aplicaciones o a través de <a href="https://juanromerodominguez.dev">juanromerodominguez.dev</a>.</p></section>
+</main>
 
-</main><footer class="footer">© 2026 Juan Romero Domínguez</footer>
-<script>
+<footer class="footer" id="footer-container"></footer><script>
+(function(){
+  var target=document.getElementById('footer-container');
+  if(!target){return;}
+  fetch('/footer.html')
+    .then(function(response){return response.text();})
+    .then(function(html){target.innerHTML=html;})
+    .catch(function(error){console.error('Error cargando el footer:', error);});
+})();
+</script><script>
 function closePopup(){
   var overlay=document.getElementById('popup-overlay');
   if(overlay){overlay.style.display='none';}
@@ -103,8 +113,11 @@ function enviarCorreo(event){
   }
   var destino='contacto@juanromerodominguez.dev';
   var asunto=encodeURIComponent('Contacto desde juanromerodominguez.dev');
-  var cuerpo=encodeURIComponent('Nombre: '+nombre+'\n'+'Email: '+email+'\n\n'+'Mensaje:\n'+mensaje);
+  var cuerpo=encodeURIComponent('Nombre: '+nombre+'
+'+'Email: '+email+'
+
+'+'Mensaje:
+'+mensaje);
   window.location.href='mailto:'+destino+'?subject='+asunto+'&body='+cuerpo;
 }
-</script>
-</body></html>
+</script></body></html>
