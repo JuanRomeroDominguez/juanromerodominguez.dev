@@ -96,3 +96,23 @@ body{margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f9f9f9;co
 .app-store-button img{width:100%;max-width:150px;height:46px;min-width:0;object-fit:contain;border-radius:0;background:transparent;box-shadow:none}
 .app-store-button span{font-size:12px;line-height:1.15;min-height:28px;max-height:28px;display:flex;align-items:center;justify-content:center;text-align:center}
 @media (max-width:480px){.app-store-buttons{gap:7px}.app-store-button{height:108px;min-height:108px;padding:8px 4px}.app-store-button img{max-width:112px;height:36px}.app-store-button span{font-size:10.5px}}
+
+
+/* ===== Ajustes finales tiendas Android y fondo estelar persistente ===== */
+#apps .android-app-card{display:block;width:100%}
+#apps .android-app-panel{width:100%}
+#apps .android-app-title{display:block;width:100%;margin:0 0 12px 0;line-height:1.25}
+#apps .android-app-main{display:flex;align-items:flex-start;gap:14px;width:100%}
+#apps .android-app-info{flex:1 1 auto;min-width:0;width:100%}
+#apps .android-app-info p{margin:0 0 8px 0}
+#apps .android-app-info .package{margin-bottom:0}
+#apps .app-store-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;width:100%;max-width:none;margin-top:14px;align-items:center}
+#apps .app-store-button,#apps .app-store-button.fx-card{display:flex;align-items:center;justify-content:center;width:100%;min-width:0;min-height:0!important;height:auto!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;overflow:visible;text-decoration:none;color:inherit}
+#apps .app-store-button::before{display:none!important}
+#apps .app-store-button:hover{background:transparent!important;box-shadow:none!important;text-decoration:none}
+#apps .app-store-button img{display:block;width:100%;max-width:100%;height:auto;min-width:0;object-fit:contain;border:0;border-radius:0;background:transparent;box-shadow:none;padding:0;margin:0}
+#apps .app-store-button span{display:none!important}
+#stars,#stars2,#stars3{position:fixed!important;top:0!important;left:0!important;z-index:1!important;pointer-events:none!important}
+#stars::after,#stars2::after,#stars3::after{position:absolute!important;left:0;top:2000px}
+@media (max-width:768px){#apps .android-app-main{gap:12px}#apps .app-store-buttons{gap:8px}}
+@media (max-width:520px){#apps .android-app-main{flex-direction:column}#apps .portfolio-card img.app-icon{width:72px;height:72px}#apps .app-store-buttons{gap:6px}}
