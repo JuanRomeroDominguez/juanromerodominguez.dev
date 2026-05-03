@@ -74,3 +74,25 @@ body{margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f9f9f9;co
 .app-store-button img{width:64px;height:64px;min-width:64px;object-fit:contain;border-radius:0;background:transparent;box-shadow:none}
 .app-store-button span{display:block;width:100%;font-size:12px;line-height:1.15;color:#fff;min-height:28px;max-height:28px;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:480px){.app-store-buttons{grid-template-columns:repeat(3,1fr);gap:6px}.app-store-button{height:104px;min-height:104px;padding:7px 4px}.app-store-button span{font-size:11px}}
+
+
+/* ===== Efectos visuales premium: constelación, glow, tilt y terminal ===== */
+.constellation-canvas{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.75;mix-blend-mode:screen}
+.header,.main,.footer,footer{position:relative;z-index:2}
+#stars,#stars2,#stars3{position:relative;z-index:1;pointer-events:none}
+.terminal-line{margin:16px auto 4px;max-width:860px;padding:10px 14px;border:1px solid rgba(103,210,255,.35);border-radius:10px;background:rgba(5,12,22,.46);box-shadow:0 0 18px rgba(55,163,255,.16),inset 0 0 22px rgba(55,163,255,.08);font-family:"Courier New",monospace;text-align:left;color:#bfe8ff;letter-spacing:.2px;white-space:nowrap;overflow:hidden}
+.terminal-prompt{color:#69e7ff;font-weight:700}.terminal-text{color:#eaf8ff}.terminal-cursor{display:inline-block;width:10px;height:1.1em;margin-left:3px;vertical-align:-.18em;background:#67d2ff;box-shadow:0 0 10px #67d2ff;animation:terminalBlink .9s steps(2,end) infinite}@keyframes terminalBlink{50%{opacity:0}}
+.fx-card{position:relative;transform-style:preserve-3d;will-change:transform;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background-color .18s ease;--mx:50%;--my:50%}
+.fx-card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(240px circle at var(--mx) var(--my),rgba(86,202,255,.28),rgba(42,128,255,.12) 34%,transparent 66%);opacity:0;transition:opacity .18s ease;z-index:0}
+.fx-card:hover::before{opacity:1}.fx-card:hover{border-color:rgba(103,210,255,.65)!important;box-shadow:0 10px 30px rgba(0,0,0,.38),0 0 28px rgba(60,177,255,.32)!important}
+.fx-card>*{position:relative;z-index:1}.badge-card-custom.fx-card>*{z-index:2}
+.anchor-nav a.fx-card::before,.app-store-button.fx-card::before{border-radius:inherit}
+@media (prefers-reduced-motion: reduce){.constellation-canvas{display:none}.terminal-cursor{animation:none}.fx-card,.fx-card:hover{transform:none!important;transition:none!important}.fx-card::before{display:none}}
+@media (max-width:768px){.terminal-line{white-space:normal;font-size:13px}}
+
+/* Badges de tiendas oficiales/marketplace */
+.app-store-buttons{max-width:520px;gap:12px}
+.app-store-button{min-height:118px;height:118px;padding:10px 8px;border-radius:14px;background:rgba(255,255,255,.07)}
+.app-store-button img{width:100%;max-width:150px;height:46px;min-width:0;object-fit:contain;border-radius:0;background:transparent;box-shadow:none}
+.app-store-button span{font-size:12px;line-height:1.15;min-height:28px;max-height:28px;display:flex;align-items:center;justify-content:center;text-align:center}
+@media (max-width:480px){.app-store-buttons{gap:7px}.app-store-button{height:108px;min-height:108px;padding:8px 4px}.app-store-button img{max-width:112px;height:36px}.app-store-button span{font-size:10.5px}}
