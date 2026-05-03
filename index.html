@@ -264,36 +264,5 @@ autoinformado), tablas, estructuras, tipos, etc..</p></div></article><article cl
     .then(function(html){target.innerHTML=html;})
     .catch(function(error){console.error('Error cargando el footer:', error);});
 })();
-</script><script>
-function closePopup(){
-  var overlay=document.getElementById('popup-overlay');
-  if(overlay){overlay.style.display='none';}
-}
-function openPopup(id){
-  var overlay=document.getElementById('popup-overlay');
-  if(overlay){overlay.style.display='flex';}
-  document.querySelectorAll('.popup-content').forEach(function(el){el.classList.remove('active');});
-  var content=document.getElementById(id);
-  if(content){content.classList.add('active');}
-}
-function enviarCorreo(event){
-  event.preventDefault();
-  var nombre=document.getElementById('name').value.trim();
-  var email=document.getElementById('email').value.trim();
-  var abot=document.getElementById('abot').value.trim();
-  var mensaje=document.getElementById('message').value.trim();
-  if(abot !== '7'){
-    alert("La respuesta a '1 + 6' no es correcta.");
-    return;
-  }
-  var destino='contacto@juanromerodominguez.dev';
-  var asunto=encodeURIComponent('Contacto desde juanromerodominguez.dev');
-  var cuerpo=encodeURIComponent('Nombre: '+nombre+'
-'+'Email: '+email+'
-
-'+'Mensaje:
-'+mensaje);
-  window.location.href='mailto:'+destino+'?subject='+asunto+'&body='+cuerpo;
-}
 </script></body>
 </html>
