@@ -56,7 +56,7 @@
 					const nombre = document.getElementById("name").value.trim();
 					const email = document.getElementById("email").value.trim();
 					const abot = document.getElementById("abot").value.trim();
-					const mensaje = document.getElementById("message").value.trim();
+					const v_mensaje = document.getElementById("message").value.trim();
 
 					if (abot !== "7") {
 						alert("La respuesta a '1 + 6' no es correcta.");
@@ -65,7 +65,7 @@
 
 					const destino = "contacto@juanromerodominguez.dev";
 					const asunto = encodeURIComponent("Contacto desde juanromerodominguez.dev");
-					const cuerpo = encodeURIComponent('Nombre: ' + nombre + "\n" + 'Email: ' + email + "\n\n" + "Mensaje:\n" + mensaje);
+					const cuerpo = encodeURIComponent('Nombre: ' + nombre + "\n" + 'Email: ' + email + "\n\n" + "Mensaje:\n" + v_mensaje);
 					window.location.href = "mailto:${destino}?subject=${asunto}&body=${cuerpo}";
 				}
 			</script>
