@@ -2,23 +2,33 @@
   var languages = ['ar', 'bn', 'de', 'en', 'es', 'fr', 'hi', 'in', 'it', 'pt', 'ur'];
   var aliases = { id: 'in' };
   var defaultLang = 'en';
+  var staticPrefixes = ['/assets/', '/imagenes/'];
+  var staticExtensions = [
+    '.png', '.jpg', '.jpeg', '.webp', '.svg', '.gif', '.ico', '.avif',
+    '.css', '.js', '.json', '.xml', '.txt', '.webmanifest',
+    '.woff', '.woff2', '.ttf', '.otf', '.eot', '.map',
+    '.pdf', '.zip', '.apk', '.aab'
+  ];
 
-  function siteRootFromScript() {
-    if (window.JRDSiteRoot) { return window.JRDSiteRoot; }
-    var script = document.currentScript || document.querySelector('script[src$="/assets/js/language-redirect.js"],script[src$="assets/js/language-redirect.js"]');
-    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/language-redirect.js';
-    try { return new URL(src, document.baseURI).pathname.replace(/assets\/js\/language-redirect\.js(?:\?.*)?$/, ''); }
-    catch (e) { return '/'; }
-  }
-
-  var siteRoot = siteRootFromScript();
-  window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
+  function siteRoot() { return '/'; }
+  window.JRDSiteRoot = window.JRDSiteRoot || siteRoot();
 
   function normalize(code) {
     if (!code) { return null; }
     code = String(code).toLowerCase().split('-')[0];
     if (aliases[code]) { code = aliases[code]; }
     return languages.indexOf(code) >= 0 ? code : null;
+  }
+
+  function isStaticAssetPath(path) {
+    path = (path || '').toLowerCase();
+    for (var i = 0; i < staticPrefixes.length; i++) {
+      if (path.indexOf(staticPrefixes[i]) === 0) { return true; }
+    }
+    for (var j = 0; j < staticExtensions.length; j++) {
+      if (path.endsWith(staticExtensions[j])) { return true; }
+    }
+    return false;
   }
 
   function chooseLang() {
@@ -36,9 +46,7 @@
   }
 
   function requestedSlug() {
-    var path = location.pathname;
-    if (siteRoot !== '/' && path.indexOf(siteRoot) === 0) { path = path.slice(siteRoot.length - 1); }
-    var parts = path.split('/').filter(Boolean);
+    var parts = location.pathname.split('/').filter(Boolean);
     var last = parts[parts.length - 1] || 'index.html';
     if (last === 'politica-de-privacidad.html') { return 'privacy-policy.html'; }
     if (last === 'terminos-y-condiciones.html') { return 'terms-and-conditions.html'; }
@@ -48,11 +56,29 @@
   }
 
   function localizedPath(lang, slug) {
-    if (slug === 'index.html') { return siteRoot + lang + '/'; }
-    return siteRoot + lang + '/' + slug;
+    if (slug === 'index.html') { return '/' + lang + '/'; }
+    return '/' + lang + '/' + slug;
+  }
+
+  function showStaticAsset404() {
+    document.documentElement.lang = 'en';
+    document.documentElement.dir = 'ltr';
+    var link = document.getElementById('redirect-link');
+    if (link) { link.href = '/en/'; link.textContent = 'Go to home'; }
+    var panel = document.querySelector('.redirect-panel');
+    if (panel) {
+      panel.classList.add('asset-404-panel');
+      panel.innerHTML = '<h1>404 - Resource not found</h1>' +
+        '<p>The requested file does not exist or its extension is not correct.</p>' +
+        '<p><a href="/en/">Go to home</a></p>';
+    }
   }
 
   function redirect() {
+    if (isStaticAssetPath(location.pathname)) {
+      showStaticAsset404();
+      return;
+    }
     var target = localizedPath(chooseLang(), requestedSlug());
     var link = document.getElementById('redirect-link');
     if (link) { link.href = target; }

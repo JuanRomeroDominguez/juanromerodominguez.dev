@@ -1,22 +1,11 @@
 (function () {
-  function siteRootFromScript() {
-    var script = document.currentScript || document.querySelector('script[src$="/assets/js/load-head.js"],script[src$="assets/js/load-head.js"]');
-    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/load-head.js';
-    try {
-      var url = new URL(src, document.baseURI);
-      return url.pathname.replace(/assets\/js\/load-head\.js(?:\?.*)?$/, '');
-    } catch (e) {
-      return '/';
-    }
-  }
-
-  var siteRoot = siteRootFromScript();
+  var siteRoot = '/';
   window.JRDSiteRoot = siteRoot;
 
   function assetPath(path) {
     if (!path || /^(https?:|mailto:|tel:|#|data:|blob:)/i.test(path)) { return path; }
-    if (path.charAt(0) === '/') { return siteRoot + path.replace(/^\/+/, ''); }
-    return path;
+    if (path.charAt(0) === '/') { return path; }
+    return siteRoot + path.replace(/^\/+/, '');
   }
 
   function normalizeNodeUrls(node) {
@@ -33,12 +22,7 @@
     if (tag === 'link') {
       var rel = node.getAttribute('rel') || '';
       var href = node.getAttribute('href') || '';
-      var sizes = node.getAttribute('sizes') || '';
-      var type = node.getAttribute('type') || '';
-      var selector = 'link[rel="' + rel + '"][href="' + href + '"]' +
-        (sizes ? '[sizes="' + sizes + '"]' : '') +
-        (type ? '[type="' + type + '"]' : '');
-      return !!document.head.querySelector(selector);
+      return !!document.head.querySelector('link[rel="' + rel + '"][href="' + href + '"]');
     }
     if (tag === 'meta') {
       var name = node.getAttribute('name');
@@ -65,8 +49,7 @@
 
   function appendNode(node) {
     normalizeNodeUrls(node);
-    var tag = node.tagName.toLowerCase();
-    if (tag === 'script') { appendScript(node); return; }
+    if (node.tagName.toLowerCase() === 'script') { appendScript(node); return; }
     if (!hasEquivalentNode(node)) { document.head.appendChild(node.cloneNode(true)); }
   }
 
@@ -96,14 +79,11 @@
   function fetchWithTimeout(url, timeoutMs) {
     var controller = window.AbortController ? new AbortController() : null;
     var timer = setTimeout(function () { if (controller) { controller.abort(); } }, timeoutMs || 3000);
-    return fetch(url, {
-      cache: 'default',
-      credentials: 'same-origin',
-      signal: controller ? controller.signal : undefined
-    }).finally(function () { clearTimeout(timer); });
+    return fetch(url, { cache: 'default', credentials: 'same-origin', signal: controller ? controller.signal : undefined })
+      .finally(function () { clearTimeout(timer); });
   }
 
-  fetchWithTimeout(siteRoot + 'head-common.html', 3000)
+  fetchWithTimeout('/head-common.html', 3000)
     .then(function (response) {
       if (!response.ok) { throw new Error('HTTP ' + response.status); }
       return response.text();

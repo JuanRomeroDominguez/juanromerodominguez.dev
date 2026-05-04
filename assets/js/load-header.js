@@ -1,26 +1,16 @@
 (function () {
-  function siteRootFromScript(fileName) {
-    if (window.JRDSiteRoot) { return window.JRDSiteRoot; }
-    var script = document.currentScript || document.querySelector('script[src$="/assets/js/' + fileName + '"],script[src$="assets/js/' + fileName + '"]');
-    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/' + fileName;
-    try { return new URL(src, document.baseURI).pathname.replace(new RegExp('assets/js/' + fileName + '(?:\\?.*)?$'), ''); }
-    catch (e) { return '/'; }
-  }
-  var siteRoot = siteRootFromScript('load-header.js');
+  var siteRoot = '/';
   window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
 
   function fetchWithTimeout(url, timeoutMs) {
     var controller = window.AbortController ? new AbortController() : null;
     var timer = setTimeout(function () { if (controller) { controller.abort(); } }, timeoutMs || 3000);
-    return fetch(url, {
-      cache: 'default',
-      credentials: 'same-origin',
-      signal: controller ? controller.signal : undefined
-    }).finally(function () { clearTimeout(timer); });
+    return fetch(url, { cache: 'default', credentials: 'same-origin', signal: controller ? controller.signal : undefined })
+      .finally(function () { clearTimeout(timer); });
   }
 
   function fallbackHeader(target) {
-    target.innerHTML = '<div class="container"><h1><a href="' + siteRoot + '">JuanRomeroDominguez.dev</a></h1><nav class="nav"><a href="' + siteRoot + 'es/">ES</a><a href="' + siteRoot + 'en/">EN</a></nav></div>';
+    target.innerHTML = '<div class="container"><nav class="nav"><a class="brand-link" href="/en/">JuanRomeroDominguez.dev</a></nav><div class="language-switcher"><a href="/es/">ES</a><a href="/en/">EN</a></div></div>';
     document.dispatchEvent(new CustomEvent('site:header-loaded'));
   }
 
@@ -28,7 +18,7 @@
     var target = document.getElementById('header-container');
     if (!target || target.dataset.loaded === 'true') { return; }
     target.dataset.loaded = 'true';
-    fetchWithTimeout(siteRoot + 'header.html', 3000)
+    fetchWithTimeout('/header.html', 3000)
       .then(function (response) {
         if (!response.ok) { throw new Error('HTTP ' + response.status); }
         return response.text();

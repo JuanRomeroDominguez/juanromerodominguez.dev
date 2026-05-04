@@ -16,15 +16,7 @@
     ur: { switcher: 'زبان', privacy: 'رازداری کی پالیسی', terms: 'شرائط و ضوابط', contact: 'رابطہ' }
   };
 
-  function siteRootFromScript() {
-    if (window.JRDSiteRoot) { return window.JRDSiteRoot; }
-    var script = document.currentScript || document.querySelector('script[src$="/assets/js/language.js"],script[src$="assets/js/language.js"]');
-    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/language.js';
-    try { return new URL(src, document.baseURI).pathname.replace(/assets\/js\/language\.js(?:\?.*)?$/, ''); }
-    catch (e) { return '/'; }
-  }
-
-  var siteRoot = siteRootFromScript();
+  var siteRoot = '/';
   window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
 
   function normalize(code) {
@@ -35,11 +27,7 @@
   }
 
   function pathWithoutSiteRoot() {
-    var path = location.pathname;
-    if (siteRoot !== '/' && path.indexOf(siteRoot) === 0) {
-      path = '/' + path.slice(siteRoot.length);
-    }
-    return path;
+    return location.pathname;
   }
 
   function currentLangFromPath() {

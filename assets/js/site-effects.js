@@ -3,7 +3,7 @@
 
   function isHomePage() {
     var path = window.location.pathname.replace(/\/+/g, '/');
-    return path === '/' || path.endsWith('/index.html') || path === '/index';
+    return path === '/' || /\/(ar|bn|de|en|es|fr|hi|in|it|pt|ur)\/?$/.test(path) || path.endsWith('/index.html') || path === '/index';
   }
 
   function initTypingHero() {

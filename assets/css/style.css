@@ -136,3 +136,7 @@ body{margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f9f9f9;co
 @media (max-width:768px){#apps .android-app-main{gap:12px}#apps .app-store-buttons{gap:6px}#apps .app-store-button img{max-height:46px}}@media (max-width:420px){#apps .android-app-main{flex-direction:column}#apps .app-store-button img{max-height:42px}}
 
 #stars,#stars2,#stars3{position:fixed!important;top:0!important;left:0!important;pointer-events:none!important;z-index:-1!important}#stars::after,#stars2::after,#stars3::after{position:absolute!important;display:block!important}body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2}.redirect-panel{max-width:720px;margin:80px auto;padding:28px;border:1px solid rgba(103,210,255,.45);border-radius:16px;background:rgba(15,20,28,.72);box-shadow:0 10px 40px rgba(0,0,0,.35),0 0 26px rgba(66,139,202,.22);color:#fff;text-align:center}.redirect-panel h1{margin-top:0}.redirect-panel p{color:#dce9ff}.redirect-panel a{color:#9bd6ff;font-weight:700}.experience-media-caption{margin:8px 0 0;color:#e9eef8;font-size:13px}
+
+/* 404 de recursos estáticos: no debe activar la redirección multidioma */
+.asset-404-panel{max-width:760px;margin:8rem auto;padding:2rem;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:rgba(7,17,31,.78);box-shadow:0 18px 60px rgba(0,0,0,.35)}
+.asset-404-panel h1{margin-top:0}
