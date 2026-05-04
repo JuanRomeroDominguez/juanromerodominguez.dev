@@ -1,50 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Redirecting | Juan Romero Domínguez</title>
-  <script src="/assets/js/load-head.js"></script>
-  <script>
-  (function() {
-    var languages = ['ar','bn','de','en','es','fr','hi','in','it','pt','ur'];
-    var aliases = { id: 'in' };
-    var page = 'index.html';
-    function normalize(code) {
-      if (!code) return null;
-      code = String(code).toLowerCase().split('-')[0];
-      if (aliases[code]) code = aliases[code];
-      return languages.indexOf(code) >= 0 ? code : null;
-    }
-    function chooseLang() {
-      var params = new URLSearchParams(location.search);
-      var queryLang = normalize(params.get('lang'));
-      if (queryLang) { localStorage.setItem('siteLanguage', queryLang); return queryLang; }
-      var stored = normalize(localStorage.getItem('siteLanguage'));
-      if (stored) return stored;
-      var nav = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
-      for (var i=0; i<nav.length; i++) { var n = normalize(nav[i]); if (n) return n; }
-      return 'en';
-    }
-    var lang = chooseLang();
-    var target = '/' + lang + '/' + (page === 'index.html' ? '' : page);
-    window.__languageRedirectTarget = target;
-    setTimeout(function() { location.replace(target); }, 700);
-  })();
-  </script>
-</head>
-<body>
-  <div id="stars"></div><div id="stars2"></div><div id="stars3"></div>
-  <main class="main container">
-    <section class="redirect-panel">
-      <h1>Selecting your language</h1>
-      <p>We are redirecting you automatically to the best available language for this page.</p>
-      <p><a id="redirect-link" href="/en/">Continue</a></p>
-    </section>
-  </main>
-  <script>
-    var a = document.getElementById('redirect-link');
-    if (a && window.__languageRedirectTarget) a.href = window.__languageRedirectTarget;
-  </script>
-</body>
-</html>
+<head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Redirecting to the best available language for Juan Romero Domínguez developer website." name="description"/><title>Redirecting | Juan Romero Domínguez</title><script src="/assets/js/load-head.js"></script><script defer="" src="/assets/js/language-redirect.js"></script></head>
+<body data-redirect-page="index.html"><div id="stars"></div><div id="stars2"></div><div id="stars3"></div><main class="main container"><section class="redirect-panel"><h1>Selecting your language</h1><p>We are redirecting you automatically to the best available language for this page.</p><p><a href="/en/" id="redirect-link">Continue</a></p></section></main></body></html>
