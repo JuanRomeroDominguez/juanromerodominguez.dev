@@ -1,8 +1,7 @@
-
 (function () {
   var languages = ['ar','bn','de','en','es','fr','hi','in','it','pt','ur'];
   var defaultLang = 'en';
-  var aliases = { id: 'in', iw: 'he' };
+  var aliases = { id: 'in' };
   var labels = {
     ar: { switcher: 'اللغة', privacy: 'سياسة الخصوصية', terms: 'الشروط والأحكام', contact: 'اتصال' },
     bn: { switcher: 'ভাষা', privacy: 'গোপনীয়তা নীতি', terms: 'শর্তাবলী', contact: 'যোগাযোগ' },
@@ -17,6 +16,17 @@
     ur: { switcher: 'زبان', privacy: 'رازداری کی پالیسی', terms: 'شرائط و ضوابط', contact: 'رابطہ' }
   };
 
+  function siteRootFromScript() {
+    if (window.JRDSiteRoot) { return window.JRDSiteRoot; }
+    var script = document.currentScript || document.querySelector('script[src$="/assets/js/language.js"],script[src$="assets/js/language.js"]');
+    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/language.js';
+    try { return new URL(src, document.baseURI).pathname.replace(/assets\/js\/language\.js(?:\?.*)?$/, ''); }
+    catch (e) { return '/'; }
+  }
+
+  var siteRoot = siteRootFromScript();
+  window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
+
   function normalize(code) {
     if (!code) { return null; }
     code = String(code).toLowerCase().split('-')[0];
@@ -24,8 +34,16 @@
     return languages.indexOf(code) >= 0 ? code : null;
   }
 
+  function pathWithoutSiteRoot() {
+    var path = location.pathname;
+    if (siteRoot !== '/' && path.indexOf(siteRoot) === 0) {
+      path = '/' + path.slice(siteRoot.length);
+    }
+    return path;
+  }
+
   function currentLangFromPath() {
-    var first = (location.pathname.split('/').filter(Boolean)[0] || '').toLowerCase();
+    var first = (pathWithoutSiteRoot().split('/').filter(Boolean)[0] || '').toLowerCase();
     return normalize(first);
   }
 
@@ -44,9 +62,9 @@
   }
 
   function pageSlug() {
-    var parts = location.pathname.split('/').filter(Boolean);
+    var parts = pathWithoutSiteRoot().split('/').filter(Boolean);
+    if (parts.length && normalize(parts[0])) { parts.shift(); }
     var last = parts[parts.length - 1] || 'index.html';
-    if (languages.indexOf((parts[0] || '').toLowerCase()) >= 0 && parts.length === 1) { return 'index.html'; }
     if (!last || last === '/') { return 'index.html'; }
     if (last === 'politica-de-privacidad.html') { return 'privacy-policy.html'; }
     if (last === 'terminos-y-condiciones.html') { return 'terms-and-conditions.html'; }
@@ -56,8 +74,8 @@
 
   function localizedPath(lang, slug) {
     slug = slug || pageSlug();
-    if (slug === 'index.html') { return '/' + lang + '/'; }
-    return '/' + lang + '/' + slug;
+    if (slug === 'index.html') { return siteRoot + lang + '/'; }
+    return siteRoot + lang + '/' + slug;
   }
 
   function updateLocalizedLinks(lang) {
@@ -65,6 +83,7 @@
     document.documentElement.lang = lang;
     document.documentElement.dir = (lang === 'ar' || lang === 'ur') ? 'rtl' : 'ltr';
 
+    document.querySelectorAll('.brand-link').forEach(function (el) { el.href = localizedPath(lang, 'index.html'); });
     document.querySelectorAll('.language-switcher-label').forEach(function (el) { el.textContent = l.switcher; });
     document.querySelectorAll('.localized-privacy-link').forEach(function (el) { el.href = localizedPath(lang, 'privacy-policy.html'); el.textContent = l.privacy; });
     document.querySelectorAll('.localized-terms-link').forEach(function (el) { el.href = localizedPath(lang, 'terms-and-conditions.html'); el.textContent = l.terms; });
@@ -93,12 +112,12 @@
     attachSelect();
   }
 
+  window.JRDLanguage = { init: init, localizedPath: localizedPath };
+
   function boot() {
     init();
     var observer = new MutationObserver(function () { init(); });
-    if (document.body) {
-      observer.observe(document.body, { childList: true, subtree: true });
-    }
+    if (document.body) { observer.observe(document.body, { childList: true, subtree: true }); }
     document.addEventListener('site:header-loaded', init);
     document.addEventListener('site:footer-loaded', init);
     setTimeout(init, 100);
@@ -106,9 +125,6 @@
     setTimeout(init, 1000);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', boot);
-  } else {
-    boot();
-  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', boot); }
+  else { boot(); }
 })();

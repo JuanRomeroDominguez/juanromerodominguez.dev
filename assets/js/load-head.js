@@ -1,4 +1,33 @@
 (function () {
+  function siteRootFromScript() {
+    var script = document.currentScript || document.querySelector('script[src$="/assets/js/load-head.js"],script[src$="assets/js/load-head.js"]');
+    var src = script && script.getAttribute('src') ? script.getAttribute('src') : 'assets/js/load-head.js';
+    try {
+      var url = new URL(src, document.baseURI);
+      return url.pathname.replace(/assets\/js\/load-head\.js(?:\?.*)?$/, '');
+    } catch (e) {
+      return '/';
+    }
+  }
+
+  var siteRoot = siteRootFromScript();
+  window.JRDSiteRoot = siteRoot;
+
+  function assetPath(path) {
+    if (!path || /^(https?:|mailto:|tel:|#|data:|blob:)/i.test(path)) { return path; }
+    if (path.charAt(0) === '/') { return siteRoot + path.replace(/^\/+/, ''); }
+    return path;
+  }
+
+  function normalizeNodeUrls(node) {
+    ['href', 'src', 'content'].forEach(function (attr) {
+      var value = node.getAttribute && node.getAttribute(attr);
+      if (!value) { return; }
+      if (attr === 'content' && value.charAt(0) !== '/') { return; }
+      node.setAttribute(attr, assetPath(value));
+    });
+  }
+
   function hasEquivalentNode(node) {
     var tag = node.tagName.toLowerCase();
 
@@ -27,10 +56,9 @@
   }
 
   function appendScript(node) {
+    normalizeNodeUrls(node);
     if (hasEquivalentNode(node)) { return; }
 
-    // Los <script> creados mediante template/innerHTML pueden quedar inertes en algunos navegadores.
-    // Se crea un script nuevo para garantizar que se descargue y se ejecute.
     var script = document.createElement('script');
     Array.prototype.slice.call(node.attributes).forEach(function (attr) {
       script.setAttribute(attr.name, attr.value);
@@ -45,6 +73,7 @@
   }
 
   function appendNode(node) {
+    normalizeNodeUrls(node);
     var tag = node.tagName.toLowerCase();
     if (tag === 'script') {
       appendScript(node);
@@ -59,27 +88,19 @@
     var template = document.createElement('template');
     template.innerHTML = html.trim();
     Array.prototype.slice.call(template.content.childNodes).forEach(function (node) {
-      if (node.nodeType === 1) {
-        appendNode(node);
-      }
+      if (node.nodeType === 1) { appendNode(node); }
     });
   }
 
   function addFallbackAsset(tagName, attrs) {
     var el = document.createElement(tagName);
-    Object.keys(attrs).forEach(function (key) {
-      el.setAttribute(key, attrs[key]);
-    });
-    if (!hasEquivalentNode(el)) {
-      document.head.appendChild(el);
-    }
+    Object.keys(attrs).forEach(function (key) { el.setAttribute(key, assetPath(attrs[key])); });
+    if (!hasEquivalentNode(el)) { document.head.appendChild(el); }
   }
 
-  fetch('/head-common.html', { cache: 'no-cache' })
+  fetch(siteRoot + 'head-common.html', { cache: 'no-cache' })
     .then(function (response) {
-      if (!response.ok) {
-        throw new Error('HTTP ' + response.status);
-      }
+      if (!response.ok) { throw new Error('HTTP ' + response.status); }
       return response.text();
     })
     .then(appendSharedHead)
@@ -87,5 +108,6 @@
       console.error('Error cargando el head compartido:', error);
       addFallbackAsset('link', { rel: 'stylesheet', href: '/assets/css/style.css' });
       addFallbackAsset('script', { src: '/assets/js/site-effects.js', defer: 'defer' });
+      addFallbackAsset('script', { src: '/assets/js/language.js', defer: 'defer' });
     });
 })();
