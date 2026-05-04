@@ -9,22 +9,33 @@
   var siteRoot = siteRootFromScript('load-footer.js');
   window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
 
+  function fetchWithTimeout(url, timeoutMs) {
+    var controller = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (controller) { controller.abort(); } }, timeoutMs || 3000);
+    return fetch(url, {
+      cache: 'default',
+      credentials: 'same-origin',
+      signal: controller ? controller.signal : undefined
+    }).finally(function () { clearTimeout(timer); });
+  }
+
+  function fallbackFooter(target) {
+    target.innerHTML = '<div class="container"><p>&copy; Todos los derechos reservados. Desarrollada por Juan Romero Domínguez.</p></div>';
+  }
+
   function loadFooter() {
     var target = document.getElementById('footer-container');
     if (!target || target.dataset.loaded === 'true') { return; }
     target.dataset.loaded = 'true';
-    fetch(siteRoot + 'footer.html', { cache: 'no-cache' })
+    fetchWithTimeout(siteRoot + 'footer.html', 3000)
       .then(function (response) {
         if (!response.ok) { throw new Error('HTTP ' + response.status); }
         return response.text();
       })
-      .then(function (html) {
-        target.innerHTML = html;
-        document.dispatchEvent(new CustomEvent('site:footer-loaded'));
-      })
+      .then(function (html) { target.innerHTML = html; })
       .catch(function (error) {
-        target.dataset.loaded = 'false';
-        console.error('Error cargando el footer:', error);
+        console.warn('No se pudo cargar footer.html. Se usa footer mínimo.', error);
+        fallbackFooter(target);
       });
   }
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', loadFooter); }

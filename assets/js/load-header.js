@@ -9,11 +9,26 @@
   var siteRoot = siteRootFromScript('load-header.js');
   window.JRDSiteRoot = window.JRDSiteRoot || siteRoot;
 
+  function fetchWithTimeout(url, timeoutMs) {
+    var controller = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (controller) { controller.abort(); } }, timeoutMs || 3000);
+    return fetch(url, {
+      cache: 'default',
+      credentials: 'same-origin',
+      signal: controller ? controller.signal : undefined
+    }).finally(function () { clearTimeout(timer); });
+  }
+
+  function fallbackHeader(target) {
+    target.innerHTML = '<div class="container"><h1><a href="' + siteRoot + '">JuanRomeroDominguez.dev</a></h1><nav class="nav"><a href="' + siteRoot + 'es/">ES</a><a href="' + siteRoot + 'en/">EN</a></nav></div>';
+    document.dispatchEvent(new CustomEvent('site:header-loaded'));
+  }
+
   function loadHeader() {
     var target = document.getElementById('header-container');
     if (!target || target.dataset.loaded === 'true') { return; }
     target.dataset.loaded = 'true';
-    fetch(siteRoot + 'header.html', { cache: 'no-cache' })
+    fetchWithTimeout(siteRoot + 'header.html', 3000)
       .then(function (response) {
         if (!response.ok) { throw new Error('HTTP ' + response.status); }
         return response.text();
@@ -23,8 +38,8 @@
         document.dispatchEvent(new CustomEvent('site:header-loaded'));
       })
       .catch(function (error) {
-        target.dataset.loaded = 'false';
-        console.error('Error cargando la cabecera:', error);
+        console.warn('No se pudo cargar header.html. Se usa cabecera mínima.', error);
+        fallbackHeader(target);
       });
   }
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', loadHeader); }

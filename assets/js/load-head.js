@@ -30,7 +30,6 @@
 
   function hasEquivalentNode(node) {
     var tag = node.tagName.toLowerCase();
-
     if (tag === 'link') {
       var rel = node.getAttribute('rel') || '';
       var href = node.getAttribute('href') || '';
@@ -41,47 +40,34 @@
         (type ? '[type="' + type + '"]' : '');
       return !!document.head.querySelector(selector);
     }
-
     if (tag === 'meta') {
       var name = node.getAttribute('name');
       return name ? !!document.head.querySelector('meta[name="' + name + '"]') : false;
     }
-
     if (tag === 'script') {
       var src = node.getAttribute('src');
       return src ? !!document.head.querySelector('script[src="' + src + '"]') : false;
     }
-
     return false;
   }
 
   function appendScript(node) {
     normalizeNodeUrls(node);
     if (hasEquivalentNode(node)) { return; }
-
     var script = document.createElement('script');
     Array.prototype.slice.call(node.attributes).forEach(function (attr) {
       script.setAttribute(attr.name, attr.value);
     });
-    if (!script.hasAttribute('defer') && script.getAttribute('src')) {
-      script.defer = true;
-    }
-    if (!script.getAttribute('src')) {
-      script.textContent = node.textContent || '';
-    }
+    if (!script.hasAttribute('defer') && script.getAttribute('src')) { script.defer = true; }
+    if (!script.getAttribute('src')) { script.textContent = node.textContent || ''; }
     document.head.appendChild(script);
   }
 
   function appendNode(node) {
     normalizeNodeUrls(node);
     var tag = node.tagName.toLowerCase();
-    if (tag === 'script') {
-      appendScript(node);
-      return;
-    }
-    if (!hasEquivalentNode(node)) {
-      document.head.appendChild(node.cloneNode(true));
-    }
+    if (tag === 'script') { appendScript(node); return; }
+    if (!hasEquivalentNode(node)) { document.head.appendChild(node.cloneNode(true)); }
   }
 
   function appendSharedHead(html) {
@@ -98,16 +84,33 @@
     if (!hasEquivalentNode(el)) { document.head.appendChild(el); }
   }
 
-  fetch(siteRoot + 'head-common.html', { cache: 'no-cache' })
+  function fallbackHead() {
+    addFallbackAsset('link', { rel: 'stylesheet', href: '/assets/css/style.css' });
+    addFallbackAsset('script', { src: '/assets/js/load-header.js', defer: 'defer' });
+    addFallbackAsset('script', { src: '/assets/js/load-footer.js', defer: 'defer' });
+    addFallbackAsset('script', { src: '/assets/js/contacto.js', defer: 'defer' });
+    addFallbackAsset('script', { src: '/assets/js/site-effects.js', defer: 'defer' });
+    addFallbackAsset('script', { src: '/assets/js/language.js', defer: 'defer' });
+  }
+
+  function fetchWithTimeout(url, timeoutMs) {
+    var controller = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (controller) { controller.abort(); } }, timeoutMs || 3000);
+    return fetch(url, {
+      cache: 'default',
+      credentials: 'same-origin',
+      signal: controller ? controller.signal : undefined
+    }).finally(function () { clearTimeout(timer); });
+  }
+
+  fetchWithTimeout(siteRoot + 'head-common.html', 3000)
     .then(function (response) {
       if (!response.ok) { throw new Error('HTTP ' + response.status); }
       return response.text();
     })
     .then(appendSharedHead)
     .catch(function (error) {
-      console.error('Error cargando el head compartido:', error);
-      addFallbackAsset('link', { rel: 'stylesheet', href: '/assets/css/style.css' });
-      addFallbackAsset('script', { src: '/assets/js/site-effects.js', defer: 'defer' });
-      addFallbackAsset('script', { src: '/assets/js/language.js', defer: 'defer' });
+      console.warn('No se pudo cargar head-common.html. Se cargan recursos mínimos.', error);
+      fallbackHead();
     });
 })();
