@@ -216,6 +216,196 @@
     ur: { switcher: 'زبان', privacy: 'رازداری کی پالیسی', terms: 'شرائط و ضوابط', contact: 'رابطہ' }
   };
 
+
+  var contactLabels = {
+    ar: {
+      title: 'اتصال',
+      intro: 'إذا كنت ترغب في التواصل معي لأسباب مهنية أو للحصول على دعم لتطبيق أو لأي استفسار متعلق بهذا الموقع، يمكنك استخدام النموذج التالي.',
+      name: 'الاسم',
+      email: 'البريد الإلكتروني',
+      antiBot: 'ما ناتج 1 + 6؟',
+      message: 'الرسالة',
+      send: 'إرسال',
+      validation: "الإجابة على '1 + 6' غير صحيحة.",
+      mailSubject: 'تواصل من juanromerodominguez.dev',
+      bodyName: 'الاسم',
+      bodyEmail: 'البريد الإلكتروني',
+      bodyMessage: 'الرسالة'
+    },
+    bn: {
+      title: 'যোগাযোগ',
+      intro: 'পেশাগত কারণে, কোনো অ্যাপের সহায়তার জন্য বা এই ওয়েবসাইট সম্পর্কিত যেকোনো প্রশ্নে আমার সঙ্গে যোগাযোগ করতে চাইলে নিচের ফর্মটি ব্যবহার করতে পারেন।',
+      name: 'নাম',
+      email: 'ইমেইল',
+      antiBot: '১ + ৬ কত?',
+      message: 'বার্তা',
+      send: 'পাঠান',
+      validation: "'1 + 6' এর উত্তর সঠিক নয়।",
+      mailSubject: 'juanromerodominguez.dev থেকে যোগাযোগ',
+      bodyName: 'নাম',
+      bodyEmail: 'ইমেইল',
+      bodyMessage: 'বার্তা'
+    },
+    de: {
+      title: 'Kontakt',
+      intro: 'Wenn du mich aus beruflichen Gründen, für App-Support oder wegen einer Frage zu dieser Website kontaktieren möchtest, kannst du das folgende Formular verwenden.',
+      name: 'Name',
+      email: 'E-Mail',
+      antiBot: 'Was ist 1 + 6?',
+      message: 'Nachricht',
+      send: 'Senden',
+      validation: "Die Antwort auf '1 + 6' ist nicht korrekt.",
+      mailSubject: 'Kontakt über juanromerodominguez.dev',
+      bodyName: 'Name',
+      bodyEmail: 'E-Mail',
+      bodyMessage: 'Nachricht'
+    },
+    en: {
+      title: 'Contact',
+      intro: 'If you want to contact me for professional reasons, app support, or any question related to this website, you can use the following form.',
+      name: 'Name',
+      email: 'Email',
+      antiBot: 'What is 1 + 6?',
+      message: 'Message',
+      send: 'Send',
+      validation: "The answer to '1 + 6' is not correct.",
+      mailSubject: 'Contact from juanromerodominguez.dev',
+      bodyName: 'Name',
+      bodyEmail: 'Email',
+      bodyMessage: 'Message'
+    },
+    es: {
+      title: 'Contacto',
+      intro: 'Si quieres contactar conmigo por motivos profesionales, soporte de una app o cualquier consulta relacionada con esta web, puedes usar el siguiente formulario.',
+      name: 'Nombre',
+      email: 'Email',
+      antiBot: '¿1 + 6?',
+      message: 'Mensaje',
+      send: 'Enviar',
+      validation: "La respuesta a '1 + 6' no es correcta.",
+      mailSubject: 'Contacto desde juanromerodominguez.dev',
+      bodyName: 'Nombre',
+      bodyEmail: 'Email',
+      bodyMessage: 'Mensaje'
+    },
+    fr: {
+      title: 'Contact',
+      intro: 'Si vous souhaitez me contacter pour des raisons professionnelles, pour le support d’une application ou pour toute question liée à ce site, vous pouvez utiliser le formulaire suivant.',
+      name: 'Nom',
+      email: 'E-mail',
+      antiBot: 'Combien font 1 + 6 ?',
+      message: 'Message',
+      send: 'Envoyer',
+      validation: "La réponse à '1 + 6' n’est pas correcte.",
+      mailSubject: 'Contact depuis juanromerodominguez.dev',
+      bodyName: 'Nom',
+      bodyEmail: 'E-mail',
+      bodyMessage: 'Message'
+    },
+    hi: {
+      title: 'संपर्क',
+      intro: 'यदि आप पेशेवर कारणों, किसी ऐप के समर्थन या इस वेबसाइट से जुड़े किसी प्रश्न के लिए मुझसे संपर्क करना चाहते हैं, तो आप नीचे दिए गए फ़ॉर्म का उपयोग कर सकते हैं।',
+      name: 'नाम',
+      email: 'ईमेल',
+      antiBot: '1 + 6 कितना होता है?',
+      message: 'संदेश',
+      send: 'भेजें',
+      validation: "'1 + 6' का उत्तर सही नहीं है।",
+      mailSubject: 'juanromerodominguez.dev से संपर्क',
+      bodyName: 'नाम',
+      bodyEmail: 'ईमेल',
+      bodyMessage: 'संदेश'
+    },
+    in: {
+      title: 'Kontak',
+      intro: 'Jika Anda ingin menghubungi saya untuk keperluan profesional, dukungan aplikasi, atau pertanyaan apa pun terkait situs web ini, Anda dapat menggunakan formulir berikut.',
+      name: 'Nama',
+      email: 'Email',
+      antiBot: 'Berapa 1 + 6?',
+      message: 'Pesan',
+      send: 'Kirim',
+      validation: "Jawaban untuk '1 + 6' tidak benar.",
+      mailSubject: 'Kontak dari juanromerodominguez.dev',
+      bodyName: 'Nama',
+      bodyEmail: 'Email',
+      bodyMessage: 'Pesan'
+    },
+    it: {
+      title: 'Contatto',
+      intro: 'Se vuoi contattarmi per motivi professionali, per il supporto di un’app o per qualsiasi domanda relativa a questo sito, puoi usare il seguente modulo.',
+      name: 'Nome',
+      email: 'Email',
+      antiBot: 'Quanto fa 1 + 6?',
+      message: 'Messaggio',
+      send: 'Invia',
+      validation: "La risposta a '1 + 6' non è corretta.",
+      mailSubject: 'Contatto da juanromerodominguez.dev',
+      bodyName: 'Nome',
+      bodyEmail: 'Email',
+      bodyMessage: 'Messaggio'
+    },
+    pt: {
+      title: 'Contacto',
+      intro: 'Se quiser entrar em contacto comigo por motivos profissionais, suporte de uma app ou qualquer questão relacionada com este site, pode usar o formulário seguinte.',
+      name: 'Nome',
+      email: 'Email',
+      antiBot: 'Quanto é 1 + 6?',
+      message: 'Mensagem',
+      send: 'Enviar',
+      validation: "A resposta a '1 + 6' não está correta.",
+      mailSubject: 'Contacto a partir de juanromerodominguez.dev',
+      bodyName: 'Nome',
+      bodyEmail: 'Email',
+      bodyMessage: 'Mensagem'
+    },
+    ur: {
+      title: 'رابطہ',
+      intro: 'اگر آپ پیشہ ورانہ وجوہات، کسی ایپ کی معاونت یا اس ویب سائٹ سے متعلق کسی سوال کے لیے مجھ سے رابطہ کرنا چاہتے ہیں تو آپ درج ذیل فارم استعمال کر سکتے ہیں۔',
+      name: 'نام',
+      email: 'ای میل',
+      antiBot: '1 + 6 کا جواب کیا ہے؟',
+      message: 'پیغام',
+      send: 'بھیجیں',
+      validation: "'1 + 6' کا جواب درست نہیں ہے۔",
+      mailSubject: 'juanromerodominguez.dev سے رابطہ',
+      bodyName: 'نام',
+      bodyEmail: 'ای میل',
+      bodyMessage: 'پیغام'
+    }
+  };
+
+
+  function activeLanguage() {
+    return currentLangFromPath() || preferredLang() || defaultLang;
+  }
+
+  function text(el, value) {
+    if (el && typeof value === 'string') { el.textContent = value; }
+  }
+
+  function localizeContactForm(lang) {
+    var c = contactLabels[lang] || contactLabels.en;
+    var title = document.querySelector('#contact-content h2');
+    var intro = document.querySelector('#contact-content p');
+    text(title, c.title);
+    text(intro, c.intro);
+
+    var pairs = [
+      ['name', c.name],
+      ['email', c.email],
+      ['abot', c.antiBot],
+      ['message', c.message]
+    ];
+
+    pairs.forEach(function (pair) {
+      var label = document.querySelector('label[for="' + pair[0] + '"]');
+      text(label, pair[1]);
+    });
+
+    var submit = document.querySelector('#contact-form button[type="submit"]');
+    text(submit, c.send);
+  }
+
   function currentLangFromPath() {
     var first = (location.pathname.split('/').filter(Boolean)[0] || '').toLowerCase();
     return normalizeLang(first);
@@ -263,6 +453,7 @@
     document.querySelectorAll('.localized-privacy-link').forEach(function (el) { el.href = localizedPath(lang, 'privacy-policy.html'); el.textContent = l.privacy; });
     document.querySelectorAll('.localized-terms-link').forEach(function (el) { el.href = localizedPath(lang, 'terms-and-conditions.html'); el.textContent = l.terms; });
     document.querySelectorAll('.localized-contact-link').forEach(function (el) { el.textContent = l.contact; });
+    localizeContactForm(lang);
 
     var select = document.getElementById('site-language-select');
     if (select && select.value !== lang) { select.value = lang; }
@@ -319,14 +510,17 @@
     var abot = abotEl.value.trim();
     var mensaje = mensajeEl.value.trim();
 
+    var lang = activeLanguage();
+    var c = contactLabels[lang] || contactLabels.en;
+
     if (abot !== '7') {
-      alert("La respuesta a '1 + 6' no es correcta.");
+      alert(c.validation);
       return;
     }
 
     var destino = 'contacto@juanromerodominguez.dev';
-    var asunto = encodeURIComponent('Contacto desde juanromerodominguez.dev');
-    var cuerpo = encodeURIComponent('Nombre: ' + nombre + '\n' + 'Email: ' + email + '\n\n' + 'Mensaje:\n' + mensaje);
+    var asunto = encodeURIComponent(c.mailSubject);
+    var cuerpo = encodeURIComponent(c.bodyName + ': ' + nombre + '\n' + c.bodyEmail + ': ' + email + '\n\n' + c.bodyMessage + ':\n' + mensaje);
     window.location.href = 'mailto:' + destino + '?subject=' + asunto + '&body=' + cuerpo;
   }
 
@@ -354,6 +548,7 @@
       form.dataset.bound = 'true';
       form.addEventListener('submit', enviarCorreo);
     }
+    localizeContactForm(activeLanguage());
   }
 
   JRD.contact = { bind: bindContactPopup, open: openPopup, close: closePopup };
