@@ -113,7 +113,7 @@
     ensureElement('link', { rel: 'icon', sizes: '96x96', type: 'image/png', href: '/imagenes/favicon/favicon-96x96.png' });
     ensureElement('link', { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/imagenes/favicon/favicon-16x16.png' });
     ensureElement('link', { rel: 'icon', type: 'image/x-icon', href: '/imagenes/favicon/favicon.ico' });
-    ensureElement('link', { rel: 'manifest', href: '/imagenes/favicon/manifest.json' });
+    // ensureElement('link', { rel: 'manifest', href: '/imagenes/favicon/manifest.json' });
   }
 
   /* ========================================================================
