@@ -140,3 +140,83 @@ body{margin:0;font-family:Arial,sans-serif;line-height:1.6;background:#f9f9f9;co
 /* 404 de recursos estáticos: no debe activar la redirección multidioma */
 .asset-404-panel{max-width:760px;margin:8rem auto;padding:2rem;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:rgba(7,17,31,.78);box-shadow:0 18px 60px rgba(0,0,0,.35)}
 .asset-404-panel h1{margin-top:0}
+
+
+/* ===== FINAL: Android app store badges, six stores in 3-column rows ===== */
+#apps .portfolio-grid .android-app-card,
+#apps .android-app-card{
+  display:block;
+  width:100%;
+  overflow:hidden;
+}
+#apps .android-app-panel{width:100%;min-width:0;}
+#apps .android-app-title{display:block;width:100%;margin:0 0 12px 0;line-height:1.25;}
+#apps .android-app-main{display:flex;align-items:flex-start;gap:14px;width:100%;min-width:0;}
+#apps .android-app-info{flex:1 1 auto;min-width:0;width:100%;}
+#apps .android-app-info p{margin:0 0 8px 0;}
+#apps .app-store-buttons{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  width:100%;
+  margin-top:14px;
+  align-items:center;
+}
+#apps .app-store-button,
+#apps .app-store-button:visited,
+#apps .store-badge-only,
+#apps .store-badge-only.fx-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-width:0;
+  height:auto!important;
+  min-height:0!important;
+  padding:0!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  outline:0;
+  overflow:visible;
+  text-decoration:none!important;
+  color:inherit;
+  transform:none;
+}
+#apps .app-store-button::before{display:none!important;}
+#apps .app-store-button:hover,
+#apps .app-store-button:focus{
+  background:transparent!important;
+  box-shadow:none!important;
+  filter:drop-shadow(0 0 8px rgba(66,139,202,.65));
+  text-decoration:none!important;
+}
+#apps .app-store-button img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  max-height:58px;
+  aspect-ratio:10/3;
+  object-fit:contain;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  padding:0!important;
+  margin:0!important;
+}
+#apps .app-store-button span{display:none!important;}
+@media (max-width:768px){
+  #apps .android-app-main{gap:12px;}
+  #apps .app-store-buttons{gap:7px;}
+  #apps .app-store-button img{max-height:48px;}
+}
+@media (max-width:420px){
+  #apps .android-app-main{flex-direction:column;}
+  #apps .portfolio-card img.app-icon{width:72px;height:72px;}
+  #apps .app-store-buttons{grid-template-columns:repeat(2,minmax(0,1fr));}
+  #apps .app-store-button img{max-height:44px;}
+}
