@@ -2231,8 +2231,8 @@
     window.setTimeout(function () { initLanguage(); bindContactPopup(); lazyAllImages(); initGlowTilt(); }, 1000);
 
     // Dynamic localization observer
-    var observer = new MutationObserver(function() { initLanguage(); });
-    if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+    //var observer = new MutationObserver(function() { initLanguage(); });
+    //if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   }
 
   onReady(boot);
