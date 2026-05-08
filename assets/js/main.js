@@ -314,17 +314,22 @@
 
   function isExternalUrl(value) { return /^(https?:|mailto:|tel:|#|data:|blob:)/i.test(String(value || '')); }
 
-  function fetchWithTimeout(url, timeoutMs) {
+  function fetchWithTimeout(url, timeoutMs, options) {
     var controller = window.AbortController ? new AbortController() : null;
     var timer = window.setTimeout(function () {
       if (controller) { controller.abort(); }
     }, timeoutMs || 3000);
+    var fetchOptions = {};
+    if (options) {
+      Object.keys(options).forEach(function (key) {
+        fetchOptions[key] = options[key];
+      });
+    }
+    if (!fetchOptions.cache) { fetchOptions.cache = 'default'; }
+    if (!fetchOptions.credentials) { fetchOptions.credentials = 'same-origin'; }
+    if (controller) { fetchOptions.signal = controller.signal; }
 
-    return fetch(url, {
-      cache: 'default',
-      credentials: 'same-origin',
-      signal: controller ? controller.signal : undefined
-    }).finally(function () {
+    return fetch(url, fetchOptions).finally(function () {
       window.clearTimeout(timer);
     });
   }
@@ -1958,7 +1963,219 @@
 
   JRD.language = { init: initLanguage, localizedPath: localizedPath };
 
-  /* [06] CONTACT POPUP */
+  /* [06] DYNAMIC BADGES */
+
+  var badgesXmlUrl = '/insignias.xml';
+  var badgesXmlRequest = null;
+  var badgeMonthIndexes = {
+    jan: 0,
+    feb: 1,
+    mar: 2,
+    apr: 3,
+    may: 4,
+    jun: 5,
+    jul: 6,
+    aug: 7,
+    sep: 8,
+    oct: 9,
+    nov: 10,
+    dec: 11
+  };
+  var intlLanguageAliases = { in: 'id', iw: 'he', no: 'nb', zh: 'zh-CN' };
+
+  function badgeContainers() {
+    var seen = [];
+    return Array.prototype.slice.call(document.querySelectorAll('.badges-grid-custom, #badges-grid-custom')).filter(function (el) {
+      if (seen.indexOf(el) >= 0) { return false; }
+      seen.push(el);
+      return true;
+    });
+  }
+
+  function localeForLanguage(lang) {
+    lang = normalizeLang(lang) || defaultLang;
+    return intlLanguageAliases[lang] || lang;
+  }
+
+  function badgeText(node, tagName) {
+    var el = node.getElementsByTagName(tagName)[0];
+    return el ? (el.textContent || '').trim() : '';
+  }
+
+  function parseBadgeDate(value) {
+    var match = /^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$/.exec(String(value || '').trim());
+    if (!match) { return null; }
+
+    var monthKey = match[1].toLowerCase().slice(0, 3);
+    if (!Object.prototype.hasOwnProperty.call(badgeMonthIndexes, monthKey)) { return null; }
+
+    return new Date(Date.UTC(
+      parseInt(match[3], 10),
+      badgeMonthIndexes[monthKey],
+      parseInt(match[2], 10)
+    ));
+  }
+
+  function formatBadgeDate(value, lang) {
+    var date = parseBadgeDate(value);
+    if (!date || !window.Intl || !Intl.DateTimeFormat) { return value; }
+
+    try {
+      return new Intl.DateTimeFormat(localeForLanguage(lang), {
+        day: 'numeric',
+        month: 'short',
+        timeZone: 'UTC',
+        year: 'numeric'
+      }).format(date);
+    } catch (e) {
+      return value;
+    }
+  }
+
+  function readBadgesXml(xml) {
+    return Array.prototype.slice.call(xml.getElementsByTagName('insignia')).map(function (node) {
+      return {
+        order: badgeText(node, 'orden'),
+        name: badgeText(node, 'nombre'),
+        date: badgeText(node, 'fechaObtencion'),
+        image: badgeText(node, 'imagen'),
+        backgroundClass: badgeText(node, 'claseFondo'),
+        backgroundColor: badgeText(node, 'colorFondo'),
+        backgroundCss: badgeText(node, 'fondoCss')
+      };
+    }).filter(function (badge) {
+      return badge.name;
+    });
+  }
+
+  function loadBadgesXml() {
+    if (badgesXmlRequest) { return badgesXmlRequest; }
+
+    badgesXmlRequest = fetchWithTimeout(badgesXmlUrl, 5000, { cache: 'no-cache' })
+      .then(function (response) {
+        if (!response.ok) { throw new Error('HTTP ' + response.status); }
+        return response.text();
+      })
+      .then(function (text) {
+        var xml = new DOMParser().parseFromString(text, 'application/xml');
+        if (xml.getElementsByTagName('parsererror').length) {
+          throw new Error('XML de insignias no valido');
+        }
+
+        var badges = readBadgesXml(xml);
+        if (!badges.length) { throw new Error('insignias.xml no contiene insignias'); }
+        return badges;
+      })
+      .catch(function (error) {
+        badgesXmlRequest = null;
+        throw error;
+      });
+
+    return badgesXmlRequest;
+  }
+
+  function badgeTypeClass(backgroundClass) {
+    var match = /badge-type-(\d+)/.exec(String(backgroundClass || ''));
+    return match ? 'type-' + match[1] : '';
+  }
+
+  function badgeBackground(backgroundCss, backgroundColor) {
+    if (backgroundCss) { return backgroundCss; }
+    if (backgroundColor) { return 'linear-gradient(0deg,' + backgroundColor + ',' + backgroundColor + '),#fff'; }
+    return '';
+  }
+
+  function createBadgeCard(badge, lang) {
+    var card = document.createElement('article');
+    var typeClass = badgeTypeClass(badge.backgroundClass);
+    card.className = 'badge-card-custom' + (typeClass ? ' ' + typeClass : '');
+    if (badge.order) { card.setAttribute('data-badge-order', badge.order); }
+    if (badge.backgroundClass) { card.setAttribute('data-background-class', badge.backgroundClass); }
+    if (badge.backgroundColor) { card.setAttribute('data-background-color', badge.backgroundColor); }
+
+    var background = badgeBackground(badge.backgroundCss, badge.backgroundColor);
+    if (background) { card.style.background = background; }
+
+    var formattedDate = formatBadgeDate(badge.date, lang);
+    card.setAttribute('aria-label', badge.name + (formattedDate ? ', ' + formattedDate : ''));
+
+    var dots = document.createElement('div');
+    dots.className = 'badge-menu-dots';
+    dots.setAttribute('aria-hidden', 'true');
+    dots.textContent = '\u22EE';
+
+    var iconWrap = document.createElement('div');
+    iconWrap.className = 'badge-icon-wrap';
+
+    var img = document.createElement('img');
+    img.alt = '';
+    img.setAttribute('aria-hidden', 'true');
+    img.decoding = 'async';
+    img.loading = 'lazy';
+    if (badge.image) { img.src = badge.image; }
+    iconWrap.appendChild(img);
+
+    var info = document.createElement('div');
+    info.className = 'badge-info';
+
+    var title = document.createElement('h3');
+    title.textContent = badge.name;
+
+    var dateLine = document.createElement('p');
+    var time = document.createElement('time');
+    var parsedDate = parseBadgeDate(badge.date);
+    if (parsedDate) { time.dateTime = parsedDate.toISOString().slice(0, 10); }
+    time.textContent = formattedDate || badge.date;
+    dateLine.appendChild(time);
+
+    info.appendChild(title);
+    info.appendChild(dateLine);
+    card.appendChild(dots);
+    card.appendChild(iconWrap);
+    card.appendChild(info);
+
+    return card;
+  }
+
+  function renderBadges(containers, badges) {
+    var lang = activeLanguage();
+    containers.forEach(function (container) {
+      var fragment = document.createDocumentFragment();
+      badges.forEach(function (badge) {
+        fragment.appendChild(createBadgeCard(badge, lang));
+      });
+      container.innerHTML = '';
+      container.appendChild(fragment);
+      container.dataset.badgesLoaded = 'true';
+      container.removeAttribute('aria-busy');
+    });
+  }
+
+  function initBadges() {
+    var containers = badgeContainers();
+    if (!containers.length || !window.fetch || !window.DOMParser) { return; }
+
+    containers.forEach(function (container) {
+      container.setAttribute('aria-busy', 'true');
+    });
+
+    loadBadgesXml()
+      .then(function (badges) {
+        renderBadges(containers, badges);
+        lazyAllImages();
+        initGlowTilt();
+      })
+      .catch(function (error) {
+        containers.forEach(function (container) {
+          container.removeAttribute('aria-busy');
+        });
+        console.warn('No se pudieron cargar las insignias desde ' + badgesXmlUrl + '.', error);
+      });
+  }
+
+  JRD.badges = { init: initBadges };
+
+  /* [07] CONTACT POPUP */
 
   function closePopup() {
     var overlay = document.getElementById('popup-overlay');
@@ -2222,6 +2439,7 @@
     initLayout();
     initLanguage();
     bindContactPopup();
+    initBadges();
     initEffects();
 
     document.addEventListener('site:header-loaded', function () { initLanguage(); bindContactPopup(); lazyAllImages(); initGlowTilt(); });
@@ -2231,8 +2449,8 @@
     window.setTimeout(function () { initLanguage(); bindContactPopup(); lazyAllImages(); initGlowTilt(); }, 1000);
 
     // Dynamic localization observer
-    //var observer = new MutationObserver(function() { initLanguage(); });
-    //if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+    // var observer = new MutationObserver(function() { initLanguage(); });
+    // if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   }
 
   onReady(boot);

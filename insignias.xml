@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<insignias origenHtml="C:\Almacen\Servidor\var\www\juanromerodominguez.dev\badges-grid.txt" origenCss="C:\Almacen\Servidor\var\www\juanromerodominguez.dev\badges-grid.css" generado="2026-05-08T18:40:45" total="47">
+  <insignia>
+    <orden>1</orden>
+    <indiceFuente>0</indiceFuente>
+    <nombre>Gemini Enterprise Agent Ready</nombre>
+    <fechaObtencion>May 8, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gear/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>2</orden>
+    <indiceFuente>1</indiceFuente>
+    <nombre>Google Cloud &amp; NVIDIA community member</nombre>
+    <fechaObtencion>May 8, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/nvidia-developer/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>3</orden>
+    <indiceFuente>2</indiceFuente>
+    <nombre>Firebase Studio Developer Community</nombre>
+    <fechaObtencion>May 8, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/firebasestudio/firebase-studio/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>4</orden>
+    <indiceFuente>3</indiceFuente>
+    <nombre>Code Wiki</nombre>
+    <fechaObtencion>May 8, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/sdlcagents/gca-agents/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>5</orden>
+    <indiceFuente>4</indiceFuente>
+    <nombre>Google Maps Platform Innovators</nombre>
+    <fechaObtencion>May 8, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/innovators/maps/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>6</orden>
+    <indiceFuente>5</indiceFuente>
+    <nombre>Developer Explorer</nombre>
+    <fechaObtencion>May 7, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/recognitions/actions/actions.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>7</orden>
+    <indiceFuente>6</indiceFuente>
+    <nombre>GDG Bodensee Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>8</orden>
+    <indiceFuente>7</indiceFuente>
+    <nombre>GDG Bari Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>9</orden>
+    <indiceFuente>8</indiceFuente>
+    <nombre>GDG on Campus Menoufia University - Shibin El Kom, Egypt Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>10</orden>
+    <indiceFuente>9</indiceFuente>
+    <nombre>GDG on Campus MKSSS's Cummins College of Engineering For Women - Pune, India Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>11</orden>
+    <indiceFuente>10</indiceFuente>
+    <nombre>GDG on Campus Faculté Pluridisciplinaire de Nador - Nador, Morocco Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>12</orden>
+    <indiceFuente>11</indiceFuente>
+    <nombre>GDG on Campus Meru University of Science &amp; Technology - Meru, Kenya Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>13</orden>
+    <indiceFuente>12</indiceFuente>
+    <nombre>GDG on Campus École Supérieure des Technologies de l'Information - Antanimena, Madagascar Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>14</orden>
+    <indiceFuente>13</indiceFuente>
+    <nombre>GDG on Campus Muzaffarpur Institute of Technology - Muzaffarpur, India Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>15</orden>
+    <indiceFuente>14</indiceFuente>
+    <nombre>GDG on Campus MIT Academy of Engineering - Pune, India Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>16</orden>
+    <indiceFuente>15</indiceFuente>
+    <nombre>GDG on Campus Faculty of Sciences of Sfax - Sfax, Tunisia Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>17</orden>
+    <indiceFuente>16</indiceFuente>
+    <nombre>GDG Barcelona Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>18</orden>
+    <indiceFuente>17</indiceFuente>
+    <nombre>GDG Bhopal Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>19</orden>
+    <indiceFuente>18</indiceFuente>
+    <nombre>GDG Basilicata Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>20</orden>
+    <indiceFuente>19</indiceFuente>
+    <nombre>GDG Barranquilla Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>21</orden>
+    <indiceFuente>20</indiceFuente>
+    <nombre>GDG Birnin-Kebbi Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>22</orden>
+    <indiceFuente>21</indiceFuente>
+    <nombre>GDG Bogor Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>23</orden>
+    <indiceFuente>22</indiceFuente>
+    <nombre>Google Developer Group on Campus member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/GDGoC/member/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>24</orden>
+    <indiceFuente>23</indiceFuente>
+    <nombre>GDG Bambili Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>25</orden>
+    <indiceFuente>24</indiceFuente>
+    <nombre>GDG Nantes Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>26</orden>
+    <indiceFuente>25</indiceFuente>
+    <nombre>GDG Paris Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>27</orden>
+    <indiceFuente>26</indiceFuente>
+    <nombre>The Dutch Android User Group Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>28</orden>
+    <indiceFuente>27</indiceFuente>
+    <nombre>GDG Stockholm Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>29</orden>
+    <indiceFuente>28</indiceFuente>
+    <nombre>Lille Android User Group Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>30</orden>
+    <indiceFuente>29</indiceFuente>
+    <nombre>GDG Korea Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>31</orden>
+    <indiceFuente>30</indiceFuente>
+    <nombre>GDG Los Angeles Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>32</orden>
+    <indiceFuente>31</indiceFuente>
+    <nombre>GDG Northern Colorado - Android/Chrome Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>33</orden>
+    <indiceFuente>32</indiceFuente>
+    <nombre>GDG Berlin Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>34</orden>
+    <indiceFuente>33</indiceFuente>
+    <nombre>GDG Boston Android Member</nombre>
+    <fechaObtencion>Apr 4, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>35</orden>
+    <indiceFuente>34</indiceFuente>
+    <nombre>DOM Detective</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/activity/chrome-devtools/dom-detective/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>36</orden>
+    <indiceFuente>35</indiceFuente>
+    <nombre>First App in Android Studio</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/playlists/android/android-basics-kotlin-pathway-two/android-basics-kotlin-pathway-two.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>37</orden>
+    <indiceFuente>36</indiceFuente>
+    <nombre>Learning</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/recognitions/learnings/learnings.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>38</orden>
+    <indiceFuente>37</indiceFuente>
+    <nombre>Google Developer Group discovery</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/discovery/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>39</orden>
+    <indiceFuente>38</indiceFuente>
+    <nombre>GDG Sevilla Member</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>40</orden>
+    <indiceFuente>39</indiceFuente>
+    <nombre>Google Developer Group member</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/community/gdg/member/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>41</orden>
+    <indiceFuente>40</indiceFuente>
+    <nombre>Code Whisperer</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/activity/chrome-devtools/code-whisperer/badge.svg</imagen>
+    <claseFondo>badge-type-3</claseFondo>
+    <colorFondo>rgba(120,97,203,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,97,203,.25),rgba(120,97,203,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>42</orden>
+    <indiceFuente>41</indiceFuente>
+    <nombre>Chrome DevTools User</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/activity/chrome-devtools/chrome-devtools-user/badge.svg</imagen>
+    <claseFondo>badge-type-1</claseFondo>
+    <colorFondo>rgba(120,159,101,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(120,159,101,.25),rgba(120,159,101,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>43</orden>
+    <indiceFuente>42</indiceFuente>
+    <nombre>I/O 2026 - Registered</nombre>
+    <fechaObtencion>Apr 3, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/events/io/2026/registered/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>44</orden>
+    <indiceFuente>43</indiceFuente>
+    <nombre>Android Studio User</nombre>
+    <fechaObtencion>Apr 2, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/activity/android/install-android-studio/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>45</orden>
+    <indiceFuente>44</indiceFuente>
+    <nombre>Android Studio - Panda releases</nombre>
+    <fechaObtencion>Apr 2, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/activity/android/install-android-studio-panda/badge.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>46</orden>
+    <indiceFuente>45</indiceFuente>
+    <nombre>Google Skills</nombre>
+    <fechaObtencion>Mar 28, 2026</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/skillsboost/earned-badge/badge.svg</imagen>
+    <claseFondo>badge-type-2</claseFondo>
+    <colorFondo>rgba(225,175,64,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(225,175,64,.25),rgba(225,175,64,.25)),#fff</fondoCss>
+  </insignia>
+  <insignia>
+    <orden>47</orden>
+    <indiceFuente>46</indiceFuente>
+    <nombre>Joined the Google Developer Program</nombre>
+    <fechaObtencion>Apr 30, 2021</fechaObtencion>
+    <imagen>https://developers.google.com/static/profile/badges/profile/created-profile/created_profile.svg</imagen>
+    <claseFondo>badge-type-4</claseFondo>
+    <colorFondo>rgba(102,131,244,.25)</colorFondo>
+    <fondoCss>linear-gradient(0deg,rgba(102,131,244,.25),rgba(102,131,244,.25)),#fff</fondoCss>
+  </insignia>
+</insignias>
