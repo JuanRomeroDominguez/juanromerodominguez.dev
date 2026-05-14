@@ -1,0 +1,1222 @@
+<?xml version="1.0" ?>
+<portfolio>
+  <dictionary>
+    <entry lang="es">
+      <issued>Expedición</issued>
+      <expires>Vencimiento</expires>
+      <credential_id>ID de la credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="en">
+      <issued>Issued</issued>
+      <expires>Expires</expires>
+      <credential_id>Credential ID</credential_id>
+      <view_btn>View credential</view_btn>
+    </entry>
+    <entry lang="sl">
+      <issued>Izdano</issued>
+      <expires>Poteče</expires>
+      <credential_id>ID certifikata</credential_id>
+      <view_btn>Prikaži certifikat</view_btn>
+    </entry>
+    <entry lang="af">
+      <issued>Ekspedisie</issued>
+      <expires>Volwassenheid</expires>
+      <credential_id>Geloofsbewys ID</credential_id>
+      <view_btn>Wys geloofsbriewe</view_btn>
+    </entry>
+    <entry lang="am">
+      <issued>ጉዞ</issued>
+      <expires>ብስለት</expires>
+      <credential_id>የምስክር ወረቀት መታወቂያ</credential_id>
+      <view_btn>ምስክርነት አሳይ</view_btn>
+    </entry>
+    <entry lang="ar">
+      <issued>إكسبيديشن</issued>
+      <expires>نضج</expires>
+      <credential_id>معرف الاعتماد</credential_id>
+      <view_btn>إظهار بيانات الاعتماد</view_btn>
+    </entry>
+    <entry lang="az">
+      <issued>Ekspedisiya</issued>
+      <expires>Yetkinlik</expires>
+      <credential_id>Etibarnamə ID</credential_id>
+      <view_btn>Etibarnaməni göstərin</view_btn>
+    </entry>
+    <entry lang="b+zh+Hans">
+      <issued>远征</issued>
+      <expires>到期</expires>
+      <credential_id>凭证ID</credential_id>
+      <view_btn>显示凭证</view_btn>
+    </entry>
+    <entry lang="b+zh+Hant">
+      <issued>遠徵</issued>
+      <expires>到期</expires>
+      <credential_id>憑證ID</credential_id>
+      <view_btn>顯示憑證</view_btn>
+    </entry>
+    <entry lang="be">
+      <issued>Экспедыцыя</issued>
+      <expires>сталасць</expires>
+      <credential_id>Ідэнтыфікатар уліковых дадзеных</credential_id>
+      <view_btn>Паказаць уліковыя дадзеныя</view_btn>
+    </entry>
+    <entry lang="bg">
+      <issued>Експедиция</issued>
+      <expires>Падеж</expires>
+      <credential_id>ID на идентификационните данни</credential_id>
+      <view_btn>Покажи идентификационни данни</view_btn>
+    </entry>
+    <entry lang="bn">
+      <issued>অভিযান</issued>
+      <expires>পরিপক্কতা</expires>
+      <credential_id>শংসাপত্র আইডি</credential_id>
+      <view_btn>শংসাপত্র দেখান</view_btn>
+    </entry>
+    <entry lang="ca">
+      <issued>Expedició</issued>
+      <expires>Venciment</expires>
+      <credential_id>ID de la credencial</credential_id>
+      <view_btn>Mostra credencial</view_btn>
+    </entry>
+    <entry lang="cs">
+      <issued>Expedice</issued>
+      <expires>Splatnost</expires>
+      <credential_id>ID pověření</credential_id>
+      <view_btn>Ukažte pověření</view_btn>
+    </entry>
+    <entry lang="da">
+      <issued>Ekspedition</issued>
+      <expires>Modenhed</expires>
+      <credential_id>Legitimations-id</credential_id>
+      <view_btn>Vis legitimationsoplysninger</view_btn>
+    </entry>
+    <entry lang="de">
+      <issued>Expedition</issued>
+      <expires>Reife</expires>
+      <credential_id>Anmeldeinformations-ID</credential_id>
+      <view_btn>Ausweis vorzeigen</view_btn>
+    </entry>
+    <entry lang="el">
+      <issued>Εκστρατεία</issued>
+      <expires>Λήξη</expires>
+      <credential_id>Ταυτότητα διαπιστευτηρίων</credential_id>
+      <view_btn>Εμφάνιση διαπιστευτηρίων</view_btn>
+    </entry>
+    <entry lang="et">
+      <issued>Ekspeditsioon</issued>
+      <expires>Küpsus</expires>
+      <credential_id>Mandaadi ID</credential_id>
+      <view_btn>Näita mandaati</view_btn>
+    </entry>
+    <entry lang="eu">
+      <issued>Espedizioa</issued>
+      <expires>Heldutasuna</expires>
+      <credential_id>Kredentzial IDa</credential_id>
+      <view_btn>Erakutsi kredentziala</view_btn>
+    </entry>
+    <entry lang="fa">
+      <issued>اعزام</issued>
+      <expires>بلوغ</expires>
+      <credential_id>شناسه اعتبار</credential_id>
+      <view_btn>نشان دادن اعتبار</view_btn>
+    </entry>
+    <entry lang="fi">
+      <issued>Retkikunta</issued>
+      <expires>Kypsyys</expires>
+      <credential_id>Tunnus</credential_id>
+      <view_btn>Näytä tunnistetiedot</view_btn>
+    </entry>
+    <entry lang="fil">
+      <issued>Ekspedisyon</issued>
+      <expires>Maturity</expires>
+      <credential_id>ID ng kredensyal</credential_id>
+      <view_btn>Ipakita ang kredensyal</view_btn>
+    </entry>
+    <entry lang="fr">
+      <issued>Expédition</issued>
+      <expires>Maturité</expires>
+      <credential_id>Identifiant d'identification</credential_id>
+      <view_btn>Afficher les informations d'identification</view_btn>
+    </entry>
+    <entry lang="gl">
+      <issued>Expedición</issued>
+      <expires>Madurez</expires>
+      <credential_id>ID de credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="gu">
+      <issued>અભિયાન</issued>
+      <expires>પરિપક્વતા</expires>
+      <credential_id>ઓળખપત્ર ID</credential_id>
+      <view_btn>ઓળખપત્ર બતાવો</view_btn>
+    </entry>
+    <entry lang="hi">
+      <issued>अभियान</issued>
+      <expires>परिपक्वता</expires>
+      <credential_id>क्रेडेंशियल आईडी</credential_id>
+      <view_btn>प्रमाण पत्र दिखाएँ</view_btn>
+    </entry>
+    <entry lang="hr">
+      <issued>Ekspedicija</issued>
+      <expires>Zrelost</expires>
+      <credential_id>ID vjerodajnice</credential_id>
+      <view_btn>Prikaži vjerodajnicu</view_btn>
+    </entry>
+    <entry lang="hu">
+      <issued>Expedíció</issued>
+      <expires>Érettség</expires>
+      <credential_id>Hitelesítési adat azonosítója</credential_id>
+      <view_btn>Hitelesítési adatok megjelenítése</view_btn>
+    </entry>
+    <entry lang="hy">
+      <issued>Արշավախումբ</issued>
+      <expires>Հասունություն</expires>
+      <credential_id>Հավատարմագրային ID</credential_id>
+      <view_btn>Ցույց տալ հավատարմագրերը</view_btn>
+    </entry>
+    <entry lang="in">
+      <issued>Ekspedisi</issued>
+      <expires>Kematangan</expires>
+      <credential_id>ID Kredensial</credential_id>
+      <view_btn>Tunjukkan kredensial</view_btn>
+    </entry>
+    <entry lang="is">
+      <issued>Leiðangur</issued>
+      <expires>Þroski</expires>
+      <credential_id>Persónuskilríki</credential_id>
+      <view_btn>Sýna skilríki</view_btn>
+    </entry>
+    <entry lang="it">
+      <issued>Spedizione</issued>
+      <expires>Scadenza</expires>
+      <credential_id>ID credenziale</credential_id>
+      <view_btn>Mostra credenziale</view_btn>
+    </entry>
+    <entry lang="iw">
+      <issued>Expedición</issued>
+      <expires>Vencimiento</expires>
+      <credential_id>ID de la credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="ja">
+      <issued>遠征</issued>
+      <expires>成熟</expires>
+      <credential_id>資格情報ID</credential_id>
+      <view_btn>資格情報を表示</view_btn>
+    </entry>
+    <entry lang="ka">
+      <issued>ექსპედიცია</issued>
+      <expires>სიმწიფე</expires>
+      <credential_id>მოწმობის პირადობის მოწმობა</credential_id>
+      <view_btn>რწმუნებათა სიგელის ჩვენება</view_btn>
+    </entry>
+    <entry lang="kk">
+      <issued>Экспедиция</issued>
+      <expires>Жетілу</expires>
+      <credential_id>Тіркелгі деректерінің идентификаторы</credential_id>
+      <view_btn>Тіркелгі деректерін көрсету</view_btn>
+    </entry>
+    <entry lang="km">
+      <issued>បេសកកម្ម</issued>
+      <expires>ភាពចាស់ទុំ</expires>
+      <credential_id>លេខសម្គាល់អត្តសញ្ញាណ</credential_id>
+      <view_btn>បង្ហាញអត្តសញ្ញាណ</view_btn>
+    </entry>
+    <entry lang="kn">
+      <issued>ದಂಡಯಾತ್ರೆ</issued>
+      <expires>ಪ್ರಬುದ್ಧತೆ</expires>
+      <credential_id>ರುಜುವಾತು ID</credential_id>
+      <view_btn>ರುಜುವಾತು ತೋರಿಸಿ</view_btn>
+    </entry>
+    <entry lang="ko">
+      <issued>원정</issued>
+      <expires>성숙함</expires>
+      <credential_id>자격 증명 ID</credential_id>
+      <view_btn>자격증명 표시</view_btn>
+    </entry>
+    <entry lang="ky">
+      <issued>Экспедиция</issued>
+      <expires>Жетилгендик</expires>
+      <credential_id>Идентификатор ID</credential_id>
+      <view_btn>Эсептик дайындарды көрсөтүү</view_btn>
+    </entry>
+    <entry lang="lo">
+      <issued>ການສຳຫຼວດ</issued>
+      <expires>ການເຕີບໂຕເຕັມທີ່</expires>
+      <credential_id>ບັດປະຈຳຕົວ</credential_id>
+      <view_btn>ສະແດງຂໍ້ມູນປະຈໍາຕົວ</view_btn>
+    </entry>
+    <entry lang="lt">
+      <issued>Ekspedicija</issued>
+      <expires>Branda</expires>
+      <credential_id>Kredencialo ID</credential_id>
+      <view_btn>Rodyti kredencialus</view_btn>
+    </entry>
+    <entry lang="lv">
+      <issued>Ekspedīcija</issued>
+      <expires>Briedums</expires>
+      <credential_id>Akreditācijas datu ID</credential_id>
+      <view_btn>Rādīt akreditācijas datus</view_btn>
+    </entry>
+    <entry lang="mk">
+      <issued>Експедиција</issued>
+      <expires>Зрелост</expires>
+      <credential_id>Лична карта</credential_id>
+      <view_btn>Прикажи акредитиви</view_btn>
+    </entry>
+    <entry lang="ml">
+      <issued>പര്യവേഷണം</issued>
+      <expires>പക്വത</expires>
+      <credential_id>ക്രെഡൻഷ്യൽ ഐഡി</credential_id>
+      <view_btn>ക്രെഡൻഷ്യൽ കാണിക്കുക</view_btn>
+    </entry>
+    <entry lang="mn">
+      <issued>Экспедиц</issued>
+      <expires>Төлөвшил</expires>
+      <credential_id>Итгэмжлэлийн үнэмлэх</credential_id>
+      <view_btn>Итгэмжлэх жуух бичгийг харуулах</view_btn>
+    </entry>
+    <entry lang="mr">
+      <issued>मोहीम</issued>
+      <expires>परिपक्वता</expires>
+      <credential_id>क्रेडेंशियल आयडी</credential_id>
+      <view_btn>ओळखपत्र दाखवा</view_btn>
+    </entry>
+    <entry lang="ms">
+      <issued>Ekspedisi</issued>
+      <expires>Kematangan</expires>
+      <credential_id>ID Tauliah</credential_id>
+      <view_btn>Tunjukkan kelayakan</view_btn>
+    </entry>
+    <entry lang="my">
+      <issued>လေ့လာရေးခရီး</issued>
+      <expires>ရင့်ကျက်မှု</expires>
+      <credential_id>အထောက်အထား ID</credential_id>
+      <view_btn>အထောက်အထားပြပါ။</view_btn>
+    </entry>
+    <entry lang="ne">
+      <issued>अभियान</issued>
+      <expires>परिपक्वता</expires>
+      <credential_id>प्रमाण आईडी</credential_id>
+      <view_btn>प्रमाण देखाउनुहोस्</view_btn>
+    </entry>
+    <entry lang="nl">
+      <issued>Expeditie</issued>
+      <expires>Volwassenheid</expires>
+      <credential_id>Referentie-ID</credential_id>
+      <view_btn>Toon legitimatie</view_btn>
+    </entry>
+    <entry lang="no">
+      <issued>Ekspedisjon</issued>
+      <expires>Modenhet</expires>
+      <credential_id>Legitimasjons-ID</credential_id>
+      <view_btn>Vis legitimasjon</view_btn>
+    </entry>
+    <entry lang="pa">
+      <issued>ਮੁਹਿੰਮ</issued>
+      <expires>ਪਰਿਪੱਕਤਾ</expires>
+      <credential_id>ਕ੍ਰੈਡੈਂਸ਼ੀਅਲ ਆਈ.ਡੀ</credential_id>
+      <view_btn>ਪ੍ਰਮਾਣ ਪੱਤਰ ਦਿਖਾਓ</view_btn>
+    </entry>
+    <entry lang="pl">
+      <issued>Wyprawa</issued>
+      <expires>Dojrzałość</expires>
+      <credential_id>Identyfikator uwierzytelnienia</credential_id>
+      <view_btn>Pokaż referencje</view_btn>
+    </entry>
+    <entry lang="pt-rBR">
+      <issued>Expedição</issued>
+      <expires>Maturidade</expires>
+      <credential_id>ID da credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="pt-rPT">
+      <issued>Expedição</issued>
+      <expires>Maturidade</expires>
+      <credential_id>ID da credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="rm">
+      <issued>Expedition</issued>
+      <expires>Reife</expires>
+      <credential_id>Anmeldeinformations-ID</credential_id>
+      <view_btn>Ausweis vorzeigen</view_btn>
+    </entry>
+    <entry lang="ro">
+      <issued>Expediţie</issued>
+      <expires>Maturitate</expires>
+      <credential_id>ID de acreditare</credential_id>
+      <view_btn>Afișați acreditările</view_btn>
+    </entry>
+    <entry lang="ru">
+      <issued>Экспедиция</issued>
+      <expires>Зрелость</expires>
+      <credential_id>Идентификатор учетных данных</credential_id>
+      <view_btn>Показать учетные данные</view_btn>
+    </entry>
+    <entry lang="si">
+      <issued>ගවේෂණය</issued>
+      <expires>පරිණතභාවය</expires>
+      <credential_id>අක්තපත්ර හැඳුනුම්පත</credential_id>
+      <view_btn>අක්තපත්‍ර පෙන්වන්න</view_btn>
+    </entry>
+    <entry lang="sk">
+      <issued>Expedícia</issued>
+      <expires>Vyspelosť</expires>
+      <credential_id>ID poverenia</credential_id>
+      <view_btn>Ukážte poverenie</view_btn>
+    </entry>
+    <entry lang="sq">
+      <issued>Ekspedita</issued>
+      <expires>Pjekuria</expires>
+      <credential_id>ID kredenciale</credential_id>
+      <view_btn>Shfaq kredencialet</view_btn>
+    </entry>
+    <entry lang="sr">
+      <issued>Експедиција</issued>
+      <expires>зрелост</expires>
+      <credential_id>ИД акредитива</credential_id>
+      <view_btn>Покажи акредитиве</view_btn>
+    </entry>
+    <entry lang="sv">
+      <issued>Expedition</issued>
+      <expires>Mognad</expires>
+      <credential_id>Autentiserings-ID</credential_id>
+      <view_btn>Visa autentiseringsuppgifter</view_btn>
+    </entry>
+    <entry lang="sw">
+      <issued>Safari ya Kujifunza</issued>
+      <expires>Ukomavu</expires>
+      <credential_id>Kitambulisho</credential_id>
+      <view_btn>Onyesha kitambulisho</view_btn>
+    </entry>
+    <entry lang="ta">
+      <issued>பயணம்</issued>
+      <expires>முதிர்ச்சி</expires>
+      <credential_id>நற்சான்றிதழ் ஐடி</credential_id>
+      <view_btn>நற்சான்றிதழ் காட்டு</view_btn>
+    </entry>
+    <entry lang="te">
+      <issued>సాహసయాత్ర</issued>
+      <expires>పరిపక్వత</expires>
+      <credential_id>ఆధారాల ID</credential_id>
+      <view_btn>ఆధారాలను చూపించు</view_btn>
+    </entry>
+    <entry lang="th">
+      <issued>การเดินทาง</issued>
+      <expires>วุฒิภาวะ</expires>
+      <credential_id>รหัสประจำตัว</credential_id>
+      <view_btn>แสดงข้อมูลรับรอง</view_btn>
+    </entry>
+    <entry lang="tr">
+      <issued>Sefer</issued>
+      <expires>Vade</expires>
+      <credential_id>Kimlik bilgisi kimliği</credential_id>
+      <view_btn>Kimlik bilgilerini göster</view_btn>
+    </entry>
+    <entry lang="uk">
+      <issued>Експедиція</issued>
+      <expires>Зрілість</expires>
+      <credential_id>Ідентифікатор облікових даних</credential_id>
+      <view_btn>Показати облікові дані</view_btn>
+    </entry>
+    <entry lang="ur">
+      <issued>مہم</issued>
+      <expires>پختگی</expires>
+      <credential_id>اسناد کی شناخت</credential_id>
+      <view_btn>اسناد دکھائیں۔</view_btn>
+    </entry>
+    <entry lang="vi">
+      <issued>thám hiểm</issued>
+      <expires>Kỳ hạn</expires>
+      <credential_id>ID thông tin xác thực</credential_id>
+      <view_btn>Hiển thị thông tin xác thực</view_btn>
+    </entry>
+    <entry lang="zu">
+      <issued>I-Expedition</issued>
+      <expires>Ukuvuthwa</expires>
+      <credential_id>I-ID yokuqinisekisa</credential_id>
+      <view_btn>Bonisa ukuqinisekisa</view_btn>
+    </entry>
+    <entry lang="pt">
+      <issued>Expedição</issued>
+      <expires>Maturidade</expires>
+      <credential_id>ID da credencial</credential_id>
+      <view_btn>Mostrar credencial</view_btn>
+    </entry>
+    <entry lang="zh">
+      <issued>远征</issued>
+      <expires>到期</expires>
+      <credential_id>凭证ID</credential_id>
+      <view_btn>显示凭证</view_btn>
+    </entry>
+  </dictionary>
+  <certificates>
+    <certificate>
+      <id>23314704</id>
+      <image>/imagenes/certificados/23314704.png</image>
+      <issuer>Google</issuer>
+      <date_issued>mar. 2026</date_issued>
+      <date_expires/>
+      <url>https://www.skills.google/public_profiles/9089df29-2c7b-465c-ab04-b1d7fda39817/badges/23314704?locale=es&amp;utm_medium=social&amp;utm_source=linkedin&amp;utm_campaign=ql-social-share</url>
+      <titles>
+        <title lang="es">Operaciones de aprendizaje automático (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="en">Machine Learning Operations (MLOps) for Generative AI (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="af">Masjienleerbedrywighede (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="am">የማሽን ትምህርት ስራዎች (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ar">عمليات التعلم الآلي (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="az">Maşın öyrənmə əməliyyatları (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="b+zh+Hans">机器学习操作 (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="b+zh+Hant">機器學習操作 (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="be">Аперацыі машыннага навучання (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="bg">Операции за машинно обучение (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="bn">মেশিন লার্নিং অপারেশন (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ca">Operacions daprenentatge automàtic (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="cs">Operace strojového učení (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="da">Maskinlæringsoperationer (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="de">Operationen des maschinellen Lernens (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="el">Λειτουργίες μηχανικής μάθησης (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="et">Masinõppe toimingud (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="eu">Ikaskuntza automatikoko eragiketak (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="fa">عملیات یادگیری ماشینی (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="fi">Koneoppimistoiminnot (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="fil">Mga operasyon ng machine learning (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="fr">Opérations d'apprentissage automatique (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="gl">Operacións de aprendizaxe automática (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="gu">મશીન લર્નિંગ ઓપરેશન્સ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="hi">मशीन लर्निंग ऑपरेशन (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="hr">Operacije strojnog učenja (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="hu">Gépi tanulási műveletek (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="hy">Մեքենայի ուսուցման գործողություններ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="in">Operasi pembelajaran mesin (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="is">Vélnámsaðgerðir (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="it">Operazioni di apprendimento automatico (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="iw">Operaciones de aprendizaje automático (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ja">機械学習の運用 (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ka">მანქანათმცოდნეობის ოპერაციები (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="kk">Машиналық оқыту операциялары (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="km">ប្រតិបត្តិការម៉ាស៊ីនរៀន (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="kn">ಯಂತ್ರ ಕಲಿಕೆಯ ಕಾರ್ಯಾಚರಣೆಗಳು (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ko">기계 학습 작업 (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ky">Машина үйрөнүү операциялары (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="lo">ການດໍາເນີນງານການຮຽນຮູ້ເຄື່ອງຈັກ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="lt">Mašininio mokymosi operacijos (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="lv">Mašīnmācīšanās operācijas (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="mk">Операции за машинско учење (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ml">മെഷീൻ ലേണിംഗ് പ്രവർത്തനങ്ങൾ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="mn">Машин сургалтын үйл ажиллагаа (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="mr">मशीन लर्निंग ऑपरेशन्स (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ms">Operasi pembelajaran mesin (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="my">စက်သင်ယူမှုလုပ်ငန်းများ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ne">मेसिन लर्निङ अपरेसनहरू (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="nl">Machine learning-bewerkingen (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="no">Maskinlæringsoperasjoner (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="pa">ਮਸ਼ੀਨ ਸਿਖਲਾਈ ਕਾਰਜ (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="pl">Operacje uczenia maszynowego (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="pt-rBR">Operações de aprendizado de máquina (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="pt-rPT">Operações de aprendizado de máquina (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="rm">Operationen des maschinellen Lernens (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ro">Operații de învățare automată (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ru">Операции машинного обучения (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="si">යන්ත්‍ර ඉගෙනීමේ මෙහෙයුම් (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sk">Operácie strojového učenia (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sq">Operacionet e mësimit të makinerisë (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sr">Операције машинског учења (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sv">Maskininlärning (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sw">Shughuli za kujifunza mashine (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ta">இயந்திர கற்றல் செயல்பாடுகள் (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="te">మెషిన్ లెర్నింగ్ కార్యకలాపాలు (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="th">การดำเนินการเรียนรู้ของเครื่อง (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="tr">Makine öğrenimi işlemleri (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="uk">Операції машинного навчання (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="ur">مشین لرننگ آپریشنز (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="vi">Hoạt động học máy (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="zu">Imisebenzi yokufunda ngomshini (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="sl">Operacije strojnega učenja (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="pt">Operações de aprendizado de máquina (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+        <title lang="zh">机器学习操作 (MLOps) para la IA generativa (Machine Learning Operations (MLOps) for Generative AI)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>23313577</id>
+      <image>/imagenes/certificados/23313577.png</image>
+      <issuer>Google</issuer>
+      <date_issued>mar. 2026</date_issued>
+      <date_expires/>
+      <url>https://www.skills.google/public_profiles/9089df29-2c7b-465c-ab04-b1d7fda39817/badges/23313577?locale=es&amp;utm_medium=social&amp;utm_source=linkedin&amp;utm_campaign=ql-social-share</url>
+      <titles>
+        <title lang="es">IA responsable: Aplica los principios de la IA con Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="en">Responsible AI: Applying AI Principles with Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="af">Verantwoordelike KI: Pas KI-beginsels toe met Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="am">ኃላፊነት ያለው AI፡ የ AI መርሆችን በGoogle ክላውድ ይተግብሩ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ar">الذكاء الاصطناعي المسؤول: تطبيق مبادئ الذكاء الاصطناعي باستخدام Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="az">Məsul AI: AI prinsiplərini Google Cloud ilə tətbiq edin (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="b+zh+Hans">负责任的 AI：通过 Google Cloud 应用 AI 原则 (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="b+zh+Hant">負責任的 AI：透過 Google Cloud 應用 AI 原則 (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="be">Адказны AI: прымяненне прынцыпаў AI з Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="bg">Отговорен AI: Приложете принципите на AI с Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="bn">দায়িত্বশীল AI: Google ক্লাউডের সাথে AI নীতিগুলি প্রয়োগ করুন৷ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ca">IA responsable: Aplica els principis de la IA amb Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="cs">Odpovědná umělá inteligence: Aplikujte principy umělé inteligence se službou Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="da">Ansvarlig AI: Anvend AI-principper med Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="de">Verantwortungsvolle KI: Wenden Sie KI-Prinzipien mit Google Cloud an (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="el">Υπεύθυνη τεχνητή νοημοσύνη: Εφαρμόστε τις αρχές της τεχνητής νοημοσύνης με το Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="et">Vastutustundlik AI: rakendage Google Cloudiga tehisintellekti põhimõtteid (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="eu">AI arduratsua: Aplikatu AI printzipioak Google Cloud-ekin (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="fa">هوش مصنوعی مسئول: اصول هوش مصنوعی را با Google Cloud اعمال کنید (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="fi">Vastuullinen tekoäly: Käytä tekoälyperiaatteita Google Cloudissa (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="fil">Responsableng AI: Ilapat ang mga prinsipyo ng AI sa Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="fr">IA responsable : appliquez les principes de l'IA avec Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="gl">IA responsable: aplica os principios de IA con Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="gu">જવાબદાર AI: Google Cloud સાથે AI સિદ્ધાંતો લાગુ કરો (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="hi">जिम्मेदार AI: Google क्लाउड के साथ AI सिद्धांत लागू करें (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="hr">Odgovorna umjetna inteligencija: Primijenite načela umjetne inteligencije uz Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="hu">Felelős mesterséges intelligencia: Alkalmazza a mesterséges intelligencia alapelveit a Google Cloud segítségével (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="hy">Պատասխանատու AI. Կիրառել AI սկզբունքները Google Cloud-ի հետ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="in">AI yang Bertanggung Jawab: Terapkan prinsip AI dengan Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="is">Ábyrg gervigreind: Notaðu gervigreindarreglur með Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="it">IA responsabile: applica i principi dell'AI con Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="iw">IA responsable: Aplica los principios de la IA con Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ja">責任ある AI: Google Cloud で AI 原則を適用する (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ka">პასუხისმგებელი AI: გამოიყენეთ AI პრინციპები Google Cloud-ით (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="kk">Жауапты AI: AI принциптерін Google Cloud көмегімен қолданыңыз (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="km">AI ដែលមានទំនួលខុសត្រូវ៖ អនុវត្តគោលការណ៍ AI ជាមួយ Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="kn">ಜವಾಬ್ದಾರಿಯುತ AI: Google ಕ್ಲೌಡ್‌ನೊಂದಿಗೆ AI ತತ್ವಗಳನ್ನು ಅನ್ವಯಿಸಿ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ko">책임감 있는 AI: Google Cloud로 AI 원칙 적용 (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ky">Жооптуу AI: AI принциптерин Google Булут менен колдонуңуз (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="lo">AI ທີ່ມີຄວາມຮັບຜິດຊອບ: ນຳໃຊ້ຫຼັກການ AI ກັບ Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="lt">Atsakingas dirbtinis intelektas: taikykite AI principus naudodami „Google Cloud“. (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="lv">Atbildīgs AI: izmantojiet AI principus pakalpojumā Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="mk">Одговорна вештачка интелигенција: применете ги принципите на вештачката интелигенција со Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ml">ഉത്തരവാദിത്തമുള്ള AI: Google ക്ലൗഡിനൊപ്പം AI തത്വങ്ങൾ പ്രയോഗിക്കുക (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="mn">Хариуцлагатай хиймэл оюун ухаан: AI зарчмуудыг Google Cloud ашиглан хэрэгжүүлээрэй (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="mr">जबाबदार AI: Google Cloud सह AI तत्त्वे लागू करा (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ms">AI yang Bertanggungjawab: Gunakan prinsip AI dengan Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="my">တာဝန်ယူမှုရှိသော AI- AI စည်းမျဉ်းများကို Google Cloud ဖြင့် အသုံးပြုပါ။ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ne">जिम्मेवार AI: Google Cloud सँग AI सिद्धान्तहरू लागू गर्नुहोस् (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="nl">Verantwoorde AI: pas AI-principes toe met Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="no">Ansvarlig AI: Bruk AI-prinsipper med Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="pa">ਜ਼ਿੰਮੇਵਾਰ AI: Google Cloud ਨਾਲ AI ਸਿਧਾਂਤ ਲਾਗੂ ਕਰੋ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="pl">Odpowiedzialna sztuczna inteligencja: zastosuj zasady sztucznej inteligencji dzięki Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="pt-rBR">IA responsável: aplique os princípios de IA com o Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="pt-rPT">IA responsável: aplique os princípios de IA com o Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="rm">Verantwortungsvolle KI: Wenden Sie KI-Prinzipien mit Google Cloud an (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ro">AI responsabil: aplicați principiile AI cu Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ru">Ответственный ИИ: применяйте принципы ИИ с помощью Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="si">වගකිවයුතු AI: Google Cloud සමඟ AI මූලධර්ම යොදන්න (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sk">Zodpovedná AI: Aplikujte princípy AI s Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sq">UA përgjegjëse: Zbatoni parimet e AI me Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sr">Одговорна вештачка интелигенција: Примените принципе вештачке интелигенције помоћу Гоогле Цлоуд-а (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sv">Ansvarsfull AI: Tillämpa AI-principer med Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sw">AI inayowajibika: Tumia kanuni za AI ukitumia Wingu la Google (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ta">பொறுப்பான AI: AI கொள்கைகளை Google Cloud உடன் பயன்படுத்தவும் (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="te">బాధ్యతాయుతమైన AI: Google క్లౌడ్‌తో AI సూత్రాలను వర్తింపజేయండి (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="th">AI ที่มีความรับผิดชอบ: ใช้หลักการ AI กับ Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="tr">Sorumlu Yapay Zeka: Yapay Zeka ilkelerini Google Cloud ile uygulayın (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="uk">Відповідальний ШІ: застосовуйте принципи ШІ за допомогою Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="ur">ذمہ دار AI: Google Cloud کے ساتھ AI اصولوں کا اطلاق کریں۔ (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="vi">AI có trách nhiệm: Áp dụng nguyên tắc AI với Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="zu">I-AI enesibopho: Sebenzisa izimiso ze-AI nge-Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="sl">Odgovorna umetna inteligenca: uporabite načela umetne inteligence z Google Cloudom (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="pt">IA responsável: aplique os princípios de IA com o Google Cloud (Responsible AI: Applying AI Principles with Google Cloud)</title>
+        <title lang="zh">负责任的 AI：通过 Google Cloud 应用 AI 原则 (Responsible AI: Applying AI Principles with Google Cloud)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>456320896</id>
+      <image>/imagenes/certificados/456320896.png</image>
+      <issuer>Google</issuer>
+      <date_issued>mar. 2026</date_issued>
+      <date_expires/>
+      <url>https://skillshop.exceedlms.com/student/award/1Hs6XjvT6KKqjjQMuFAhRk2e</url>
+      <titles>
+        <title lang="es">Domina la IA con Gemini (Master AI with Gemini)</title>
+        <title lang="en">Master AI with Gemini (Master AI with Gemini)</title>
+        <title lang="af">Bemeester KI met Tweeling (Master AI with Gemini)</title>
+        <title lang="am">ማስተር AI ከጌሚኒ ጋር (Master AI with Gemini)</title>
+        <title lang="ar">إتقان الذكاء الاصطناعي مع الجوزاء (Master AI with Gemini)</title>
+        <title lang="az">Əkizlər ilə AI ustası (Master AI with Gemini)</title>
+        <title lang="b+zh+Hans">与 Gemini 一起掌握人工智能 (Master AI with Gemini)</title>
+        <title lang="b+zh+Hant">與 Gemini 一起掌握人工智慧 (Master AI with Gemini)</title>
+        <title lang="be">Майстар ІІ з Gemini (Master AI with Gemini)</title>
+        <title lang="bg">Овладейте AI с Gemini (Master AI with Gemini)</title>
+        <title lang="bn">মিথুনের সাথে মাস্টার এআই (Master AI with Gemini)</title>
+        <title lang="ca">Domina la IA amb Gemini (Master AI with Gemini)</title>
+        <title lang="cs">Master AI s Gemini (Master AI with Gemini)</title>
+        <title lang="da">Mestre AI med Gemini (Master AI with Gemini)</title>
+        <title lang="de">Meistere die KI mit Gemini (Master AI with Gemini)</title>
+        <title lang="el">Master AI με τους Διδύμους (Master AI with Gemini)</title>
+        <title lang="et">Master AI koos Kaksikutega (Master AI with Gemini)</title>
+        <title lang="eu">Master AI Geminirekin (Master AI with Gemini)</title>
+        <title lang="fa">استاد هوش مصنوعی با جمینی (Master AI with Gemini)</title>
+        <title lang="fi">Master AI Geminin kanssa (Master AI with Gemini)</title>
+        <title lang="fil">Master AI kasama si Gemini (Master AI with Gemini)</title>
+        <title lang="fr">Maîtrisez l’IA avec Gemini (Master AI with Gemini)</title>
+        <title lang="gl">Domina a IA con Gemini (Master AI with Gemini)</title>
+        <title lang="gu">જેમિની સાથે માસ્ટર AI (Master AI with Gemini)</title>
+        <title lang="hi">मिथुन राशि वाले मास्टर एआई (Master AI with Gemini)</title>
+        <title lang="hr">Ovladajte umjetnom inteligencijom s Geminijem (Master AI with Gemini)</title>
+        <title lang="hu">Mester AI Geminivel (Master AI with Gemini)</title>
+        <title lang="hy">Վարպետ AI-ն Երկվորյակների հետ (Master AI with Gemini)</title>
+        <title lang="in">Kuasai AI dengan Gemini (Master AI with Gemini)</title>
+        <title lang="is">Master AI með Gemini (Master AI with Gemini)</title>
+        <title lang="it">Padroneggia l'intelligenza artificiale con Gemelli (Master AI with Gemini)</title>
+        <title lang="iw">Domina la IA con Gemini (Master AI with Gemini)</title>
+        <title lang="ja">Gemini で AI をマスターする (Master AI with Gemini)</title>
+        <title lang="ka">დაეუფლეთ AI-ს ტყუპებთან ერთად (Master AI with Gemini)</title>
+        <title lang="kk">Gemini бар AI шебері (Master AI with Gemini)</title>
+        <title lang="km">Master AI ជាមួយ Gemini (Master AI with Gemini)</title>
+        <title lang="kn">ಜೆಮಿನಿ ಜೊತೆ ಮಾಸ್ಟರ್ AI (Master AI with Gemini)</title>
+        <title lang="ko">Gemini로 AI 마스터하기 (Master AI with Gemini)</title>
+        <title lang="ky">Gemini менен Master AI (Master AI with Gemini)</title>
+        <title lang="lo">Master AI ກັບ Gemini (Master AI with Gemini)</title>
+        <title lang="lt">Meistras AI su Dvyniais (Master AI with Gemini)</title>
+        <title lang="lv">Meistars AI ar Dvīņiem (Master AI with Gemini)</title>
+        <title lang="mk">Господар на вештачката интелигенција со Близнаци (Master AI with Gemini)</title>
+        <title lang="ml">ജെമിനിക്കൊപ്പം മാസ്റ്റർ AI (Master AI with Gemini)</title>
+        <title lang="mn">Gemini-тэй AI-г эзэмш (Master AI with Gemini)</title>
+        <title lang="mr">मिथुन सोबत मास्टर AI (Master AI with Gemini)</title>
+        <title lang="ms">Kuasai AI dengan Gemini (Master AI with Gemini)</title>
+        <title lang="my">Gemini ဖြင့် AI ကို ကျွမ်းကျင်သည်။ (Master AI with Gemini)</title>
+        <title lang="ne">मिथुन राशिको साथ मास्टर एआई (Master AI with Gemini)</title>
+        <title lang="nl">Beheers AI met Gemini (Master AI with Gemini)</title>
+        <title lang="no">Mestre AI med Gemini (Master AI with Gemini)</title>
+        <title lang="pa">Gemini ਦੇ ਨਾਲ ਮਾਸਟਰ AI (Master AI with Gemini)</title>
+        <title lang="pl">Opanuj sztuczną inteligencję dzięki Gemini (Master AI with Gemini)</title>
+        <title lang="pt-rBR">Domine a IA com Gêmeos (Master AI with Gemini)</title>
+        <title lang="pt-rPT">Domine a IA com Gêmeos (Master AI with Gemini)</title>
+        <title lang="rm">Meistere die KI mit Gemini (Master AI with Gemini)</title>
+        <title lang="ro">Stăpânește AI cu Gemeni (Master AI with Gemini)</title>
+        <title lang="ru">Овладейте искусственным интеллектом с помощью Gemini (Master AI with Gemini)</title>
+        <title lang="si">Gemini සමඟ මාස්ටර් AI (Master AI with Gemini)</title>
+        <title lang="sk">Majster AI s Gemini (Master AI with Gemini)</title>
+        <title lang="sq">Master AI me Binjakët (Master AI with Gemini)</title>
+        <title lang="sr">Мастер АИ са Близанцима (Master AI with Gemini)</title>
+        <title lang="sv">Bemästra AI med Gemini (Master AI with Gemini)</title>
+        <title lang="sw">Master AI akiwa na Gemini (Master AI with Gemini)</title>
+        <title lang="ta">ஜெமினியுடன் மாஸ்டர் ஏஐ (Master AI with Gemini)</title>
+        <title lang="te">జెమినితో మాస్టర్ AI (Master AI with Gemini)</title>
+        <title lang="th">เชี่ยวชาญ AI กับราศีเมถุน (Master AI with Gemini)</title>
+        <title lang="tr">İkizler ile Yapay Zekada Ustalaşın (Master AI with Gemini)</title>
+        <title lang="uk">Майстер ШІ з Gemini (Master AI with Gemini)</title>
+        <title lang="ur">جیمنی کے ساتھ ماسٹر اے آئی (Master AI with Gemini)</title>
+        <title lang="vi">Làm chủ AI cùng Song Tử (Master AI with Gemini)</title>
+        <title lang="zu">Master AI nge Gemini (Master AI with Gemini)</title>
+        <title lang="sl">Obvladajte AI z Gemini (Master AI with Gemini)</title>
+        <title lang="pt">Domine a IA com Gêmeos (Master AI with Gemini)</title>
+        <title lang="zh">与 Gemini 一起掌握人工智能 (Master AI with Gemini)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>177623075</id>
+      <image>/imagenes/certificados/177623075.png</image>
+      <issuer>Google</issuer>
+      <date_issued>mar. 2026</date_issued>
+      <date_expires>mar. 2027</date_expires>
+      <url>https://skillshop.credential.net/8cc0f5dd-c775-49a8-8da7-5d3d21b22533#acc.u0dRvaqy</url>
+      <titles>
+        <title lang="es">Certificación en Anuncios orientados a resultados basados en IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="en">Google Ads AI-Powered Performance Certification (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="af">Sertifisering in KI-gebaseerde resultaatgerigte advertensies (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="am">በ AI ላይ በተመሰረቱ ውጤቶች ላይ ያተኮሩ ማስታወቂያዎች ላይ ማረጋገጫ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ar">شهادة في الإعلانات الموجهة نحو النتائج القائمة على الذكاء الاصطناعي (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="az">Süni intellektə əsaslanan nəticə yönümlü reklamlarda sertifikatlaşdırma (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="b+zh+Hans">基于人工智能的结果导向型广告认证 (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="b+zh+Hant">基於人工智慧的結果導向廣告認證 (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="be">Сертыфікат па рэкламе, арыентаванай на вынік, на аснове штучнага інтэлекту (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="bg">Сертифициране в базирани на изкуствен интелект реклами, ориентирани към резултати (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="bn">AI-ভিত্তিক ফলাফল-ভিত্তিক বিজ্ঞাপনগুলিতে সার্টিফিকেশন (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ca">Certificació en Anuncis orientats a resultats basats en IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="cs">Certifikace v reklamách zaměřených na výsledky založené na umělé inteligenci (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="da">Certificering i AI-baserede resultatorienterede annoncer (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="de">Zertifizierung für KI-basierte ergebnisorientierte Anzeigen (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="el">Πιστοποίηση σε διαφημίσεις προσανατολισμένες στα αποτελέσματα που βασίζονται σε τεχνητή νοημοσύνη (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="et">AI-põhiste tulemustele suunatud reklaamide sertifikaat (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="eu">Ziurtagiria AIan oinarritutako emaitzetara bideratutako iragarkietan (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="fa">صدور گواهینامه در تبلیغات مبتنی بر هوش مصنوعی (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="fi">Tekoälypohjaisten tuloshakuisten mainosten sertifiointi (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="fil">Certification sa mga ad na nakabatay sa resulta ng AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="fr">Certification en publicités axées sur les résultats basées sur l'IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="gl">Certificación en anuncios orientados a resultados baseados en IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="gu">AI-આધારિત પરિણામો-લક્ષી જાહેરાતોમાં પ્રમાણપત્ર (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="hi">एआई-आधारित परिणाम-उन्मुख विज्ञापनों में प्रमाणन (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="hr">Certifikacija za oglase usmjerene na rezultate temeljene na umjetnoj inteligenciji (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="hu">Tanúsítvány AI-alapú eredményorientált hirdetésekben (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="hy">Հավաստագրում AI-ի վրա հիմնված արդյունքների վրա հիմնված գովազդներում (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="in">Sertifikasi dalam iklan berorientasi hasil berbasis AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="is">Vottun í gervigreindarmiðuðum niðurstöðumiðuðum auglýsingum (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="it">Certificazione negli annunci orientati ai risultati basati sull'intelligenza artificiale (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="iw">Certificación en Anuncios orientados a resultados basados en IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ja">AIベースの成果志向広告の認定 (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ka">სერტიფიცირება AI-ზე დაფუძნებულ შედეგებზე ორიენტირებულ რეკლამებში (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="kk">AI негізіндегі нәтижеге бағытталған жарнамалардағы сертификаттау (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="km">វិញ្ញាបនប័ត្រនៅក្នុងការផ្សាយពាណិជ្ជកម្មតម្រង់ទិសលទ្ធផលផ្អែកលើ AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="kn">AI ಆಧಾರಿತ ಫಲಿತಾಂಶ-ಆಧಾರಿತ ಜಾಹೀರಾತುಗಳಲ್ಲಿ ಪ್ರಮಾಣೀಕರಣ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ko">AI 기반 결과지향 광고 인증 (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ky">AI негизиндеги натыйжаларга багытталган жарнактарда сертификация (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="lo">ການຢັ້ງຢືນໃນການໂຄສະນາທີ່ເນັ້ນໃສ່ຜົນໄດ້ຮັບໂດຍອີງໃສ່ AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="lt">AI pagrįstų į rezultatus orientuotų skelbimų sertifikatas (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="lv">Sertifikācija uz AI balstītām uz rezultātiem orientētām reklāmām (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="mk">Сертификација во реклами ориентирани кон резултати базирани на вештачка интелигенција (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ml">AI അടിസ്ഥാനമാക്കിയുള്ള ഫലങ്ങളെ അടിസ്ഥാനമാക്കിയുള്ള പരസ്യങ്ങളിലെ സർട്ടിഫിക്കേഷൻ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="mn">AI-д суурилсан үр дүнд чиглэсэн зар сурталчилгааны гэрчилгээ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="mr">AI-आधारित परिणाम-देणारं जाहिरातींमध्ये प्रमाणन (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ms">Pensijilan dalam iklan berorientasikan hasil berasaskan AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="my">AI အခြေခံရလဒ်များကို အသားပေးထားသော ကြော်ငြာများတွင် အသိအမှတ်ပြုလက်မှတ် (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ne">AI-आधारित परिणाम-उन्मुख विज्ञापनहरूमा प्रमाणीकरण (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="nl">Certificering in op AI gebaseerde resultaatgerichte advertenties (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="no">Sertifisering i AI-baserte resultatorienterte annonser (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="pa">AI-ਅਧਾਰਿਤ ਨਤੀਜੇ-ਅਧਾਰਿਤ ਵਿਗਿਆਪਨਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਣ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="pl">Certyfikacja w zakresie reklam zorientowanych na wyniki opartych na sztucznej inteligencji (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="pt-rBR">Certificação em anúncios orientados a resultados baseados em IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="pt-rPT">Certificação em anúncios orientados a resultados baseados em IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="rm">Zertifizierung für KI-basierte ergebnisorientierte Anzeigen (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ro">Certificare în reclame orientate spre rezultate bazate pe inteligență artificială (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ru">Сертификация в области рекламы, ориентированной на результат на основе искусственного интеллекта. (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="si">AI මත පදනම් වූ ප්‍රතිඵල-අභිමුඛ වෙළඳ දැන්වීම්වල සහතික කිරීම (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sk">Certifikácia v reklamách orientovaných na výsledky založené na AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sq">Certifikimi në reklamat e orientuara drejt rezultateve të bazuara në AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sr">Сертификација у огласима оријентисаним на резултате заснованим на вештачкој интелигенцији (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sv">Certifiering i AI-baserade resultatorienterade annonser (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sw">Uidhinishaji katika matangazo yanayolenga matokeo kulingana na AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ta">AI அடிப்படையிலான முடிவுகள் சார்ந்த விளம்பரங்களில் சான்றிதழ் (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="te">AI-ఆధారిత ఫలితాల ఆధారిత ప్రకటనలలో ధృవీకరణ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="th">การรับรองในโฆษณาที่เน้นผลลัพธ์ตาม AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="tr">Yapay zeka tabanlı sonuç odaklı reklamlarda sertifikasyon (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="uk">Сертифікація в рекламі, орієнтованій на результат, на основі ШІ (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="ur">AI پر مبنی نتائج پر مبنی اشتہارات میں سرٹیفیکیشن (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="vi">Chứng nhận về quảng cáo hướng đến kết quả dựa trên AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="zu">Ukuqinisekiswa ezikhangisweni ezisuselwe kumiphumela esekelwe ku-AI (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="sl">Certificiranje oglasov, ki temeljijo na umetni inteligenci in so usmerjeni v rezultate (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="pt">Certificação em anúncios orientados a resultados baseados em IA (Google Ads AI-Powered Performance Certification)</title>
+        <title lang="zh">基于人工智能的结果导向型广告认证 (Google Ads AI-Powered Performance Certification)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>173881338</id>
+      <image>/imagenes/certificados/173881338.png</image>
+      <issuer>Google</issuer>
+      <date_issued>feb. 2026</date_issued>
+      <date_expires>feb. 2027</date_expires>
+      <url>https://skillshop.credential.net/1db2a49a-2d9f-4fe6-b06a-3aaafacd5efe#acc.Nr597gMa</url>
+      <titles>
+        <title lang="es">Certificación de Google Analytics (Google Analytics Certification)</title>
+        <title lang="en">Google Analytics Certification (Google Analytics Certification)</title>
+        <title lang="af">Google Analytics-sertifisering (Google Analytics Certification)</title>
+        <title lang="am">የጉግል አናሌቲክስ ማረጋገጫ (Google Analytics Certification)</title>
+        <title lang="ar">شهادة تحليلات جوجل (Google Analytics Certification)</title>
+        <title lang="az">Google Analytics Sertifikatı (Google Analytics Certification)</title>
+        <title lang="b+zh+Hans">谷歌分析认证 (Google Analytics Certification)</title>
+        <title lang="b+zh+Hant">谷歌分析認證 (Google Analytics Certification)</title>
+        <title lang="be">Сертыфікат Google Analytics (Google Analytics Certification)</title>
+        <title lang="bg">Сертификация за Google Анализ (Google Analytics Certification)</title>
+        <title lang="bn">Google Analytics সার্টিফিকেশন (Google Analytics Certification)</title>
+        <title lang="ca">Certificació de Google Analytics (Google Analytics Certification)</title>
+        <title lang="cs">Certifikace Google Analytics (Google Analytics Certification)</title>
+        <title lang="da">Google Analytics certificering (Google Analytics Certification)</title>
+        <title lang="de">Google Analytics-Zertifizierung (Google Analytics Certification)</title>
+        <title lang="el">Πιστοποίηση Google Analytics (Google Analytics Certification)</title>
+        <title lang="et">Google Analyticsi sertifikaat (Google Analytics Certification)</title>
+        <title lang="eu">Google Analytics Ziurtagiria (Google Analytics Certification)</title>
+        <title lang="fa">گواهی گوگل آنالیتیکس (Google Analytics Certification)</title>
+        <title lang="fi">Google Analytics -sertifiointi (Google Analytics Certification)</title>
+        <title lang="fil">Google Analytics Certification (Google Analytics Certification)</title>
+        <title lang="fr">Certification Google Analytics (Google Analytics Certification)</title>
+        <title lang="gl">Certificación Google Analytics (Google Analytics Certification)</title>
+        <title lang="gu">Google Analytics પ્રમાણપત્ર (Google Analytics Certification)</title>
+        <title lang="hi">गूगल एनालिटिक्स प्रमाणन (Google Analytics Certification)</title>
+        <title lang="hr">Certifikacija za Google Analytics (Google Analytics Certification)</title>
+        <title lang="hu">Google Analytics minősítés (Google Analytics Certification)</title>
+        <title lang="hy">Google Analytics սերտիֆիկացում (Google Analytics Certification)</title>
+        <title lang="in">Sertifikasi Google Analytics (Google Analytics Certification)</title>
+        <title lang="is">Google Analytics vottun (Google Analytics Certification)</title>
+        <title lang="it">Certificazione Google Analytics (Google Analytics Certification)</title>
+        <title lang="iw">Certificación de Google Analytics (Google Analytics Certification)</title>
+        <title lang="ja">Google アナリティクス認定 (Google Analytics Certification)</title>
+        <title lang="ka">Google Analytics სერთიფიკატი (Google Analytics Certification)</title>
+        <title lang="kk">Google Analytics сертификаты (Google Analytics Certification)</title>
+        <title lang="km">វិញ្ញាបនប័ត្រវិភាគ Google (Google Analytics Certification)</title>
+        <title lang="kn">Google Analytics ಪ್ರಮಾಣೀಕರಣ (Google Analytics Certification)</title>
+        <title lang="ko">구글애널리틱스 자격증 (Google Analytics Certification)</title>
+        <title lang="ky">Google Analytics сертификаты (Google Analytics Certification)</title>
+        <title lang="lo">ການຢັ້ງຢືນ Google Analytics (Google Analytics Certification)</title>
+        <title lang="lt">Google Analytics sertifikatas (Google Analytics Certification)</title>
+        <title lang="lv">Google Analytics sertifikācija (Google Analytics Certification)</title>
+        <title lang="mk">Сертификација на Google Analytics (Google Analytics Certification)</title>
+        <title lang="ml">Google Analytics സർട്ടിഫിക്കേഷൻ (Google Analytics Certification)</title>
+        <title lang="mn">Google Analytics гэрчилгээ (Google Analytics Certification)</title>
+        <title lang="mr">Google Analytics प्रमाणन (Google Analytics Certification)</title>
+        <title lang="ms">Pensijilan Google Analitis (Google Analytics Certification)</title>
+        <title lang="my">Google Analytics အသိအမှတ်ပြုလက်မှတ် (Google Analytics Certification)</title>
+        <title lang="ne">गुगल एनालिटिक्स प्रमाणीकरण (Google Analytics Certification)</title>
+        <title lang="nl">Google Analytics-certificering (Google Analytics Certification)</title>
+        <title lang="no">Google Analytics-sertifisering (Google Analytics Certification)</title>
+        <title lang="pa">ਗੂਗਲ ਵਿਸ਼ਲੇਸ਼ਣ ਸਰਟੀਫਿਕੇਸ਼ਨ (Google Analytics Certification)</title>
+        <title lang="pl">Certyfikat Google Analytics (Google Analytics Certification)</title>
+        <title lang="pt-rBR">Certificação Google Analytics (Google Analytics Certification)</title>
+        <title lang="pt-rPT">Certificação Google Analytics (Google Analytics Certification)</title>
+        <title lang="rm">Google Analytics-Zertifizierung (Google Analytics Certification)</title>
+        <title lang="ro">Certificare Google Analytics (Google Analytics Certification)</title>
+        <title lang="ru">Сертификация Google Аналитики (Google Analytics Certification)</title>
+        <title lang="si">Google Analytics සහතිකය (Google Analytics Certification)</title>
+        <title lang="sk">Certifikácia Google Analytics (Google Analytics Certification)</title>
+        <title lang="sq">Certifikimi i Google Analytics (Google Analytics Certification)</title>
+        <title lang="sr">Сертификација Гоогле аналитике (Google Analytics Certification)</title>
+        <title lang="sv">Google Analytics-certifiering (Google Analytics Certification)</title>
+        <title lang="sw">Udhibitisho wa Google Analytics (Google Analytics Certification)</title>
+        <title lang="ta">Google Analytics சான்றிதழ் (Google Analytics Certification)</title>
+        <title lang="te">Google Analytics సర్టిఫికేషన్ (Google Analytics Certification)</title>
+        <title lang="th">การรับรอง Google Analytics (Google Analytics Certification)</title>
+        <title lang="tr">Google Analytics Sertifikası (Google Analytics Certification)</title>
+        <title lang="uk">Сертифікація Google Analytics (Google Analytics Certification)</title>
+        <title lang="ur">گوگل تجزیات سرٹیفیکیشن (Google Analytics Certification)</title>
+        <title lang="vi">Chứng chỉ Google Analytics (Google Analytics Certification)</title>
+        <title lang="zu">Isitifiketi se-Google Analytics (Google Analytics Certification)</title>
+        <title lang="sl">Certificiranje Google Analytics (Google Analytics Certification)</title>
+        <title lang="pt">Certificação Google Analytics (Google Analytics Certification)</title>
+        <title lang="zh">谷歌分析认证 (Google Analytics Certification)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>173254144</id>
+      <image>/imagenes/certificados/173254144.png</image>
+      <issuer>Google</issuer>
+      <date_issued>ene. 2026</date_issued>
+      <date_expires>ene. 2027</date_expires>
+      <url>https://skillshop.credential.net/61c044bb-da30-4fda-b938-e2aadc680b12#acc.sCim16Zc</url>
+      <titles>
+        <title lang="es">Google Ads: Certificación en Medición (Google Ads: Measurement Certification)</title>
+        <title lang="en">Google Ads: Measurement Certification (Google Ads: Measurement Certification)</title>
+        <title lang="af">Google Advertensies: Metingsertifisering (Google Ads: Measurement Certification)</title>
+        <title lang="am">Google ማስታወቂያዎች፡ የመለኪያ ማረጋገጫ (Google Ads: Measurement Certification)</title>
+        <title lang="ar">إعلانات جوجل: شهادة القياس (Google Ads: Measurement Certification)</title>
+        <title lang="az">Google Ads: Ölçmə Sertifikatı (Google Ads: Measurement Certification)</title>
+        <title lang="b+zh+Hans">Google Ads：衡量认证 (Google Ads: Measurement Certification)</title>
+        <title lang="b+zh+Hant">Google Ads：衡量認證 (Google Ads: Measurement Certification)</title>
+        <title lang="be">Google Ads: сертыфікацыя вымярэнняў (Google Ads: Measurement Certification)</title>
+        <title lang="bg">Google Ads: Сертификация за измерване (Google Ads: Measurement Certification)</title>
+        <title lang="bn">Google বিজ্ঞাপন: পরিমাপ সার্টিফিকেশন (Google Ads: Measurement Certification)</title>
+        <title lang="ca">Google Ads: Certificació en Medició (Google Ads: Measurement Certification)</title>
+        <title lang="cs">Google Ads: Certifikace měření (Google Ads: Measurement Certification)</title>
+        <title lang="da">Google Ads: Målingscertificering (Google Ads: Measurement Certification)</title>
+        <title lang="de">Google Ads: Messzertifizierung (Google Ads: Measurement Certification)</title>
+        <title lang="el">Google Ads: Πιστοποίηση μέτρησης (Google Ads: Measurement Certification)</title>
+        <title lang="et">Google Ads: mõõtmise sertifikaat (Google Ads: Measurement Certification)</title>
+        <title lang="eu">Google Ads: Neurketa Ziurtagiria (Google Ads: Measurement Certification)</title>
+        <title lang="fa">تبلیغات گوگل: گواهی سنجش (Google Ads: Measurement Certification)</title>
+        <title lang="fi">Google Ads: Mittaussertifiointi (Google Ads: Measurement Certification)</title>
+        <title lang="fil">Google Ads: Sertipikasyon ng Pagsukat (Google Ads: Measurement Certification)</title>
+        <title lang="fr">Google Ads : certification de mesure (Google Ads: Measurement Certification)</title>
+        <title lang="gl">Google Ads: Certificación de medición (Google Ads: Measurement Certification)</title>
+        <title lang="gu">Google જાહેરાતો: માપન પ્રમાણપત્ર (Google Ads: Measurement Certification)</title>
+        <title lang="hi">Google विज्ञापन: मापन प्रमाणन (Google Ads: Measurement Certification)</title>
+        <title lang="hr">Google Ads: Certifikacija mjerenja (Google Ads: Measurement Certification)</title>
+        <title lang="hu">Google Ads: Mérési minősítés (Google Ads: Measurement Certification)</title>
+        <title lang="hy">Google Ads. Չափման հավաստագրում (Google Ads: Measurement Certification)</title>
+        <title lang="in">Google Ads: Sertifikasi Pengukuran (Google Ads: Measurement Certification)</title>
+        <title lang="is">Google Ads: Mælingarvottun (Google Ads: Measurement Certification)</title>
+        <title lang="it">Google Ads: certificazione di misurazione (Google Ads: Measurement Certification)</title>
+        <title lang="iw">Google Ads: Certificación en Medición (Google Ads: Measurement Certification)</title>
+        <title lang="ja">Google 広告: 測定認定 (Google Ads: Measurement Certification)</title>
+        <title lang="ka">Google Ads: გაზომვის სერთიფიკატი (Google Ads: Measurement Certification)</title>
+        <title lang="kk">Google Ads: өлшеу сертификаты (Google Ads: Measurement Certification)</title>
+        <title lang="km">ការផ្សាយពាណិជ្ជកម្មតាម Google៖ ការវាស់វែងវិញ្ញាបនប័ត្រ (Google Ads: Measurement Certification)</title>
+        <title lang="kn">Google ಜಾಹೀರಾತುಗಳು: ಮಾಪನ ಪ್ರಮಾಣೀಕರಣ (Google Ads: Measurement Certification)</title>
+        <title lang="ko">Google Ads: 측정 인증 (Google Ads: Measurement Certification)</title>
+        <title lang="ky">Google Ads: өлчөө сертификаты (Google Ads: Measurement Certification)</title>
+        <title lang="lo">Google Ads: ການຢັ້ງຢືນການວັດແທກ (Google Ads: Measurement Certification)</title>
+        <title lang="lt">Google Ads: matavimo sertifikatas (Google Ads: Measurement Certification)</title>
+        <title lang="lv">Google Ads: mērījumu sertifikācija (Google Ads: Measurement Certification)</title>
+        <title lang="mk">Google Ads: Сертификација за мерење (Google Ads: Measurement Certification)</title>
+        <title lang="ml">Google പരസ്യങ്ങൾ: മെഷർമെൻ്റ് സർട്ടിഫിക്കേഷൻ (Google Ads: Measurement Certification)</title>
+        <title lang="mn">Google зар: Хэмжилтийн гэрчилгээ (Google Ads: Measurement Certification)</title>
+        <title lang="mr">Google जाहिराती: मापन प्रमाणन (Google Ads: Measurement Certification)</title>
+        <title lang="ms">Google Ads: Pensijilan Pengukuran (Google Ads: Measurement Certification)</title>
+        <title lang="my">Google Ads- အတိုင်းအတာ အသိအမှတ်ပြုလက်မှတ် (Google Ads: Measurement Certification)</title>
+        <title lang="ne">गुगल विज्ञापन: मापन प्रमाणीकरण (Google Ads: Measurement Certification)</title>
+        <title lang="nl">Google Ads: meetcertificering (Google Ads: Measurement Certification)</title>
+        <title lang="no">Google Ads: Målingssertifisering (Google Ads: Measurement Certification)</title>
+        <title lang="pa">Google Ads: ਮਾਪ ਪ੍ਰਮਾਣੀਕਰਨ (Google Ads: Measurement Certification)</title>
+        <title lang="pl">Google Ads: Certyfikat pomiarowy (Google Ads: Measurement Certification)</title>
+        <title lang="pt-rBR">Google Ads: certificação de medição (Google Ads: Measurement Certification)</title>
+        <title lang="pt-rPT">Google Ads: certificação de medição (Google Ads: Measurement Certification)</title>
+        <title lang="rm">Google Ads: Messzertifizierung (Google Ads: Measurement Certification)</title>
+        <title lang="ro">Google Ads: Certificare de măsurare (Google Ads: Measurement Certification)</title>
+        <title lang="ru">Google Реклама: сертификация измерений (Google Ads: Measurement Certification)</title>
+        <title lang="si">Google දැන්වීම්: මිනුම් සහතිකය (Google Ads: Measurement Certification)</title>
+        <title lang="sk">Google Ads: Certifikácia merania (Google Ads: Measurement Certification)</title>
+        <title lang="sq">Google Ads: Certifikimi i Matjes (Google Ads: Measurement Certification)</title>
+        <title lang="sr">Гоогле Адс: Сертификат мерења (Google Ads: Measurement Certification)</title>
+        <title lang="sv">Google Ads: Mätningscertifiering (Google Ads: Measurement Certification)</title>
+        <title lang="sw">Google Ads: Cheti cha Kipimo (Google Ads: Measurement Certification)</title>
+        <title lang="ta">Google விளம்பரங்கள்: அளவீட்டு சான்றிதழ் (Google Ads: Measurement Certification)</title>
+        <title lang="te">Google ప్రకటనలు: కొలత ధృవీకరణ (Google Ads: Measurement Certification)</title>
+        <title lang="th">Google Ads: การรับรองการวัดผล (Google Ads: Measurement Certification)</title>
+        <title lang="tr">Google Ads: Ölçüm Sertifikası (Google Ads: Measurement Certification)</title>
+        <title lang="uk">Google Ads: сертифікація вимірювань (Google Ads: Measurement Certification)</title>
+        <title lang="ur">گوگل اشتہارات: پیمائش کی تصدیق (Google Ads: Measurement Certification)</title>
+        <title lang="vi">Google Ads: Chứng nhận đo lường (Google Ads: Measurement Certification)</title>
+        <title lang="zu">I-Google Ads: Isitifiketi Sokulinganisa (Google Ads: Measurement Certification)</title>
+        <title lang="sl">Google Ads: Certificiranje meritev (Google Ads: Measurement Certification)</title>
+        <title lang="pt">Google Ads: certificação de medição (Google Ads: Measurement Certification)</title>
+        <title lang="zh">Google Ads：衡量认证 (Google Ads: Measurement Certification)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>172694249</id>
+      <image>/imagenes/certificados/172694249.png</image>
+      <issuer>Google</issuer>
+      <date_issued>ene. 2026</date_issued>
+      <date_expires>ene. 2026</date_expires>
+      <url>https://skillshop.credential.net/bc08adc7-88c3-4ded-b065-7727d2ddf9d8#acc.rDJuL0GP</url>
+      <titles>
+        <title lang="es">Certificación de Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="en">Display &amp; Video 360 Certification (Display &amp; Video 360 certification)</title>
+        <title lang="af">Display &amp; Video 360-sertifisering (Display &amp; Video 360 certification)</title>
+        <title lang="am">ማሳያ እና ቪዲዮ 360 ማረጋገጫ (Display &amp; Video 360 certification)</title>
+        <title lang="ar">شهادة العرض والفيديو 360 (Display &amp; Video 360 certification)</title>
+        <title lang="az">Display &amp; Video 360 Sertifikatı (Display &amp; Video 360 certification)</title>
+        <title lang="b+zh+Hans">Display &amp; Video 360 认证 (Display &amp; Video 360 certification)</title>
+        <title lang="b+zh+Hant">Display &amp; Video 360 認證 (Display &amp; Video 360 certification)</title>
+        <title lang="be">Сертыфікацыя Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="bg">Сертифициране на Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="bn">Display &amp; Video 360 সার্টিফিকেশন (Display &amp; Video 360 certification)</title>
+        <title lang="ca">Certificació de Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="cs">Certifikace Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="da">Display &amp; Video 360-certificering (Display &amp; Video 360 certification)</title>
+        <title lang="de">Display &amp; Video 360-Zertifizierung (Display &amp; Video 360 certification)</title>
+        <title lang="el">Πιστοποίηση Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="et">Display &amp; Video 360 sertifikaat (Display &amp; Video 360 certification)</title>
+        <title lang="eu">Display &amp; Video 360 ziurtagiria (Display &amp; Video 360 certification)</title>
+        <title lang="fa">گواهی Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="fi">Display &amp; Video 360 -sertifiointi (Display &amp; Video 360 certification)</title>
+        <title lang="fil">Display &amp; Video 360 Certification (Display &amp; Video 360 certification)</title>
+        <title lang="fr">Certification Display &amp; Vidéo 360 (Display &amp; Video 360 certification)</title>
+        <title lang="gl">Certificación Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="gu">Display &amp; Video 360 પ્રમાણપત્ર (Display &amp; Video 360 certification)</title>
+        <title lang="hi">प्रदर्शन एवं वीडियो 360 प्रमाणन (Display &amp; Video 360 certification)</title>
+        <title lang="hr">Certifikacija Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="hu">Display &amp; Video 360 minősítés (Display &amp; Video 360 certification)</title>
+        <title lang="hy">Display &amp; Video 360 սերտիֆիկացում (Display &amp; Video 360 certification)</title>
+        <title lang="in">Sertifikasi Tampilan &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="is">Display &amp; Video 360 vottun (Display &amp; Video 360 certification)</title>
+        <title lang="it">Certificazione Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="iw">Certificación de Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="ja">ディスプレイ＆ビデオ 360 認定 (Display &amp; Video 360 certification)</title>
+        <title lang="ka">Display &amp; Video 360 სერთიფიკატი (Display &amp; Video 360 certification)</title>
+        <title lang="kk">Display &amp; Video 360 сертификаты (Display &amp; Video 360 certification)</title>
+        <title lang="km">វិញ្ញាបនប័ត្រ Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="kn">ಪ್ರದರ್ಶನ ಮತ್ತು ವೀಡಿಯೊ 360 ಪ್ರಮಾಣೀಕರಣ (Display &amp; Video 360 certification)</title>
+        <title lang="ko">Display &amp; Video 360 인증 (Display &amp; Video 360 certification)</title>
+        <title lang="ky">Display &amp; Video 360 сертификаты (Display &amp; Video 360 certification)</title>
+        <title lang="lo">ການຢັ້ງຢືນການສະແດງຜົນ ແລະວິດີໂອ 360 (Display &amp; Video 360 certification)</title>
+        <title lang="lt">„Display &amp; Video 360“ sertifikatas (Display &amp; Video 360 certification)</title>
+        <title lang="lv">Display &amp; Video 360 sertifikācija (Display &amp; Video 360 certification)</title>
+        <title lang="mk">Сертификација за Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="ml">ഡിസ്പ്ലേ &amp; വീഡിയോ 360 ​​സർട്ടിഫിക്കേഷൻ (Display &amp; Video 360 certification)</title>
+        <title lang="mn">Display &amp; Video 360 гэрчилгээ (Display &amp; Video 360 certification)</title>
+        <title lang="mr">Display &amp; Video 360 प्रमाणन (Display &amp; Video 360 certification)</title>
+        <title lang="ms">Pensijilan Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="my">Display &amp; Video 360 အသိအမှတ်ပြုလက်မှတ် (Display &amp; Video 360 certification)</title>
+        <title lang="ne">प्रदर्शन र भिडियो 360 प्रमाणीकरण (Display &amp; Video 360 certification)</title>
+        <title lang="nl">Display &amp; Video 360-certificering (Display &amp; Video 360 certification)</title>
+        <title lang="no">Display &amp; Video 360-sertifisering (Display &amp; Video 360 certification)</title>
+        <title lang="pa">ਡਿਸਪਲੇ ਅਤੇ ਵੀਡੀਓ 360 ਪ੍ਰਮਾਣੀਕਰਨ (Display &amp; Video 360 certification)</title>
+        <title lang="pl">Certyfikat Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="pt-rBR">Certificação Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="pt-rPT">Certificação Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="rm">Display &amp; Video 360-Zertifizierung (Display &amp; Video 360 certification)</title>
+        <title lang="ro">Certificare Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="ru">Сертификация Дисплея и Видео 360 (Display &amp; Video 360 certification)</title>
+        <title lang="si">සංදර්ශක සහ වීඩියෝ 360 සහතිකය (Display &amp; Video 360 certification)</title>
+        <title lang="sk">certifikácia Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="sq">Certifikimi i Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="sr">Дисплаи &amp; Видео 360 сертификат (Display &amp; Video 360 certification)</title>
+        <title lang="sv">Display &amp; Video 360-certifiering (Display &amp; Video 360 certification)</title>
+        <title lang="sw">Uthibitishaji wa Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="ta">காட்சி &amp; வீடியோ 360 சான்றிதழ் (Display &amp; Video 360 certification)</title>
+        <title lang="te">ప్రదర్శన &amp; వీడియో 360 సర్టిఫికేషన్ (Display &amp; Video 360 certification)</title>
+        <title lang="th">การรับรอง Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="tr">Display &amp; Video 360 Sertifikasyonu (Display &amp; Video 360 certification)</title>
+        <title lang="uk">Сертифікація Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="ur">ڈسپلے اور ویڈیو 360 سرٹیفیکیشن (Display &amp; Video 360 certification)</title>
+        <title lang="vi">Chứng nhận Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="zu">I-Display &amp; Video 360 Certification (Display &amp; Video 360 certification)</title>
+        <title lang="sl">Certificiranje Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="pt">Certificação Display &amp; Video 360 (Display &amp; Video 360 certification)</title>
+        <title lang="zh">Display &amp; Video 360 认证 (Display &amp; Video 360 certification)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>156660481</id>
+      <image>/imagenes/certificados/156660481.png</image>
+      <issuer>Google</issuer>
+      <date_issued>jul. 2025</date_issued>
+      <date_expires>jul. 2026</date_expires>
+      <url>https://skillshop.credential.net/00a116b0-336a-4323-b340-de7f334c3f83#acc.kVfLjery</url>
+      <titles>
+        <title lang="es">Certificación de Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="en">Campaign Manager 360 Certification (Campaign Manager 360 Certification)</title>
+        <title lang="af">Veldtogbestuurder 360-sertifisering (Campaign Manager 360 Certification)</title>
+        <title lang="am">የዘመቻ አስተዳዳሪ 360 ማረጋገጫ (Campaign Manager 360 Certification)</title>
+        <title lang="ar">شهادة مدير الحملة 360 (Campaign Manager 360 Certification)</title>
+        <title lang="az">Campaign Manager 360 Sertifikatı (Campaign Manager 360 Certification)</title>
+        <title lang="b+zh+Hans">Campaign Manager 360 认证 (Campaign Manager 360 Certification)</title>
+        <title lang="b+zh+Hant">Campaign Manager 360 認證 (Campaign Manager 360 Certification)</title>
+        <title lang="be">Сертыфікат Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="bg">Сертифициране на Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="bn">ক্যাম্পেইন ম্যানেজার 360 সার্টিফিকেশন (Campaign Manager 360 Certification)</title>
+        <title lang="ca">Certificació de Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="cs">Certifikace Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="da">Campaign Manager 360-certificering (Campaign Manager 360 Certification)</title>
+        <title lang="de">Campaign Manager 360-Zertifizierung (Campaign Manager 360 Certification)</title>
+        <title lang="el">Πιστοποίηση Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="et">Campaign Manager 360 sertifikaat (Campaign Manager 360 Certification)</title>
+        <title lang="eu">Campaign Manager 360 ziurtagiria (Campaign Manager 360 Certification)</title>
+        <title lang="fa">گواهینامه Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="fi">Campaign Manager 360 -sertifiointi (Campaign Manager 360 Certification)</title>
+        <title lang="fil">Certification ng Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="fr">Certification Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="gl">Certificación Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="gu">ઝુંબેશ મેનેજર 360 પ્રમાણપત્ર (Campaign Manager 360 Certification)</title>
+        <title lang="hi">अभियान प्रबंधक 360 प्रमाणन (Campaign Manager 360 Certification)</title>
+        <title lang="hr">Certifikacija za Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="hu">Campaign Manager 360 minősítés (Campaign Manager 360 Certification)</title>
+        <title lang="hy">Campaign Manager 360 սերտիֆիկացում (Campaign Manager 360 Certification)</title>
+        <title lang="in">Sertifikasi Manajer Kampanye 360 (Campaign Manager 360 Certification)</title>
+        <title lang="is">Campaign Manager 360 vottun (Campaign Manager 360 Certification)</title>
+        <title lang="it">Certificazione Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="iw">Certificación de Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="ja">キャンペーン マネージャー 360 認定資格 (Campaign Manager 360 Certification)</title>
+        <title lang="ka">Campaign Manager 360 სერთიფიკატი (Campaign Manager 360 Certification)</title>
+        <title lang="kk">Campaign Manager 360 сертификаты (Campaign Manager 360 Certification)</title>
+        <title lang="km">វិញ្ញាបនប័ត្រអ្នកគ្រប់គ្រងយុទ្ធនាការ 360 (Campaign Manager 360 Certification)</title>
+        <title lang="kn">ಕ್ಯಾಂಪೇನ್ ಮ್ಯಾನೇಜರ್ 360 ಪ್ರಮಾಣೀಕರಣ (Campaign Manager 360 Certification)</title>
+        <title lang="ko">Campaign Manager 360 인증 (Campaign Manager 360 Certification)</title>
+        <title lang="ky">Campaign Manager 360 сертификаты (Campaign Manager 360 Certification)</title>
+        <title lang="lo">Campaign Manager 360 ການຮັບຮອງ (Campaign Manager 360 Certification)</title>
+        <title lang="lt">Campaign Manager 360 sertifikatas (Campaign Manager 360 Certification)</title>
+        <title lang="lv">Campaign Manager 360 sertifikācija (Campaign Manager 360 Certification)</title>
+        <title lang="mk">Сертификација на Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="ml">കാമ്പെയ്ൻ മാനേജർ 360 സർട്ടിഫിക്കേഷൻ (Campaign Manager 360 Certification)</title>
+        <title lang="mn">Campaign Manager 360 гэрчилгээ (Campaign Manager 360 Certification)</title>
+        <title lang="mr">मोहीम व्यवस्थापक 360 प्रमाणन (Campaign Manager 360 Certification)</title>
+        <title lang="ms">Pensijilan Pengurus Kempen 360 (Campaign Manager 360 Certification)</title>
+        <title lang="my">ကမ်ပိန်းမန်နေဂျာ 360 အသိအမှတ်ပြုလက်မှတ် (Campaign Manager 360 Certification)</title>
+        <title lang="ne">अभियान प्रबन्धक 360 प्रमाणीकरण (Campaign Manager 360 Certification)</title>
+        <title lang="nl">Campaign Manager 360-certificering (Campaign Manager 360 Certification)</title>
+        <title lang="no">Campaign Manager 360-sertifisering (Campaign Manager 360 Certification)</title>
+        <title lang="pa">ਮੁਹਿੰਮ ਪ੍ਰਬੰਧਕ 360 ਪ੍ਰਮਾਣੀਕਰਨ (Campaign Manager 360 Certification)</title>
+        <title lang="pl">Certyfikat Campaign Managera 360 (Campaign Manager 360 Certification)</title>
+        <title lang="pt-rBR">Certificação Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="pt-rPT">Certificação Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="rm">Campaign Manager 360-Zertifizierung (Campaign Manager 360 Certification)</title>
+        <title lang="ro">Certificare Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="ru">Сертификация Менеджера кампаний 360 (Campaign Manager 360 Certification)</title>
+        <title lang="si">ප්‍රචාරක කළමනාකරු 360 සහතිකය (Campaign Manager 360 Certification)</title>
+        <title lang="sk">certifikácia Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="sq">Certifikimi i Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="sr">Цампаигн Манагер 360 сертификат (Campaign Manager 360 Certification)</title>
+        <title lang="sv">Campaign Manager 360-certifiering (Campaign Manager 360 Certification)</title>
+        <title lang="sw">Cheti cha Meneja wa Kampeni 360 (Campaign Manager 360 Certification)</title>
+        <title lang="ta">பிரச்சார மேலாளர் 360 சான்றிதழ் (Campaign Manager 360 Certification)</title>
+        <title lang="te">ప్రచార నిర్వాహకుడు 360 సర్టిఫికేషన్ (Campaign Manager 360 Certification)</title>
+        <title lang="th">การรับรอง Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="tr">Campaign Manager 360 Sertifikası (Campaign Manager 360 Certification)</title>
+        <title lang="uk">Сертифікація Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="ur">مہم مینیجر 360 سرٹیفیکیشن (Campaign Manager 360 Certification)</title>
+        <title lang="vi">Chứng nhận Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="zu">Isitifiketi se-Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="sl">Certificiranje Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="pt">Certificação Campaign Manager 360 (Campaign Manager 360 Certification)</title>
+        <title lang="zh">Campaign Manager 360 认证 (Campaign Manager 360 Certification)</title>
+      </titles>
+    </certificate>
+    <certificate>
+      <id>156511928</id>
+      <image>/imagenes/certificados/156511928.png</image>
+      <issuer>Google</issuer>
+      <date_issued>jul. 2025</date_issued>
+      <date_expires>jul. 2026</date_expires>
+      <url>https://skillshop.credential.net/0d838d9b-2edf-41ec-a498-2802292d57b6#acc.m9rbTzNS</url>
+      <titles>
+        <title lang="es">Certificación en Display de Google Ads (Google Ads Display Certification)</title>
+        <title lang="en">Google Ads Display Certification (Google Ads Display Certification)</title>
+        <title lang="af">Google Advertensies Vertoon Sertifisering (Google Ads Display Certification)</title>
+        <title lang="am">የGoogle ማስታወቂያዎች ማሳያ ማረጋገጫ (Google Ads Display Certification)</title>
+        <title lang="ar">شهادة عرض إعلانات Google (Google Ads Display Certification)</title>
+        <title lang="az">Google Ads Ekran Sertifikatı (Google Ads Display Certification)</title>
+        <title lang="b+zh+Hans">Google Ads 展示认证 (Google Ads Display Certification)</title>
+        <title lang="b+zh+Hant">Google Ads 展示認證 (Google Ads Display Certification)</title>
+        <title lang="be">Сертыфікат Google Ads Display (Google Ads Display Certification)</title>
+        <title lang="bg">Google Ads Display Certification (Google Ads Display Certification)</title>
+        <title lang="bn">Google বিজ্ঞাপন প্রদর্শন সার্টিফিকেশন (Google Ads Display Certification)</title>
+        <title lang="ca">Certificació en Display de Google Ads (Google Ads Display Certification)</title>
+        <title lang="cs">certifikace Google Ads pro Obsahovou síť (Google Ads Display Certification)</title>
+        <title lang="da">Google Ads Display-certificering (Google Ads Display Certification)</title>
+        <title lang="de">Google Ads Display-Zertifizierung (Google Ads Display Certification)</title>
+        <title lang="el">Πιστοποίηση εμφάνισης Google Ads (Google Ads Display Certification)</title>
+        <title lang="et">Google Adsi Display-võrgustiku sertifikaat (Google Ads Display Certification)</title>
+        <title lang="eu">Google Ads bistaratzeko ziurtagiria (Google Ads Display Certification)</title>
+        <title lang="fa">گواهی نمایش تبلیغات گوگل (Google Ads Display Certification)</title>
+        <title lang="fi">Google Ads Display -sertifiointi (Google Ads Display Certification)</title>
+        <title lang="fil">Google Ads Display Certification (Google Ads Display Certification)</title>
+        <title lang="fr">Certification d'affichage Google Ads (Google Ads Display Certification)</title>
+        <title lang="gl">Certificación de visualización de Google Ads (Google Ads Display Certification)</title>
+        <title lang="gu">Google જાહેરાત પ્રદર્શન પ્રમાણપત્ર (Google Ads Display Certification)</title>
+        <title lang="hi">Google विज्ञापन प्रदर्शन प्रमाणन (Google Ads Display Certification)</title>
+        <title lang="hr">Google Ads Display Certifikacija (Google Ads Display Certification)</title>
+        <title lang="hu">Google Ads Display-minősítés (Google Ads Display Certification)</title>
+        <title lang="hy">Google Ads Display Certification (Google Ads Display Certification)</title>
+        <title lang="in">Sertifikasi Tampilan Google Ads (Google Ads Display Certification)</title>
+        <title lang="is">Sýningarvottun Google Ads (Google Ads Display Certification)</title>
+        <title lang="it">Certificazione Display di Google Ads (Google Ads Display Certification)</title>
+        <title lang="iw">Certificación en Display de Google Ads (Google Ads Display Certification)</title>
+        <title lang="ja">Google 広告ディスプレイ認定資格 (Google Ads Display Certification)</title>
+        <title lang="ka">Google Ads ჩვენების სერთიფიკატი (Google Ads Display Certification)</title>
+        <title lang="kk">Google Ads дисплей сертификаты (Google Ads Display Certification)</title>
+        <title lang="km">វិញ្ញាបនបត្របង្ហាញការផ្សាយពាណិជ្ជកម្ម Google (Google Ads Display Certification)</title>
+        <title lang="kn">Google ಜಾಹೀರಾತುಗಳ ಪ್ರದರ್ಶನ ಪ್ರಮಾಣೀಕರಣ (Google Ads Display Certification)</title>
+        <title lang="ko">Google Ads 디스플레이 인증 (Google Ads Display Certification)</title>
+        <title lang="ky">Google Ads дисплей сертификаты (Google Ads Display Certification)</title>
+        <title lang="lo">ການຢັ້ງຢືນການສະແດງໂຄສະນາຂອງ Google (Google Ads Display Certification)</title>
+        <title lang="lt">Google Ads Vaizdinės reklamos tinklo sertifikatas (Google Ads Display Certification)</title>
+        <title lang="lv">Google Ads reklāmas tīkla sertifikācija (Google Ads Display Certification)</title>
+        <title lang="mk">Сертификација за прикажување на реклами на Google (Google Ads Display Certification)</title>
+        <title lang="ml">Google പരസ്യ പ്രദർശന സർട്ടിഫിക്കേഷൻ (Google Ads Display Certification)</title>
+        <title lang="mn">Google зарын дэлгэцийн гэрчилгээ (Google Ads Display Certification)</title>
+        <title lang="mr">Google जाहिराती प्रदर्शन प्रमाणन (Google Ads Display Certification)</title>
+        <title lang="ms">Pensijilan Paparan Google Ads (Google Ads Display Certification)</title>
+        <title lang="my">Google Ads Display အသိအမှတ်ပြုလက်မှတ် (Google Ads Display Certification)</title>
+        <title lang="ne">गुगल विज्ञापन प्रदर्शन प्रमाणीकरण (Google Ads Display Certification)</title>
+        <title lang="nl">Google Ads Display-certificering (Google Ads Display Certification)</title>
+        <title lang="no">Google Ads Display-sertifisering (Google Ads Display Certification)</title>
+        <title lang="pa">Google Ads ਡਿਸਪਲੇ ਪ੍ਰਮਾਣੀਕਰਨ (Google Ads Display Certification)</title>
+        <title lang="pl">Certyfikat wyświetlania reklam Google Ads (Google Ads Display Certification)</title>
+        <title lang="pt-rBR">Certificação de exibição do Google Ads (Google Ads Display Certification)</title>
+        <title lang="pt-rPT">Certificação de exibição do Google Ads (Google Ads Display Certification)</title>
+        <title lang="rm">Google Ads Display-Zertifizierung (Google Ads Display Certification)</title>
+        <title lang="ro">Certificare de afișare Google Ads (Google Ads Display Certification)</title>
+        <title lang="ru">Сертификация медийной рекламы Google Рекламы (Google Ads Display Certification)</title>
+        <title lang="si">Google දැන්වීම් සංදර්ශක සහතිකය (Google Ads Display Certification)</title>
+        <title lang="sk">certifikácia Obsahová sieť Google Ads (Google Ads Display Certification)</title>
+        <title lang="sq">Certifikimi i shfaqjes së reklamave të Google (Google Ads Display Certification)</title>
+        <title lang="sr">Гоогле Адс сертификат за Мрежу мултимедијалног оглашавања (Google Ads Display Certification)</title>
+        <title lang="sv">Google Ads Display-certifiering (Google Ads Display Certification)</title>
+        <title lang="sw">Uthibitishaji wa Maonyesho ya Matangazo ya Google (Google Ads Display Certification)</title>
+        <title lang="ta">Google விளம்பரங்கள் காட்சி சான்றிதழ் (Google Ads Display Certification)</title>
+        <title lang="te">Google ప్రకటనల ప్రదర్శన ధృవీకరణ (Google Ads Display Certification)</title>
+        <title lang="th">การรับรองการแสดงผลของ Google Ads (Google Ads Display Certification)</title>
+        <title lang="tr">Google Ads Görüntülü Reklam Sertifikası (Google Ads Display Certification)</title>
+        <title lang="uk">Сертифікація медійної реклами Google (Google Ads Display Certification)</title>
+        <title lang="ur">گوگل اشتہارات ڈسپلے سرٹیفیکیشن (Google Ads Display Certification)</title>
+        <title lang="vi">Giấy chứng nhận hiển thị Google Ads (Google Ads Display Certification)</title>
+        <title lang="zu">Isitifiketi Sokuboniswa Kwezikhangiso ze-Google (Google Ads Display Certification)</title>
+        <title lang="sl">Certificiranje Google Ads Display (Google Ads Display Certification)</title>
+        <title lang="pt">Certificação de exibição do Google Ads (Google Ads Display Certification)</title>
+        <title lang="zh">Google Ads 展示认证 (Google Ads Display Certification)</title>
+      </titles>
+    </certificate>
+  </certificates>
+</portfolio>
