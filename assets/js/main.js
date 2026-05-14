@@ -2430,6 +2430,23 @@
     initGlowTilt();
   }
 
+  /* [10] GOOGLE ANALYTICS */
+  function initGoogleAnalytics() {
+    var gtagId = 'G-DCFXYMEDSF';
+    
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gtagId;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    window.gtag = gtag;
+    
+    gtag('js', new Date());
+    gtag('config', gtagId);
+  }
+
   /* [09] BOOTSTRAP */
 
   function boot() {
@@ -2441,6 +2458,7 @@
     bindContactPopup();
     initBadges();
     initEffects();
+    initGoogleAnalytics();
 
     document.addEventListener('site:header-loaded', function () { initLanguage(); bindContactPopup(); lazyAllImages(); initGlowTilt(); });
     document.addEventListener('site:footer-loaded', function () { initLanguage(); bindContactPopup(); lazyAllImages(); initGlowTilt(); });
