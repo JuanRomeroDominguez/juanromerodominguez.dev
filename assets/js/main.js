@@ -9,7 +9,7 @@
 
   var JRD = window.JRD = window.JRD || {};
   var siteRoot = '/';
-  var languages = ['af', 'am', 'ar', 'az', 'be', 'bg', 'bn', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'eu', 'fa', 'fi', 'fil', 'fr', 'gl', 'gu', 'hi', 'hr', 'hu', 'hy', 'in', 'is', 'it', 'iw', 'ja', 'ka', 'kk', 'km', 'kn', 'ko', 'ky', 'lo', 'lt', 'lv', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 'nl', 'no', 'pa', 'pl', 'pt', 'rm', 'ro', 'ru', 'si', 'sk', 'sl', 'sq', 'sr', 'sv', 'sw', 'ta', 'te', 'th', 'tr', 'uk', 'ur', 'vi', 'zh', 'zu'];
+  var languages = ['af', 'am', 'ar', 'az', 'b+zh+Hans', 'b+zh+Hant', 'be', 'bg', 'bn', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'eu', 'fa', 'fi', 'fil', 'fr', 'gl', 'gu', 'hi', 'hr', 'hu', 'hy', 'in', 'is', 'it', 'iw', 'ja', 'ka', 'kk', 'km', 'kn', 'ko', 'ky', 'lo', 'lt', 'lv', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 'nl', 'no', 'pa', 'pl', 'pt-rBR', 'pt-rPT', 'pt', 'rm', 'ro', 'ru', 'si', 'sk', 'sl', 'sq', 'sr', 'sv', 'sw', 'ta', 'te', 'th', 'tr', 'uk', 'ur', 'vi', 'zh', 'zu'];
   var languageOptions = [
     {
       "code": "af",
@@ -307,9 +307,15 @@
 
   function normalizeLang(code) {
     if (!code) { return null; }
-    code = String(code).toLowerCase().split('-')[0];
-    if (aliases[code]) { code = aliases[code]; }
-    return languages.indexOf(code) >= 0 ? code : null;
+    code = String(code).toLowerCase();
+    // 1. Exact match in languages array
+    if (languages.indexOf(code) >= 0) { return code; }
+    // 2. Alias match
+    if (aliases[code]) { return aliases[code]; }
+    // 3. Base language match (e.g. pt-BR -> pt)
+    var base = code.split('-')[0];
+    if (languages.indexOf(base) >= 0) { return base; }
+    return null;
   }
 
   function isExternalUrl(value) { return /^(https?:|mailto:|tel:|#|data:|blob:)/i.test(String(value || '')); }
@@ -2175,6 +2181,162 @@
 
   JRD.badges = { init: initBadges };
 
+  /* [06b] DYNAMIC CERTIFICATES */
+
+  var certsXmlUrl = '/certificados.xml';
+  var certsXmlRequest = null;
+
+  function certContainers() {
+    return Array.prototype.slice.call(document.querySelectorAll('.cert-list'));
+  }
+
+  function getCertLabel(xml, lang, labelName) {
+    var entries = xml.getElementsByTagName('entry');
+    // 1. Try exact match
+    for (var i = 0; i < entries.length; i++) {
+      if (entries[i].getAttribute('lang') === lang) {
+        var el = entries[i].getElementsByTagName(labelName)[0];
+        if (el) return (el.textContent || '').trim();
+      }
+    }
+    // 2. Try base language fallback (e.g. pt-rBR -> pt)
+    if (lang && lang.indexOf('-') !== -1) {
+      var base = lang.split('-')[0];
+      return getCertLabel(xml, base, labelName);
+    }
+    // 3. Final fallback to English
+    if (lang !== 'en') return getCertLabel(xml, 'en', labelName);
+    return '';
+  }
+
+  function getCertTitle(titlesNode, lang) {
+    if (!titlesNode) return 'Certificate';
+    var titles = titlesNode.getElementsByTagName('title');
+    // 1. Try exact match
+    for (var i = 0; i < titles.length; i++) {
+      if (titles[i].getAttribute('lang') === lang) {
+        var text = (titles[i].textContent || '').trim();
+        if (text) return text;
+      }
+    }
+    // 2. Try base language fallback
+    if (lang && lang.indexOf('-') !== -1) {
+      var base = lang.split('-')[0];
+      return getCertTitle(titlesNode, base);
+    }
+    // 3. Final fallback to English
+    if (lang !== 'en') return getCertTitle(titlesNode, 'en');
+    return titles[0] ? (titles[0].textContent || '').trim() : 'Certificate';
+  }
+
+  function createCertCard(cert, labels) {
+    var article = document.createElement('article');
+    article.className = 'cert-list-card';
+
+    var img = document.createElement('img');
+    img.className = 'cert-thumb';
+    img.src = cert.image;
+    img.alt = cert.title;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+
+    var div = document.createElement('div');
+    var h3 = document.createElement('h3');
+    h3.textContent = cert.title;
+
+    var pIssuer = document.createElement('p');
+    pIssuer.className = 'cert-meta';
+    pIssuer.textContent = cert.issuer;
+
+    var pMeta = document.createElement('p');
+    pMeta.className = 'cert-meta';
+    var metaText = labels.issued + ': ' + cert.date_issued;
+    if (cert.date_expires) {
+      metaText += ' · ' + labels.expires + ': ' + cert.date_expires;
+    }
+    metaText += ' · ' + labels.credential_id + ': ' + cert.id;
+    pMeta.textContent = metaText;
+
+    var a = document.createElement('a');
+    a.href = cert.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = labels.view_btn;
+
+    div.appendChild(h3);
+    div.appendChild(pIssuer);
+    div.appendChild(pMeta);
+    div.appendChild(a);
+
+    article.appendChild(img);
+    article.appendChild(div);
+
+    return article;
+  }
+
+  function renderCertificates(containers, data) {
+    containers.forEach(function (container) {
+      var fragment = document.createDocumentFragment();
+      data.certificates.forEach(function (cert) {
+        fragment.appendChild(createCertCard(cert, data.labels));
+      });
+      container.innerHTML = '';
+      container.appendChild(fragment);
+      container.dataset.certsLoaded = 'true';
+    });
+  }
+
+  function initCertificates() {
+    var containers = certContainers();
+    if (!containers.length || !window.fetch || !window.DOMParser) { return; }
+
+    if (certsXmlRequest) {
+      certsXmlRequest.then(function (data) { renderCertificates(containers, data); });
+      return;
+    }
+
+    certsXmlRequest = fetch(certsXmlUrl, { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      })
+      .then(function (text) {
+        var xml = new DOMParser().parseFromString(text, 'application/xml');
+        var lang = activeLanguage();
+        var labels = {
+          issued: getCertLabel(xml, lang, 'issued'),
+          expires: getCertLabel(xml, lang, 'expires'),
+          credential_id: getCertLabel(xml, lang, 'credential_id'),
+          view_btn: getCertLabel(xml, lang, 'view_btn')
+        };
+        var certificates = Array.prototype.slice.call(xml.getElementsByTagName('certificate')).map(function (node) {
+          return {
+            id: (node.getElementsByTagName('id')[0].textContent || '').trim(),
+            image: (node.getElementsByTagName('image')[0].textContent || '').trim(),
+            issuer: (node.getElementsByTagName('issuer')[0].textContent || '').trim(),
+            date_issued: (node.getElementsByTagName('date_issued')[0].textContent || '').trim(),
+            date_expires: (node.getElementsByTagName('date_expires')[0].textContent || '').trim(),
+            url: (node.getElementsByTagName('url')[0].textContent || '').trim(),
+            title: getCertTitle(node.getElementsByTagName('titles')[0], lang)
+          };
+        });
+        return { labels: labels, certificates: certificates };
+      })
+      .catch(function (err) {
+        certsXmlRequest = null;
+        console.warn('Error cargando certificados:', err);
+      });
+
+    certsXmlRequest.then(function (data) {
+      if (data) {
+        renderCertificates(containers, data);
+        initGlowTilt();
+      }
+    });
+  }
+
+  JRD.certificates = { init: initCertificates };
+
   /* [07] CONTACT POPUP */
 
   function closePopup() {
@@ -2528,6 +2690,7 @@
     initLanguage();
     bindContactPopup();
     initBadges();
+    initCertificates();
     initEffects();
     initGoogleAnalytics();
     initEventTracking();
