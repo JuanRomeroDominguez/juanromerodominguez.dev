@@ -2337,6 +2337,192 @@
 
   JRD.certificates = { init: initCertificates };
 
+  /* [06c] DYNAMIC APPS */
+
+  var appsXmlUrl = '/apps.xml';
+  var appsXmlRequest = null;
+
+  function appContainers() {
+    return Array.prototype.slice.call(document.querySelectorAll('#apps .portfolio-grid'));
+  }
+
+  function getAppLabel(xml, lang, labelName) {
+    var entries = xml.getElementsByTagName('entry');
+    for (var i = 0; i < entries.length; i++) {
+      if (entries[i].getAttribute('lang') === lang) {
+        var el = entries[i].getElementsByTagName(labelName)[0];
+        if (el) return (el.textContent || '').trim();
+      }
+    }
+    if (lang && lang.indexOf('-') !== -1) return getAppLabel(xml, lang.split('-')[0], labelName);
+    if (lang !== 'en') return getAppLabel(xml, 'en', labelName);
+    return '';
+  }
+
+  function getAppString(node, tagName, lang) {
+    if (!node) return '';
+    var items = node.getElementsByTagName(tagName);
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].getAttribute('lang') === lang) {
+        var text = (items[i].textContent || '').trim();
+        if (text) return text;
+      }
+    }
+    if (lang && lang.indexOf('-') !== -1) return getAppString(node, tagName, lang.split('-')[0]);
+    if (lang !== 'en') return getAppString(node, tagName, 'en');
+    return items[0] ? (items[0].textContent || '').trim() : '';
+  }
+
+  function createAppCard(app, labels) {
+    var article = document.createElement('article');
+    article.className = 'portfolio-card android-app-card';
+
+    var panel = document.createElement('div');
+    panel.className = 'android-app-panel';
+
+    var h3 = document.createElement('h3');
+    h3.className = 'android-app-title';
+    h3.textContent = app.title;
+
+    var mainDiv = document.createElement('div');
+    mainDiv.className = 'android-app-main';
+
+    var icon = document.createElement('img');
+    icon.className = 'app-icon';
+    icon.src = app.icon;
+    icon.alt = 'Icono de ' + app.title;
+    icon.loading = 'lazy';
+    icon.decoding = 'async';
+
+    var info = document.createElement('div');
+    info.className = 'android-app-info';
+    var p = document.createElement('p');
+    p.textContent = app.description;
+    var pkg = document.createElement('div');
+    pkg.className = 'package';
+    pkg.textContent = app.package;
+
+    info.appendChild(p);
+    info.appendChild(pkg);
+    mainDiv.appendChild(icon);
+    mainDiv.appendChild(info);
+    panel.appendChild(h3);
+    panel.appendChild(mainDiv);
+
+    var stores = document.createElement('div');
+    stores.className = 'app-store-buttons';
+    stores.setAttribute('aria-label', labels.available_stores + ' ' + app.title);
+
+    var storeTypes = [
+      { id: 'google_play', img: 'GetItOnGooglePlay.png' },
+      { id: 'huawei', img: 'GetItOnAppGallery.png' },
+      { id: 'samsung', img: 'GetItOnGalaxyStore.png' },
+      { id: 'xiaomi', img: 'GetItOnMiStore.png' },
+      { id: 'apple', img: 'GetItOnAppStore.png' },
+      { id: 'amazon', img: 'GetItOnAmazonAppstore.png' }
+    ];
+
+    storeTypes.forEach(function (st) {
+      var url = app.urls[st.id];
+      if (!url) return;
+      var a = document.createElement('a');
+      a.className = 'app-store-button store-badge-only';
+      a.href = url;
+      if (url !== '#') {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+      var storeName = labels[st.id] || st.id;
+      var ariaLabel = labels.download_on.replace('{app}', app.title).replace('{store}', storeName);
+      a.setAttribute('aria-label', ariaLabel);
+      a.title = ariaLabel;
+
+      var img = document.createElement('img');
+      img.src = '/imagenes/tiendas/' + st.img;
+      img.alt = ariaLabel;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+
+      a.appendChild(img);
+      stores.appendChild(a);
+    });
+
+    article.appendChild(panel);
+    article.appendChild(stores);
+    return article;
+  }
+
+  function renderApps(containers, data) {
+    containers.forEach(function (container) {
+      var fragment = document.createDocumentFragment();
+      data.apps.forEach(function (app) {
+        fragment.appendChild(createAppCard(app, data.labels));
+      });
+      container.innerHTML = '';
+      container.appendChild(fragment);
+      container.dataset.appsLoaded = 'true';
+    });
+  }
+
+  function initApps() {
+    var containers = appContainers();
+    if (!containers.length || !window.fetch || !window.DOMParser) { return; }
+
+    if (appsXmlRequest) {
+      appsXmlRequest.then(function (data) { renderApps(containers, data); });
+      return;
+    }
+
+    appsXmlRequest = fetch(appsXmlUrl, { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      })
+      .then(function (text) {
+        var xml = new DOMParser().parseFromString(text, 'application/xml');
+        var lang = activeLanguage();
+        var labels = {
+          available_stores: getAppLabel(xml, lang, 'available_stores'),
+          download_on: getAppLabel(xml, lang, 'download_on'),
+          google_play: getAppLabel(xml, lang, 'google_play'),
+          huawei: getAppLabel(xml, lang, 'huawei'),
+          samsung: getAppLabel(xml, lang, 'samsung'),
+          xiaomi: getAppLabel(xml, lang, 'xiaomi'),
+          apple: getAppLabel(xml, lang, 'apple'),
+          amazon: getAppLabel(xml, lang, 'amazon')
+        };
+        var apps = Array.prototype.slice.call(xml.getElementsByTagName('app')).map(function (node) {
+          var urls = {};
+          var urlNodes = node.getElementsByTagName('url');
+          for (var i = 0; i < urlNodes.length; i++) {
+            urls[urlNodes[i].getAttribute('store')] = (urlNodes[i].textContent || '').trim();
+          }
+          return {
+            id: (node.getElementsByTagName('id')[0].textContent || '').trim(),
+            package: (node.getElementsByTagName('package')[0].textContent || '').trim(),
+            icon: (node.getElementsByTagName('icon')[0].textContent || '').trim(),
+            title: getAppString(node.getElementsByTagName('titles')[0], 'title', lang),
+            description: getAppString(node.getElementsByTagName('descriptions')[0], 'description', lang),
+            urls: urls
+          };
+        });
+        return { labels: labels, apps: apps };
+      })
+      .catch(function (err) {
+        appsXmlRequest = null;
+        console.warn('Error cargando apps:', err);
+      });
+
+    appsXmlRequest.then(function (data) {
+      if (data) {
+        renderApps(containers, data);
+        initGlowTilt();
+      }
+    });
+  }
+
+  JRD.apps = { init: initApps };
+
   /* [07] CONTACT POPUP */
 
   function closePopup() {
@@ -2691,6 +2877,7 @@
     bindContactPopup();
     initBadges();
     initCertificates();
+    initApps();
     initEffects();
     initGoogleAnalytics();
     initEventTracking();
