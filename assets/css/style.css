@@ -1061,10 +1061,11 @@ footer {
     max-width: 150px;
     height: 46px;
     min-width: 0;
-    object-fit: contain;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none
+    object-fit: cover;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: none;
+    clip-path: inset(2px round 10px);
 }
 
 .app-store-button span {
@@ -1553,13 +1554,14 @@ body::before {
     height: auto;
     max-height: 58px;
     aspect-ratio: 10/3;
-    object-fit: contain;
-    background: transparent !important;
+    object-fit: cover;
+    background: #000 !important;
     border: 0 !important;
-    border-radius: 0 !important;
+    border-radius: 12px !important;
     box-shadow: none !important;
     padding: 0 !important;
-    margin: 0 !important
+    margin: 0 !important;
+    clip-path: inset(2px round 12px);
 }
 
 #apps .app-store-button span {
