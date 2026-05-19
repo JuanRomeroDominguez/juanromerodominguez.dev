@@ -1247,7 +1247,7 @@
       </descriptions>
       <urls>
         <url store="google_play">https://play.google.com/store/apps/details?id=dev.juanromerodominguez.qrevent</url>
-        <url store="huawei">#</url>
+        <url store="huawei">https://appgallery.huawei.com/app/C117743435</url>
         <url store="samsung">#</url>
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
@@ -2917,7 +2917,7 @@
       </descriptions>
       <urls>
         <url store="google_play">https://play.google.com/store/apps/details?id=dev.juanromerodominguez.vanitymirror</url>
-        <url store="huawei">#</url>
+        <url store="huawei">https://appgallery.huawei.com/app/C117586821</url>
         <url store="samsung">#</url>
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
