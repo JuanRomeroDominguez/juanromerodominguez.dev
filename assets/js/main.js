@@ -2419,7 +2419,9 @@
       { id: 'samsung', img: 'GetItOnGalaxyStore.png' },
       { id: 'xiaomi', img: 'GetItOnMiStore.png' },
       { id: 'apple', img: 'GetItOnAppStore.png' },
-      { id: 'amazon', img: 'GetItOnAmazonAppstore.png' }
+      { id: 'amazon', img: 'GetItOnAmazonAppstore.png' },
+      { id: 'uptodown', img: 'GetItOnUptodown.png' },
+      { id: 'rustore', img: 'GetItOnRuStore.png' }
     ];
 
     storeTypes.forEach(function (st) {
@@ -2489,7 +2491,9 @@
           samsung: getAppLabel(xml, lang, 'samsung'),
           xiaomi: getAppLabel(xml, lang, 'xiaomi'),
           apple: getAppLabel(xml, lang, 'apple'),
-          amazon: getAppLabel(xml, lang, 'amazon')
+          amazon: getAppLabel(xml, lang, 'amazon'),
+          uptodown: getAppLabel(xml, lang, 'uptodown'),
+          rustore: getAppLabel(xml, lang, 'rustore')
         };
         var apps = Array.prototype.slice.call(xml.getElementsByTagName('app')).map(function (node) {
           var urls = {};
