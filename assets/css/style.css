@@ -251,6 +251,67 @@ body {
     margin-top: 0
 }
 
+/* Accordion styling for all main sections */
+main > section.accordion {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: padding-bottom 0.3s ease;
+}
+
+main > section.accordion.expanded {
+    padding-bottom: 20px;
+}
+
+main > section.accordion h2 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    margin-bottom: 0;
+    transition: margin-bottom 0.3s ease;
+}
+
+main > section.accordion.expanded h2 {
+    margin-bottom: 15px;
+}
+
+/* Accordion indicator */
+main > section.accordion h2::after {
+    content: '▼';
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    color: var(--accent);
+}
+
+main > section.accordion.expanded h2::after {
+    transform: rotate(180deg);
+}
+
+/* Smooth collapse using CSS grid */
+main > section.accordion .accordion-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+}
+
+main > section.accordion.expanded .accordion-wrapper {
+    grid-template-rows: 1fr;
+}
+
+main > section.accordion .accordion-inner {
+    overflow: hidden;
+}
+
+/* Adjust margins inside accordion-inner to avoid layout shift and clipping issues */
+main > section.accordion .accordion-inner > *:first-child {
+    margin-top: 10px;
+}
+main > section.accordion .accordion-inner > *:last-child {
+    margin-bottom: 0;
+}
+
 .server-list {
     display: flex;
     flex-wrap: wrap;

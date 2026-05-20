@@ -2866,10 +2866,92 @@
     });
   }
 
+  /* [08b] MAIN SECTIONS ACCORDION */
+
+  function initAccordions() {
+    if (!isHomePage()) { return; }
+    
+    var states = {};
+    try {
+      states = JSON.parse(localStorage.getItem('jrd_accordion_states') || '{}');
+    } catch (e) {
+      console.warn('Error reading accordion states:', e);
+    }
+
+    var sections = document.querySelectorAll('main > section');
+    sections.forEach(function (section) {
+      var h2 = section.querySelector('h2');
+      if (!h2) { return; } // Skip sections without an h2 (like hero)
+
+      // Identify section: section 2 has no ID, so we use 'about-me'
+      var id = section.id || 'about-me';
+      
+      // Default: section 2 (about-me) is collapsed (false), others are expanded (true)
+      var defaultExpanded = (id !== 'about-me');
+      var isExpanded = defaultExpanded;
+      if (states.hasOwnProperty(id)) {
+        isExpanded = states[id];
+      } else {
+        states[id] = isExpanded;
+      }
+
+      var wrapper = document.createElement('div');
+      wrapper.className = 'accordion-wrapper';
+      var inner = document.createElement('div');
+      inner.className = 'accordion-inner';
+      wrapper.appendChild(inner);
+
+      // Move siblings of h2 into the inner container
+      var next = h2.nextSibling;
+      while (next) {
+        var toMove = next;
+        next = next.nextSibling;
+        inner.appendChild(toMove);
+      }
+
+      section.appendChild(wrapper);
+      section.classList.add('accordion');
+      
+      if (isExpanded) {
+        section.classList.add('expanded');
+      }
+
+      h2.addEventListener('click', function () {
+        var nowExpanded = section.classList.toggle('expanded');
+        h2.setAttribute('aria-expanded', nowExpanded ? 'true' : 'false');
+        states[id] = nowExpanded;
+        try {
+          localStorage.setItem('jrd_accordion_states', JSON.stringify(states));
+        } catch (e) {
+          console.warn('Error saving accordion states:', e);
+        }
+      });
+
+      h2.setAttribute('role', 'button');
+      h2.setAttribute('tabindex', '0');
+      h2.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      h2.setAttribute('aria-controls', 'accordion-content-' + id);
+      wrapper.id = 'accordion-content-' + id;
+
+      h2.addEventListener('keydown', function (e) {
+        if (e.key === ' ' || e.key === 'Enter') {
+          e.preventDefault();
+          h2.click();
+        }
+      });
+    });
+
+    // Save states back in case defaults were populated
+    try {
+      localStorage.setItem('jrd_accordion_states', JSON.stringify(states));
+    } catch (e) {}
+  }
+
   /* [09] BOOTSTRAP */
 
   function boot() {
     ensureSharedHead();
+    initAccordions();
     lazyAllImages();
     redirectRootIfNeeded();
     initLayout();
