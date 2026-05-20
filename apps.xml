@@ -10,6 +10,8 @@
       <xiaomi>Mi Store</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="en">
       <available_stores>Available stores for</available_stores>
@@ -20,6 +22,8 @@
       <xiaomi>Mi Store</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sl">
       <available_stores>Trgovine so na voljo za</available_stores>
@@ -30,6 +34,8 @@
       <xiaomi>Moja trgovina</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="af">
       <available_stores>Winkels beskikbaar vir</available_stores>
@@ -40,6 +46,8 @@
       <xiaomi>My winkel</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="am">
       <available_stores>መደብሮች ይገኛሉ ለ</available_stores>
@@ -50,6 +58,8 @@
       <xiaomi>የእኔ መደብር</xiaomi>
       <apple>የመተግበሪያ መደብር</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ar">
       <available_stores>المتاجر المتاحة ل</available_stores>
@@ -60,6 +70,8 @@
       <xiaomi>متجري</xiaomi>
       <apple>متجر التطبيقات</apple>
       <amazon>متجر تطبيقات أمازون</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="az">
       <available_stores>Üçün mağazalar mövcuddur</available_stores>
@@ -70,6 +82,8 @@
       <xiaomi>Mənim Mağazam</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="b+zh+Hans">
       <available_stores>商店可供</available_stores>
@@ -80,6 +94,8 @@
       <xiaomi>我的商店</xiaomi>
       <apple>应用商店</apple>
       <amazon>亚马逊应用商店</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="b+zh+Hant">
       <available_stores>商店可供</available_stores>
@@ -90,6 +106,8 @@
       <xiaomi>我的商店</xiaomi>
       <apple>應用程式商店</apple>
       <amazon>亞馬遜應用商店</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="be">
       <available_stores>Крамы даступныя для</available_stores>
@@ -100,6 +118,8 @@
       <xiaomi>Мая крама</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="bg">
       <available_stores>Налични магазини за</available_stores>
@@ -110,6 +130,8 @@
       <xiaomi>Моят магазин</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="bn">
       <available_stores>জন্য উপলব্ধ দোকান</available_stores>
@@ -120,6 +142,8 @@
       <xiaomi>আমার দোকান</xiaomi>
       <apple>অ্যাপ স্টোর</apple>
       <amazon>অ্যামাজন অ্যাপস্টোর</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ca">
       <available_stores>Botigues disponibles per</available_stores>
@@ -130,6 +154,8 @@
       <xiaomi>El meu Store</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="cs">
       <available_stores>Dostupné obchody pro</available_stores>
@@ -140,6 +166,8 @@
       <xiaomi>Můj obchod</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="da">
       <available_stores>Butikker til rådighed for</available_stores>
@@ -150,6 +178,8 @@
       <xiaomi>Min butik</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="de">
       <available_stores>Geschäfte verfügbar für</available_stores>
@@ -160,6 +190,8 @@
       <xiaomi>Mein Shop</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="el">
       <available_stores>Καταστήματα διαθέσιμα για</available_stores>
@@ -170,6 +202,8 @@
       <xiaomi>Το Κατάστημά μου</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="et">
       <available_stores>Kauplused saadaval</available_stores>
@@ -180,6 +214,8 @@
       <xiaomi>Minu pood</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="eu">
       <available_stores>Dendak eskuragarri</available_stores>
@@ -190,6 +226,8 @@
       <xiaomi>Nire denda</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="fa">
       <available_stores>فروشگاه های موجود برای</available_stores>
@@ -200,6 +238,8 @@
       <xiaomi>فروشگاه من</xiaomi>
       <apple>اپ استور</apple>
       <amazon>اپ استور آمازون</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="fi">
       <available_stores>Myymälät saatavilla</available_stores>
@@ -210,6 +250,8 @@
       <xiaomi>Oma kauppa</xiaomi>
       <apple>App Storesta</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="fil">
       <available_stores>Available ang mga tindahan para sa</available_stores>
@@ -220,6 +262,8 @@
       <xiaomi>Aking Tindahan</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="fr">
       <available_stores>Magasins disponibles pour</available_stores>
@@ -230,6 +274,8 @@
       <xiaomi>Mon magasin</xiaomi>
       <apple>Magasin d'applications</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="gl">
       <available_stores>Tendas dispoñibles para</available_stores>
@@ -240,6 +286,8 @@
       <xiaomi>A miña tenda</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="gu">
       <available_stores>માટે ઉપલબ્ધ સ્ટોર્સ</available_stores>
@@ -250,6 +298,8 @@
       <xiaomi>મારી દુકાન</xiaomi>
       <apple>એપ સ્ટોર</apple>
       <amazon>એમેઝોન એપસ્ટોર</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="hi">
       <available_stores>के लिए स्टोर उपलब्ध हैं</available_stores>
@@ -260,6 +310,8 @@
       <xiaomi>मेरा स्टोर</xiaomi>
       <apple>ऐप स्टोर</apple>
       <amazon>अमेज़न ऐपस्टोर</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="hr">
       <available_stores>Dostupne trgovine za</available_stores>
@@ -270,6 +322,8 @@
       <xiaomi>Moja trgovina</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="hu">
       <available_stores>Üzletek elérhető</available_stores>
@@ -280,6 +334,8 @@
       <xiaomi>Saját üzlet</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="hy">
       <available_stores>Խանութներ մատչելի են</available_stores>
@@ -290,6 +346,8 @@
       <xiaomi>Իմ Խանութ</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="in">
       <available_stores>Toko tersedia untuk</available_stores>
@@ -300,6 +358,8 @@
       <xiaomi>Toko saya</xiaomi>
       <apple>Toko Aplikasi</apple>
       <amazon>Toko Aplikasi Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="is">
       <available_stores>Verslanir í boði fyrir</available_stores>
@@ -310,6 +370,8 @@
       <xiaomi>Verslunin mín</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="it">
       <available_stores>Negozi disponibili per</available_stores>
@@ -320,6 +382,8 @@
       <xiaomi>Il mio negozio</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="iw">
       <available_stores>Tiendas disponibles para</available_stores>
@@ -330,6 +394,8 @@
       <xiaomi>Mi Store</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ja">
       <available_stores>利用できる店舗</available_stores>
@@ -340,6 +406,8 @@
       <xiaomi>私のストア</xiaomi>
       <apple>アプリストア</apple>
       <amazon>アマゾンアプリストア</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ka">
       <available_stores>მაღაზიები ხელმისაწვდომია</available_stores>
@@ -350,6 +418,8 @@
       <xiaomi>ჩემი მაღაზია</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="kk">
       <available_stores>үшін қолжетімді дүкендер</available_stores>
@@ -360,6 +430,8 @@
       <xiaomi>Менің дүкенім</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="km">
       <available_stores>ហាងអាចរកបានសម្រាប់</available_stores>
@@ -370,6 +442,8 @@
       <xiaomi>ហាងរបស់ខ្ញុំ</xiaomi>
       <apple>ហាងកម្មវិធី</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="kn">
       <available_stores>ಗಾಗಿ ಅಂಗಡಿಗಳು ಲಭ್ಯವಿದೆ</available_stores>
@@ -380,6 +454,8 @@
       <xiaomi>ನನ್ನ ಅಂಗಡಿ</xiaomi>
       <apple>ಆಪ್ ಸ್ಟೋರ್</apple>
       <amazon>ಅಮೆಜಾನ್ ಆಪ್ ಸ್ಟೋರ್</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ko">
       <available_stores>이용 가능한 매장</available_stores>
@@ -390,6 +466,8 @@
       <xiaomi>내 가게</xiaomi>
       <apple>앱스토어</apple>
       <amazon>아마존 앱스토어</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ky">
       <available_stores>үчүн жеткиликтүү дүкөндөр</available_stores>
@@ -400,6 +478,8 @@
       <xiaomi>Менин дүкөнүм</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="lo">
       <available_stores>ຮ້ານຄ້າທີ່ມີຢູ່ສໍາລັບ</available_stores>
@@ -410,6 +490,8 @@
       <xiaomi>ຮ້ານຂອງຂ້ອຍ</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="lt">
       <available_stores>Parduotuvės, skirtos</available_stores>
@@ -420,6 +502,8 @@
       <xiaomi>Mano parduotuvė</xiaomi>
       <apple>App Store</apple>
       <amazon>„Amazon App Store“.</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="lv">
       <available_stores>Veikali pieejami par</available_stores>
@@ -430,6 +514,8 @@
       <xiaomi>Mans veikals</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="mk">
       <available_stores>Продавници достапни за</available_stores>
@@ -440,6 +526,8 @@
       <xiaomi>Моја продавница</xiaomi>
       <apple>App Store</apple>
       <amazon>Амазон App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ml">
       <available_stores>സ്റ്റോറുകൾ ലഭ്യമാണ്</available_stores>
@@ -450,6 +538,8 @@
       <xiaomi>എൻ്റെ സ്റ്റോർ</xiaomi>
       <apple>ആപ്പ് സ്റ്റോർ</apple>
       <amazon>ആമസോൺ ആപ്പ്സ്റ്റോർ</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="mn">
       <available_stores>Дэлгүүрүүд боломжтой</available_stores>
@@ -460,6 +550,8 @@
       <xiaomi>Миний дэлгүүр</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="mr">
       <available_stores>साठी स्टोअर्स उपलब्ध आहेत</available_stores>
@@ -470,6 +562,8 @@
       <xiaomi>माझे स्टोअर</xiaomi>
       <apple>ॲप स्टोअर</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ms">
       <available_stores>Kedai tersedia untuk</available_stores>
@@ -480,6 +574,8 @@
       <xiaomi>Kedai Saya</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="my">
       <available_stores>စတိုးဆိုင်များအတွက်ရရှိနိုင်</available_stores>
@@ -490,6 +586,8 @@
       <xiaomi>ငါ့စတိုး</xiaomi>
       <apple>အက်ပ်စတိုး</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ne">
       <available_stores>को लागि उपलब्ध स्टोरहरू</available_stores>
@@ -500,6 +598,8 @@
       <xiaomi>मेरो स्टोर</xiaomi>
       <apple>एप स्टोर</apple>
       <amazon>अमेजन एपस्टोर</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="nl">
       <available_stores>Winkels beschikbaar voor</available_stores>
@@ -510,6 +610,8 @@
       <xiaomi>Mijn winkel</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="no">
       <available_stores>Butikker tilgjengelig for</available_stores>
@@ -520,6 +622,8 @@
       <xiaomi>Min butikk</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="pa">
       <available_stores>ਲਈ ਉਪਲਬਧ ਸਟੋਰ</available_stores>
@@ -530,6 +634,8 @@
       <xiaomi>ਮੇਰਾ ਸਟੋਰ</xiaomi>
       <apple>ਐਪ ਸਟੋਰ</apple>
       <amazon>ਐਮਾਜ਼ਾਨ ਐਪ ਸਟੋਰ</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="pl">
       <available_stores>Sklepy dostępne dla</available_stores>
@@ -540,6 +646,8 @@
       <xiaomi>Mój sklep</xiaomi>
       <apple>Sklep z aplikacjami</apple>
       <amazon>Sklep z aplikacjami Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="pt-rBR">
       <available_stores>Lojas disponíveis para</available_stores>
@@ -550,6 +658,8 @@
       <xiaomi>Minha loja</xiaomi>
       <apple>Loja de aplicativos</apple>
       <amazon>Loja de aplicativos da Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="pt-rPT">
       <available_stores>Lojas disponíveis para</available_stores>
@@ -560,6 +670,8 @@
       <xiaomi>Minha loja</xiaomi>
       <apple>Loja de aplicativos</apple>
       <amazon>Loja de aplicativos Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="rm">
       <available_stores>Geschäfte verfügbar für</available_stores>
@@ -570,6 +682,8 @@
       <xiaomi>Mein Shop</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ro">
       <available_stores>Magazine disponibile pt</available_stores>
@@ -580,6 +694,8 @@
       <xiaomi>Magazinul meu</xiaomi>
       <apple>App Store</apple>
       <amazon>Magazinul de aplicații Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ru">
       <available_stores>Магазины доступны для</available_stores>
@@ -590,6 +706,8 @@
       <xiaomi>Мой магазин</xiaomi>
       <apple>Магазин приложений</apple>
       <amazon>Amazon AppStore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="si">
       <available_stores>සඳහා වෙළඳසැල් තිබේ</available_stores>
@@ -600,6 +718,8 @@
       <xiaomi>මගේ ගබඩාව</xiaomi>
       <apple>යෙදුම් වෙළඳසැල</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sk">
       <available_stores>Dostupné obchody pre</available_stores>
@@ -610,6 +730,8 @@
       <xiaomi>Môj obchod</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sq">
       <available_stores>Dyqane në dispozicion për</available_stores>
@@ -620,6 +742,8 @@
       <xiaomi>Dyqani im</xiaomi>
       <apple>App Store</apple>
       <amazon>Dyqani i aplikacioneve në Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sr">
       <available_stores>Продавнице доступне за</available_stores>
@@ -630,6 +754,8 @@
       <xiaomi>Моја продавница</xiaomi>
       <apple>Апп Сторе</apple>
       <amazon>Амазон Аппсторе</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sv">
       <available_stores>Butiker tillgängliga för</available_stores>
@@ -640,6 +766,8 @@
       <xiaomi>Min butik</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="sw">
       <available_stores>Maduka yanapatikana kwa</available_stores>
@@ -650,6 +778,8 @@
       <xiaomi>Hifadhi Yangu</xiaomi>
       <apple>Duka la Programu</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ta">
       <available_stores>கடைகளில் கிடைக்கும்</available_stores>
@@ -660,6 +790,8 @@
       <xiaomi>எனது கடை</xiaomi>
       <apple>ஆப் ஸ்டோர்</apple>
       <amazon>அமேசான் ஆப்ஸ்டோர்</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="te">
       <available_stores>కోసం అందుబాటులో దుకాణాలు</available_stores>
@@ -670,6 +802,8 @@
       <xiaomi>నా స్టోర్</xiaomi>
       <apple>యాప్ స్టోర్</apple>
       <amazon>Amazon Appstore</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="th">
       <available_stores>ร้านค้ามีจำหน่ายสำหรับ</available_stores>
@@ -680,6 +814,8 @@
       <xiaomi>ร้านค้าของฉัน</xiaomi>
       <apple>แอพสโตร์</apple>
       <amazon>อเมซอน แอพสโตร์</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="tr">
       <available_stores>Mevcut mağazalar</available_stores>
@@ -690,6 +826,8 @@
       <xiaomi>Mağazam</xiaomi>
       <apple>Uygulama Mağazası</apple>
       <amazon>Amazon Uygulama Mağazası</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="uk">
       <available_stores>Доступні магазини для</available_stores>
@@ -700,6 +838,8 @@
       <xiaomi>Мій магазин</xiaomi>
       <apple>App Store</apple>
       <amazon>Магазин додатків Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="ur">
       <available_stores>کے لیے دستیاب اسٹورز</available_stores>
@@ -710,6 +850,8 @@
       <xiaomi>میرا اسٹور</xiaomi>
       <apple>ایپ اسٹور</apple>
       <amazon>ایمیزون ایپ اسٹور</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="vi">
       <available_stores>Cửa hàng có sẵn cho</available_stores>
@@ -720,6 +862,8 @@
       <xiaomi>Cửa hàng của tôi</xiaomi>
       <apple>Cửa hàng ứng dụng</apple>
       <amazon>Cửa hàng ứng dụng Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="zu">
       <available_stores>Izitolo ziyatholakala</available_stores>
@@ -730,6 +874,8 @@
       <xiaomi>Isitolo sami</xiaomi>
       <apple>App Store</apple>
       <amazon>Amazon App Store</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="pt">
       <available_stores>Lojas disponíveis para</available_stores>
@@ -740,6 +886,8 @@
       <xiaomi>Minha loja</xiaomi>
       <apple>Loja de aplicativos</apple>
       <amazon>Loja de aplicativos Amazon</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
     <entry lang="zh">
       <available_stores>商店可供</available_stores>
@@ -750,6 +898,8 @@
       <xiaomi>我的商店</xiaomi>
       <apple>应用商店</apple>
       <amazon>亚马逊应用商店</amazon>
+      <uptodown>Uptodown</uptodown>
+      <rustore>RuStore</rustore>
     </entry>
   </dictionary>
   <apps>
@@ -918,6 +1068,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1085,6 +1237,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1252,6 +1406,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1419,6 +1575,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1586,6 +1744,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1753,6 +1913,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -1920,6 +2082,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2087,6 +2251,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2254,6 +2420,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2421,6 +2589,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2588,6 +2758,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2755,6 +2927,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -2922,6 +3096,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
     <app>
@@ -3089,6 +3265,8 @@
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
         <url store="amazon">#</url>
+        <url store="uptodown">#</url>
+        <url store="rustore">#</url>
       </urls>
     </app>
   </apps>
