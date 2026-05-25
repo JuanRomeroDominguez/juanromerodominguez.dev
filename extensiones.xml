@@ -1,0 +1,783 @@
+<?xml version="1.0" ?>
+<portfolio>
+  <dictionary>
+    <entry lang="es">
+      <available_stores>Tiendas disponibles para</available_stores>
+      <download_on>Descargar {app} en {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="en">
+      <available_stores>Available stores for</available_stores>
+      <download_on>Download {app} on {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sl">
+      <available_stores>Trgovine so na voljo za</available_stores>
+      <download_on>Prenesite {aplikacijo} v {trgovini}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="af">
+      <available_stores>Winkels beskikbaar vir</available_stores>
+      <download_on>Laai {app} af in {winkel}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="am">
+      <available_stores>መደብሮች ይገኛሉ ለ</available_stores>
+      <download_on>{መተግበሪያ}ን በ{store} አውርድ</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ar">
+      <available_stores>المتاجر المتاحة ل</available_stores>
+      <download_on>تنزيل {التطبيق} في {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="az">
+      <available_stores>Üçün mağazalar mövcuddur</available_stores>
+      <download_on>{tətbiqi {store}-də endirin</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="b+zh+Hans">
+      <available_stores>商店可供</available_stores>
+      <download_on>在{store}下载{app}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="b+zh+Hant">
+      <available_stores>商店可供</available_stores>
+      <download_on>在{store}下載{app}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="be">
+      <available_stores>Крамы даступныя для</available_stores>
+      <download_on>Спампаваць {app} у {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="bg">
+      <available_stores>Налични магазини за</available_stores>
+      <download_on>Изтеглете {app} в {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="bn">
+      <available_stores>জন্য উপলব্ধ দোকান</available_stores>
+      <download_on>{store} এ {app} ডাউনলোড করুন</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ca">
+      <available_stores>Botigues disponibles per</available_stores>
+      <download_on>Descarregar {app} a {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="cs">
+      <available_stores>Dostupné obchody pro</available_stores>
+      <download_on>Stáhnout aplikaci {app} v obchodě {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="da">
+      <available_stores>Butikker til rådighed for</available_stores>
+      <download_on>Download {app} i {butik}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="de">
+      <available_stores>Geschäfte verfügbar für</available_stores>
+      <download_on>Laden Sie {app} im {store} herunter</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="el">
+      <available_stores>Καταστήματα διαθέσιμα για</available_stores>
+      <download_on>Λήψη της εφαρμογής {app} στο {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="et">
+      <available_stores>Kauplused saadaval</available_stores>
+      <download_on>Laadige {app} alla poest {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="eu">
+      <available_stores>Dendak eskuragarri</available_stores>
+      <download_on>Deskargatu {app} {dendan}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="fa">
+      <available_stores>فروشگاه های موجود برای</available_stores>
+      <download_on>دانلود {app} در {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="fi">
+      <available_stores>Myymälät saatavilla</available_stores>
+      <download_on>Lataa {app} {store}ssa</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="fil">
+      <available_stores>Available ang mga tindahan para sa</available_stores>
+      <download_on>I-download ang {app} sa {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="fr">
+      <available_stores>Magasins disponibles pour</available_stores>
+      <download_on>Téléchargez {app} dans {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="gl">
+      <available_stores>Tendas dispoñibles para</available_stores>
+      <download_on>Descarga {app} en {tenda}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="gu">
+      <available_stores>માટે ઉપલબ્ધ સ્ટોર્સ</available_stores>
+      <download_on>{store} માં {app} ડાઉનલોડ કરો</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="hi">
+      <available_stores>के लिए स्टोर उपलब्ध हैं</available_stores>
+      <download_on>{स्टोर} में {ऐप} डाउनलोड करें</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="hr">
+      <available_stores>Dostupne trgovine za</available_stores>
+      <download_on>Preuzmite aplikaciju {app} u trgovini {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="hu">
+      <available_stores>Üzletek elérhető</available_stores>
+      <download_on>Az {app} letöltése a {store}-ból</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="hy">
+      <available_stores>Խանութներ մատչելի են</available_stores>
+      <download_on>Ներբեռնեք {app}-ը {store}-ում</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="in">
+      <available_stores>Toko tersedia untuk</available_stores>
+      <download_on>Unduh {app} di {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="is">
+      <available_stores>Verslanir í boði fyrir</available_stores>
+      <download_on>Sæktu {app} í {verslun}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="it">
+      <available_stores>Negozi disponibili per</available_stores>
+      <download_on>Scarica {app} nel {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ja">
+      <available_stores>利用できる店舗</available_stores>
+      <download_on>{ストア}で{アプリ}をダウンロード</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ka">
+      <available_stores>მაღაზიები ხელმისაწვდომია</available_stores>
+      <download_on>ჩამოტვირთეთ {app} {store}-ში</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="kk">
+      <available_stores>үшін қолжетімді дүкендер</available_stores>
+      <download_on>{store} дүкенінен {app} жүктеп алыңыз</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="km">
+      <available_stores>ហាងអាចរកបានសម្រាប់</available_stores>
+      <download_on>ទាញយក {app} នៅក្នុង {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="kn">
+      <available_stores>ಗಾಗಿ ಅಂಗಡಿಗಳು ಲಭ್ಯವಿದೆ</available_stores>
+      <download_on>{store} ನಲ್ಲಿ {app} ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ko">
+      <available_stores>이용 가능한 매장</available_stores>
+      <download_on>{store}에서 {app} 다운로드</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ky">
+      <available_stores>үчүн жеткиликтүү дүкөндөр</available_stores>
+      <download_on>{дүкөндөн} {колдонмосун} жүктөп алыңыз</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="lo">
+      <available_stores>ຮ້ານຄ້າທີ່ມີຢູ່ສໍາລັບ</available_stores>
+      <download_on>ດາວໂຫລດ {app} ໃນ {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="lt">
+      <available_stores>Parduotuvės, skirtos</available_stores>
+      <download_on>Atsisiųskite {app} iš {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="lv">
+      <available_stores>Veikali pieejami par</available_stores>
+      <download_on>Lejupielādēt {app} veikalā {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="mk">
+      <available_stores>Продавници достапни за</available_stores>
+      <download_on>Преземете ја {app} во {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ml">
+      <available_stores>സ്റ്റോറുകൾ ലഭ്യമാണ്</available_stores>
+      <download_on>{സ്റ്റോറിൽ} {app} ഡൗൺലോഡ് ചെയ്യുക</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="mn">
+      <available_stores>Дэлгүүрүүд боломжтой</available_stores>
+      <download_on>{дэлгүүр}-с {app} татаж авах</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="mr">
+      <available_stores>साठी स्टोअर्स उपलब्ध आहेत</available_stores>
+      <download_on>{store} मध्ये {app} डाउनलोड करा</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ms">
+      <available_stores>Kedai tersedia untuk</available_stores>
+      <download_on>Muat turun {app} dalam {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="my">
+      <available_stores>စတိုးဆိုင်များအတွက်ရရှိနိုင်</available_stores>
+      <download_on>{store} တွင် {app} ကို ဒေါင်းလုဒ်လုပ်ပါ</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ne">
+      <available_stores>को लागि उपलब्ध स्टोरहरू</available_stores>
+      <download_on>{store} मा {app} डाउनलोड गर्नुहोस्</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="nl">
+      <available_stores>Winkels beschikbaar voor</available_stores>
+      <download_on>Download {app} in {winkel}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="no">
+      <available_stores>Butikker tilgjengelig for</available_stores>
+      <download_on>Last ned {app} i {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="pa">
+      <available_stores>ਲਈ ਉਪਲਬਧ ਸਟੋਰ</available_stores>
+      <download_on>{store} ਵਿੱਚ {app} ਡਾਊਨਲੋਡ ਕਰੋ</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="pl">
+      <available_stores>Sklepy dostępne dla</available_stores>
+      <download_on>Pobierz {aplikację} w {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="pt-rBR">
+      <available_stores>Lojas disponíveis para</available_stores>
+      <download_on>Baixe {app} em {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="pt-rPT">
+      <available_stores>Lojas disponíveis para</available_stores>
+      <download_on>Baixe {app} em {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="rm">
+      <available_stores>Geschäfte verfügbar für</available_stores>
+      <download_on>Laden Sie {app} im {store} herunter</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ro">
+      <available_stores>Magazine disponibile pt</available_stores>
+      <download_on>Descărcați {aplicația} din {magazin}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ru">
+      <available_stores>Магазины доступны для</available_stores>
+      <download_on>Загрузите {приложение} в {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="si">
+      <available_stores>සඳහා වෙළඳසැල් තිබේ</available_stores>
+      <download_on>{store} තුළ {app} බාගන්න</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sk">
+      <available_stores>Dostupné obchody pre</available_stores>
+      <download_on>Stiahnite si aplikáciu {app} v obchode {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sq">
+      <available_stores>Dyqane në dispozicion për</available_stores>
+      <download_on>Shkarkoni {app} në {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sr">
+      <available_stores>Продавнице доступне за</available_stores>
+      <download_on>Преузмите {апп} у {сторе}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sv">
+      <available_stores>Butiker tillgängliga för</available_stores>
+      <download_on>Ladda ner {app} i {butik}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="sw">
+      <available_stores>Maduka yanapatikana kwa</available_stores>
+      <download_on>Pakua {app} kwenye {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ta">
+      <available_stores>கடைகளில் கிடைக்கும்</available_stores>
+      <download_on>{store} இல் {app}ஐப் பதிவிறக்கவும்</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="te">
+      <available_stores>కోసం అందుబాటులో దుకాణాలు</available_stores>
+      <download_on>{store}లో {app}ని డౌన్‌లోడ్ చేయండి</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="th">
+      <available_stores>ร้านค้ามีจำหน่ายสำหรับ</available_stores>
+      <download_on>ดาวน์โหลด {app} ใน {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="tr">
+      <available_stores>Mevcut mağazalar</available_stores>
+      <download_on>{store}'da {app}'ı indirin</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="uk">
+      <available_stores>Доступні магазини для</available_stores>
+      <download_on>Завантажте {app} у {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="ur">
+      <available_stores>کے لیے دستیاب اسٹورز</available_stores>
+      <download_on>{store} میں {app} ڈاؤن لوڈ کریں</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="vi">
+      <available_stores>Cửa hàng có sẵn cho</available_stores>
+      <download_on>Tải xuống {ứng dụng} trong {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="zu">
+      <available_stores>Izitolo ziyatholakala</available_stores>
+      <download_on>Landa i-{app} ku-{store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="pt">
+      <available_stores>Lojas disponíveis para</available_stores>
+      <download_on>Baixe {app} em {store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="zh">
+      <available_stores>商店可供</available_stores>
+      <download_on>在{store}下载{app}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+    <entry lang="iw">
+      <available_stores>חנויות זמינות עבור</available_stores>
+      <download_on>הורד את {app} ב-{store}</download_on>
+      <chrome>Chrome Web Store</chrome>
+      <firefox>Firefox Web Store</firefox>
+    </entry>
+  </dictionary>
+  <extensions>
+    <extension>
+      <id>volumeboost</id>
+      <package>volumeboost-extension</package>
+      <icon>/imagenes/iconos/volumeboost.jpg</icon>
+      <titles>
+        <title lang="es">Volume Boost: Motor de Audio Pro</title>
+        <title lang="en">Volume Boost: Pro Audio Engine</title>
+        <title lang="sl">Volume Boost: Pro Audio Engine</title>
+        <title lang="af">Volume Boost: Pro klank-enjin</title>
+        <title lang="am">Volume Boost: ፕሮ ኦዲዮ ሞተር</title>
+        <title lang="ar">Volume Boost: محرك الصوت المحترف</title>
+        <title lang="az">Volume Boost: Pro Audio Mühərriki</title>
+        <title lang="b+zh+Hans">Volume Boost: 专业音频引擎</title>
+        <title lang="b+zh+Hant">Volume Boost: 專業音訊引擎</title>
+        <title lang="be">Volume Boost: Pro Audio Engine</title>
+        <title lang="bg">Volume Boost: Професионален аудио двигател</title>
+        <title lang="bn">Volume Boost: প্রো অডিও ইঞ্জিন</title>
+        <title lang="ca">Volume Boost: Motor d'àudio professional</title>
+        <title lang="cs">Volume Boost: Pro Audio Engine</title>
+        <title lang="da">Volume Boost: Pro lydmotor</title>
+        <title lang="de">Volume Boost: Pro Audio Engine</title>
+        <title lang="el">Volume Boost: Pro Audio Engine</title>
+        <title lang="et">Volume Boost: Pro audio mootor</title>
+        <title lang="eu">Volume Boost: Pro Audio Motorra</title>
+        <title lang="fa">Volume Boost: موتور صوتی حرفه ای</title>
+        <title lang="fi">Volume Boost: Pro Audio Engine</title>
+        <title lang="fil">Volume Boost: Pro Audio Engine</title>
+        <title lang="fr">Volume Boost: Moteur audio professionnel</title>
+        <title lang="gl">Volume Boost: Motor de audio profesional</title>
+        <title lang="gu">Volume Boost: પ્રો ઓડિયો એન્જિન</title>
+        <title lang="hi">Volume Boost: प्रो ऑडियो इंजन</title>
+        <title lang="hr">Volume Boost: Pro Audio Engine</title>
+        <title lang="hu">Volume Boost: Pro Audio Engine</title>
+        <title lang="hy">Volume Boost: Pro Audio Engine</title>
+        <title lang="in">Volume Boost: Mesin Audio Pro</title>
+        <title lang="is">Volume Boost: Pro hljóðvél</title>
+        <title lang="it">Volume Boost: Motore audio professionale</title>
+        <title lang="ja">Volume Boost: プロオーディオエンジン</title>
+        <title lang="ka">Volume Boost: პრო აუდიო ძრავა</title>
+        <title lang="kk">Volume Boost: Pro Audio Engine</title>
+        <title lang="km">Volume Boost: ម៉ាស៊ីនអូឌីយ៉ូ Pro</title>
+        <title lang="kn">Volume Boost: ಪ್ರೊ ಆಡಿಯೋ ಎಂಜಿನ್</title>
+        <title lang="ko">Volume Boost: 프로 오디오 엔진</title>
+        <title lang="ky">Volume Boost: Pro Audio Engine</title>
+        <title lang="lo">Volume Boost: Pro Audio Engine</title>
+        <title lang="lt">Volume Boost: Pro garso variklis</title>
+        <title lang="lv">Volume Boost: Pro audio dzinējs</title>
+        <title lang="mk">Volume Boost: Професионален аудио мотор</title>
+        <title lang="ml">Volume Boost: പ്രോ ഓഡിയോ എഞ്ചിൻ</title>
+        <title lang="mn">Volume Boost: Pro аудио хөдөлгүүр</title>
+        <title lang="mr">Volume Boost: प्रो ऑडिओ इंजिन</title>
+        <title lang="ms">Volume Boost: Enjin Audio Pro</title>
+        <title lang="my">Volume Boost: Pro Audio Engine</title>
+        <title lang="ne">Volume Boost: प्रो अडियो इन्जिन</title>
+        <title lang="nl">Volume Boost: Pro Audio-engine</title>
+        <title lang="no">Volume Boost: Pro lydmotor</title>
+        <title lang="pa">Volume Boost: ਪ੍ਰੋ ਆਡੀਓ ਇੰਜਣ</title>
+        <title lang="pl">Volume Boost: Profesjonalny silnik audio</title>
+        <title lang="pt-rBR">Volume Boost: Motor de áudio profissional</title>
+        <title lang="pt-rPT">Volume Boost: Motor de áudio profissional</title>
+        <title lang="rm">Volume Boost: Pro Audio Engine</title>
+        <title lang="ro">Volume Boost: Motor Audio Pro</title>
+        <title lang="ru">Volume Boost: Профессиональный звуковой движок</title>
+        <title lang="si">Volume Boost: ප්‍රෝ ඕඩියෝ එන්ජිම</title>
+        <title lang="sk">Volume Boost: Pro Audio Engine</title>
+        <title lang="sq">Volume Boost: Motori Pro Audio</title>
+        <title lang="sr">Volume Boost: Про Аудио Енгине</title>
+        <title lang="sv">Volume Boost: Pro Audio Engine</title>
+        <title lang="sw">Volume Boost: Pro Audio Engine</title>
+        <title lang="ta">Volume Boost: ப்ரோ ஆடியோ எஞ்சின்</title>
+        <title lang="te">Volume Boost: ప్రో ఆడియో ఇంజిన్</title>
+        <title lang="th">Volume Boost: เครื่องยนต์เสียงโปร</title>
+        <title lang="tr">Volume Boost: Profesyonel Ses Motoru</title>
+        <title lang="uk">Volume Boost: Pro Audio Engine</title>
+        <title lang="ur">Volume Boost: پرو آڈیو انجن</title>
+        <title lang="vi">Volume Boost: Công cụ âm thanh chuyên nghiệp</title>
+        <title lang="zu">Volume Boost: Injini yomsindo we-Pro</title>
+        <title lang="pt">Volume Boost: Motor de áudio profissional</title>
+        <title lang="zh">Volume Boost: 专业音频引擎</title>
+        <title lang="iw">Volume Boost: Pro Audio Engine</title>
+      </titles>
+      <descriptions>
+        <description lang="es">Potente amplificador de volumen y procesador de audio profesional para tu navegador.</description>
+        <description lang="en">Powerful volume booster and professional audio processor for your browser.</description>
+        <description lang="sl">Zmogljiv ojačevalec glasnosti in profesionalni zvočni procesor za vaš brskalnik.</description>
+        <description lang="af">Kragtige volumeversterker en professionele klankverwerker vir jou blaaier.</description>
+        <description lang="am">ለአሳሽዎ ኃይለኛ የድምጽ ማጉያ እና ፕሮፌሽናል ኦዲዮ ፕሮሰሰር።</description>
+        <description lang="ar">معزز قوي لمستوى الصوت ومعالج صوتي احترافي لمتصفحك.</description>
+        <description lang="az">Brauzeriniz üçün güclü səs gücləndiricisi və peşəkar audio prosessoru.</description>
+        <description lang="b+zh+Hans">适用于您的浏览器的强大音量增强器和专业音频处理器。</description>
+        <description lang="b+zh+Hant">適用於您的瀏覽器的強大音量增強器和專業音訊處理器。</description>
+        <description lang="be">Магутны ўзмацняльнік гучнасці і прафесійны аўдыяпрацэсар для вашага браўзера.</description>
+        <description lang="bg">Мощен усилвател на звука и професионален аудио процесор за вашия браузър.</description>
+        <description lang="bn">আপনার ব্রাউজারের জন্য শক্তিশালী ভলিউম বুস্টার এবং পেশাদার অডিও প্রসেসর।</description>
+        <description lang="ca">Potent amplificador de volum i processador dàudio professional per al teu navegador.</description>
+        <description lang="cs">Výkonný zesilovač hlasitosti a profesionální zvukový procesor pro váš prohlížeč.</description>
+        <description lang="da">Kraftig lydstyrkeforstærker og professionel lydprocessor til din browser.</description>
+        <description lang="de">Leistungsstarker Lautstärkeverstärker und professioneller Audioprozessor für Ihren Browser.</description>
+        <description lang="el">Ισχυρός ενισχυτής έντασης και επαγγελματικός επεξεργαστής ήχου για το πρόγραμμα περιήγησής σας.</description>
+        <description lang="et">Võimas helitugevuse suurendaja ja professionaalne heliprotsessor teie brauseri jaoks.</description>
+        <description lang="eu">Bolumen-hazgailu indartsua eta audio-prozesadore profesionala zure arakatzailerako.</description>
+        <description lang="fa">تقویت کننده صدا و پردازنده حرفه ای صدا برای مرورگر شما.</description>
+        <description lang="fi">Tehokas äänenvoimakkuuden tehostin ja ammattimainen ääniprosessori selaimellesi.</description>
+        <description lang="fil">Napakahusay na volume booster at propesyonal na audio processor para sa iyong browser.</description>
+        <description lang="fr">Puissant amplificateur de volume et processeur audio professionnel pour votre navigateur.</description>
+        <description lang="gl">Potente amplificador de volume e procesador de audio profesional para o teu navegador.</description>
+        <description lang="gu">તમારા બ્રાઉઝર માટે શક્તિશાળી વોલ્યુમ બૂસ્ટર અને વ્યાવસાયિક ઑડિઓ પ્રોસેસર.</description>
+        <description lang="hi">आपके ब्राउज़र के लिए शक्तिशाली वॉल्यूम बूस्टर और पेशेवर ऑडियो प्रोसेसर।</description>
+        <description lang="hr">Snažni pojačivač zvuka i profesionalni audio procesor za vaš preglednik.</description>
+        <description lang="hu">Erőteljes hangerőnövelő és professzionális hangprocesszor a böngészőhöz.</description>
+        <description lang="hy">Հզոր ձայնի ուժեղացուցիչ և պրոֆեսիոնալ աուդիո պրոցեսոր ձեր բրաուզերի համար:</description>
+        <description lang="in">Penguat volume yang kuat dan prosesor audio profesional untuk browser Anda.</description>
+        <description lang="is">Öflugur hljóðstyrkur og faglegur hljóðgjörvi fyrir vafrann þinn.</description>
+        <description lang="it">Potente amplificatore di volume e processore audio professionale per il tuo browser.</description>
+        <description lang="ja">ブラウザ用の強力なボリュームブースターとプロ仕様のオーディオプロセッサ。</description>
+        <description lang="ka">ძლიერი ხმის გამაძლიერებელი და პროფესიონალური აუდიო პროცესორი თქვენი ბრაუზერისთვის.</description>
+        <description lang="kk">Браузеріңіз үшін қуатты дыбыс күшейткіш және кәсіби аудио процессор.</description>
+        <description lang="km">កម្មវិធីបង្កើនកម្រិតសំឡេងដ៏មានអានុភាព និងដំណើរការអូឌីយ៉ូដែលមានជំនាញវិជ្ជាជីវៈសម្រាប់កម្មវិធីរុករករបស់អ្នក។</description>
+        <description lang="kn">ನಿಮ್ಮ ಬ್ರೌಸರ್‌ಗಾಗಿ ಶಕ್ತಿಯುತ ವಾಲ್ಯೂಮ್ ಬೂಸ್ಟರ್ ಮತ್ತು ವೃತ್ತಿಪರ ಆಡಿಯೊ ಪ್ರೊಸೆಸರ್.</description>
+        <description lang="ko">브라우저를 위한 강력한 볼륨 부스터 및 전문 오디오 프로세서.</description>
+        <description lang="ky">Серепчиңиз үчүн күчтүү үн күчөткүч жана профессионалдуу аудио процессору.</description>
+        <description lang="lo">ໂປເຊດເຊີສຽງທີ່ມີປະສິດທິພາບແລະໂປເຊດເຊີສຽງມືອາຊີບສໍາລັບຕົວທ່ອງເວັບຂອງທ່ານ.</description>
+        <description lang="lt">Galingas garsumo stiprintuvas ir profesionalus garso procesorius jūsų naršyklei.</description>
+        <description lang="lv">Jaudīgs skaļuma pastiprinātājs un profesionāls audio procesors jūsu pārlūkprogrammai.</description>
+        <description lang="mk">Моќен засилувач на јачината на звукот и професионален аудио процесор за вашиот прелистувач.</description>
+        <description lang="ml">നിങ്ങളുടെ ബ്രൗസറിനായി ശക്തമായ വോളിയം ബൂസ്റ്ററും പ്രൊഫഷണൽ ഓഡിയോ പ്രൊസസറും.</description>
+        <description lang="mn">Хүчирхэг дууны хэмжээг нэмэгдүүлэгч болон таны хөтөчийн мэргэжлийн аудио процессор.</description>
+        <description lang="mr">तुमच्या ब्राउझरसाठी शक्तिशाली व्हॉल्यूम बूस्टर आणि व्यावसायिक ऑडिओ प्रोसेसर.</description>
+        <description lang="ms">Penggalak volum yang berkuasa dan pemproses audio profesional untuk penyemak imbas anda.</description>
+        <description lang="my">သင့်ဘရောက်ဆာအတွက် အစွမ်းထက်သော အသံတိုးမြင့်မှုနှင့် ပရော်ဖက်ရှင်နယ် အော်ဒီယိုပရိုဆက်ဆာ။</description>
+        <description lang="ne">तपाईंको ब्राउजरको लागि शक्तिशाली भोल्युम बूस्टर र व्यावसायिक अडियो प्रोसेसर।</description>
+        <description lang="nl">Krachtige volumeversterker en professionele audioprocessor voor uw browser.</description>
+        <description lang="no">Kraftig volumforsterker og profesjonell lydprosessor for nettleseren din.</description>
+        <description lang="pa">ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਲਈ ਸ਼ਕਤੀਸ਼ਾਲੀ ਵਾਲੀਅਮ ਬੂਸਟਰ ਅਤੇ ਪੇਸ਼ੇਵਰ ਆਡੀਓ ਪ੍ਰੋਸੈਸਰ।</description>
+        <description lang="pl">Potężny wzmacniacz głośności i profesjonalny procesor dźwięku dla Twojej przeglądarki.</description>
+        <description lang="pt-rBR">Potente amplificador de volume e processador de áudio profissional para o seu navegador.</description>
+        <description lang="pt-rPT">Potente amplificador de volume e processador de áudio profissional para o seu navegador.</description>
+        <description lang="rm">Leistungsstarker Lautstärkeverstärker und professioneller Audioprozessor für Ihren Browser.</description>
+        <description lang="ro">Amplificator puternic de volum și procesor audio profesional pentru browserul dvs.</description>
+        <description lang="ru">Мощный усилитель громкости и профессиональный аудиопроцессор для вашего браузера.</description>
+        <description lang="si">ඔබගේ බ්‍රවුසරය සඳහා ප්‍රබල ශබ්ද බූස්ටරය සහ වෘත්තීය ශ්‍රව්‍ය සකසනය.</description>
+        <description lang="sk">Výkonný zosilňovač hlasitosti a profesionálny zvukový procesor pre váš prehliadač.</description>
+        <description lang="sq">Përforcues i fuqishëm i volumit dhe procesor profesional audio për shfletuesin tuaj.</description>
+        <description lang="sr">Снажан појачивач јачине звука и професионални аудио процесор за ваш претраживач.</description>
+        <description lang="sv">Kraftfull volymförstärkare och professionell ljudprocessor för din webbläsare.</description>
+        <description lang="sw">Kiongeza sauti chenye nguvu na kichakataji sauti kitaalamu kwa kivinjari chako.</description>
+        <description lang="ta">உங்கள் உலாவிக்கான சக்திவாய்ந்த வால்யூம் பூஸ்டர் மற்றும் தொழில்முறை ஆடியோ செயலி.</description>
+        <description lang="te">మీ బ్రౌజర్ కోసం శక్తివంతమైన వాల్యూమ్ బూస్టర్ మరియు ప్రొఫెషనల్ ఆడియో ప్రాసెసర్.</description>
+        <description lang="th">ตัวเพิ่มระดับเสียงอันทรงพลังและตัวประมวลผลเสียงระดับมืออาชีพสำหรับเบราว์เซอร์ของคุณ</description>
+        <description lang="tr">Tarayıcınız için güçlü ses yükseltici ve profesyonel ses işlemcisi.</description>
+        <description lang="uk">Потужний підсилювач гучності та професійний аудіопроцесор для вашого браузера.</description>
+        <description lang="ur">آپ کے براؤزر کے لیے طاقتور والیوم بوسٹر اور پروفیشنل آڈیو پروسیسر۔</description>
+        <description lang="vi">Bộ tăng âm lượng mạnh mẽ và bộ xử lý âm thanh chuyên nghiệp cho trình duyệt của bạn.</description>
+        <description lang="zu">I-booster enamandla yevolumu kanye nephrosesa yomsindo echwepheshile yesiphequluli sakho.</description>
+        <description lang="pt">Potente amplificador de volume e processador de áudio profissional para o seu navegador.</description>
+        <description lang="zh">适用于您的浏览器的强大音量增强器和专业音频处理器。</description>
+        <description lang="iw">מגביר עוצמת קול רב עוצמה ומעבד שמע מקצועי לדפדפן שלך.</description>
+      </descriptions>
+      <urls>
+        <url store="chrome">#</url>
+        <url store="firefox">#</url>
+      </urls>
+    </extension>
+    <extension>
+      <id>m0lestias</id>
+      <package>m0lestias-extension</package>
+      <icon>/imagenes/iconos/m0lestias.png</icon>
+      <titles>
+        <title lang="es">M0lestias</title>
+        <title lang="en">M0lestias</title>
+        <title lang="sl">M0lestias</title>
+        <title lang="af">M0lestias</title>
+        <title lang="am">M0lestias</title>
+        <title lang="ar">M0lestias</title>
+        <title lang="az">M0lestias</title>
+        <title lang="b+zh+Hans">莫莱斯蒂亚斯</title>
+        <title lang="b+zh+Hant">莫萊斯蒂亞斯</title>
+        <title lang="be">М0лестыас</title>
+        <title lang="bg">Молестиас</title>
+        <title lang="bn">M0lestias</title>
+        <title lang="ca">M0lestias</title>
+        <title lang="cs">M0lestias</title>
+        <title lang="da">M0lestias</title>
+        <title lang="de">M0lestias</title>
+        <title lang="el">Μ0λεστίας</title>
+        <title lang="et">M0lestias</title>
+        <title lang="eu">M0lestias</title>
+        <title lang="fa">M0lestias</title>
+        <title lang="fi">M0lestias</title>
+        <title lang="fil">M0lestias</title>
+        <title lang="fr">Molestias</title>
+        <title lang="gl">M0lestias</title>
+        <title lang="gu">M0lestias</title>
+        <title lang="hi">M0lestias</title>
+        <title lang="hr">M0lestias</title>
+        <title lang="hu">M0lestias</title>
+        <title lang="hy">M0lestias</title>
+        <title lang="in">M0lestias</title>
+        <title lang="is">M0lestías</title>
+        <title lang="it">M0lestias</title>
+        <title lang="ja">ムレスティアス</title>
+        <title lang="ka">M0lestias</title>
+        <title lang="kk">M0lestias</title>
+        <title lang="km">M0lestias</title>
+        <title lang="kn">M0lestias</title>
+        <title lang="ko">M0lestias</title>
+        <title lang="ky">M0lestias</title>
+        <title lang="lo">M0lestias</title>
+        <title lang="lt">M0lestias</title>
+        <title lang="lv">M0lestias</title>
+        <title lang="mk">M0lestias</title>
+        <title lang="ml">M0lestias</title>
+        <title lang="mn">М0лестиас</title>
+        <title lang="mr">M0lestias</title>
+        <title lang="ms">M0lestias</title>
+        <title lang="my">M0lestias</title>
+        <title lang="ne">M0lestias</title>
+        <title lang="nl">M0lestias</title>
+        <title lang="no">M0lestias</title>
+        <title lang="pa">M0lestias</title>
+        <title lang="pl">M0lestias</title>
+        <title lang="pt-rBR">M0lestias</title>
+        <title lang="pt-rPT">M0lestias</title>
+        <title lang="rm">M0lestias</title>
+        <title lang="ro">M0lestias</title>
+        <title lang="ru">М0лестиас</title>
+        <title lang="si">M0lestias</title>
+        <title lang="sk">M0lestias</title>
+        <title lang="sq">M0lestias</title>
+        <title lang="sr">М0лестиас</title>
+        <title lang="sv">M0lestias</title>
+        <title lang="sw">M0lestias</title>
+        <title lang="ta">M0lestias</title>
+        <title lang="te">M0lestias</title>
+        <title lang="th">เอ็ม0เลสเทียส</title>
+        <title lang="tr">M0lestias</title>
+        <title lang="uk">М0лестіас</title>
+        <title lang="ur">M0lestias</title>
+        <title lang="vi">M0lestias</title>
+        <title lang="zu">I-M0lestias</title>
+        <title lang="pt">M0lestias</title>
+        <title lang="zh">莫莱斯蒂亚斯</title>
+        <title lang="iw">M0lestias</title>
+      </titles>
+      <descriptions>
+        <description lang="es">Evita el overflow: hidden en el body y bloquea popups.</description>
+        <description lang="en">Prevents overflow: hidden on the body and blocks popups.</description>
+        <description lang="sl">Izogibajte se prelivanju: skrite v telesu in blokirajte pojavna okna.</description>
+        <description lang="af">Vermy oorloop: versteek in die liggaam en blokkeer opspringers.</description>
+        <description lang="am">ከመጠን በላይ መፍሰስን ያስወግዱ: በሰውነት ውስጥ ተደብቀዋል እና ብቅ-ባዮችን ያግዱ.</description>
+        <description lang="ar">تجنب الفائض: مخفي في الجسم وحظر النوافذ المنبثقة.</description>
+        <description lang="az">Daşmaqdan çəkinin: bədəndə gizlidir və pop-upları bloklayın.</description>
+        <description lang="b+zh+Hans">避免溢出：隐藏在正文中并阻止弹出窗口。</description>
+        <description lang="b+zh+Hant">避免溢出：隱藏在正文中並阻止彈出視窗。</description>
+        <description lang="be">Пазбягайце перапаўнення: схаваныя ў целе і блакіруйце ўсплывальныя вокны.</description>
+        <description lang="bg">Избягвайте препълване: скрити в тялото и блокирайте изскачащи прозорци.</description>
+        <description lang="bn">ওভারফ্লো এড়িয়ে চলুন: শরীরের মধ্যে লুকানো এবং ব্লক পপআপ.</description>
+        <description lang="ca">Evita l'overflow: hidden al body i bloqueja popups.</description>
+        <description lang="cs">Vyhněte se přetečení: skryté v těle a blokování vyskakovacích oken.</description>
+        <description lang="da">Undgå overløb: skjult i kroppen og bloker popups.</description>
+        <description lang="de">Überlauf vermeiden: Im Text verstecken und Popups blockieren.</description>
+        <description lang="el">Αποφύγετε την υπερχείλιση: κρυμμένα στο σώμα και μπλοκ αναδυόμενων παραθύρων.</description>
+        <description lang="et">Vältige ületäitumist: peidetud kehasse ja blokeerige hüpikaknad.</description>
+        <description lang="eu">Saihestu gainezka: gorputzean ezkutatuta eta blokeatu popup-ak.</description>
+        <description lang="fa">اجتناب از سرریز: پنهان در بدنه و مسدود کردن پنجره های بازشو.</description>
+        <description lang="fi">Vältä ylivuoto: piilotettu runkoon ja estä ponnahdusikkunat.</description>
+        <description lang="fil">Iwasan ang pag-apaw: nakatago sa katawan at harangan ang mga popup.</description>
+        <description lang="fr">Évitez les débordements : caché dans le corps et bloquez les popups.</description>
+        <description lang="gl">Evita o desbordamento: oculto no corpo e bloquea ventás emerxentes.</description>
+        <description lang="gu">ઓવરફ્લો ટાળો: શરીરમાં છુપાયેલ અને બ્લોક પૉપઅપ્સ.</description>
+        <description lang="hi">ओवरफ़्लो से बचें: मुख्य भाग में छिपा हुआ और पॉपअप को ब्लॉक करें।</description>
+        <description lang="hr">Izbjegavajte prelijevanje: skriveno u tijelu i blokirajte skočne prozore.</description>
+        <description lang="hu">Kerülje a túlcsordulást: a testben elrejtve és blokkolja az előugró ablakokat.</description>
+        <description lang="hy">Խուսափեք արտահոսքից՝ թաքնված մարմնի մեջ և արգելափակեք թռուցիկները:</description>
+        <description lang="in">Hindari overflow: tersembunyi di dalam badan dan blokir popup.</description>
+        <description lang="is">Forðastu yfirfall: falið í líkamanum og lokaðu sprettiglugga.</description>
+        <description lang="it">Evita l'overflow: nascosto nel corpo e blocca i popup.</description>
+        <description lang="ja">オーバーフローを回避します。本文に非表示になり、ポップアップをブロックします。</description>
+        <description lang="ka">მოერიდეთ გადინებას: დამალულია სხეულში და დაბლოკეთ ამომხტარი ფანჯარა.</description>
+        <description lang="kk">Толып кетпеу: денеде жасырылған және қалқымалы терезелерді блоктау.</description>
+        <description lang="km">ជៀសវាងការហៀរចេញ៖ លាក់នៅក្នុងតួ និងទប់ស្កាត់ការលេចឡើង។</description>
+        <description lang="kn">ಓವರ್‌ಫ್ಲೋ ತಪ್ಪಿಸಿ: ದೇಹದಲ್ಲಿ ಮರೆಮಾಡಲಾಗಿದೆ ಮತ್ತು ಪಾಪ್‌ಅಪ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ.</description>
+        <description lang="ko">오버플로 방지: 본문에 숨겨져 팝업을 차단합니다.</description>
+        <description lang="ky">Толуп кетүүдөн качыңыз: денеде жашырылган жана калкып чыкмаларды бөгөттөө.</description>
+        <description lang="lo">ຫຼີກເວັ້ນການ overflow: ເຊື່ອງໄວ້ຢູ່ໃນຮ່າງກາຍແລະຕັນປ໊ອບອັບ.</description>
+        <description lang="lt">Venkite perpildymo: paslėpti korpuse ir blokuoti iššokančius langus.</description>
+        <description lang="lv">Izvairieties no pārplūdes: paslēpiet pamattekstā un bloķējiet uznirstošos logus.</description>
+        <description lang="mk">Избегнувајте прелевање: скриени во телото и блокирајте ги скокачките прозорци.</description>
+        <description lang="ml">ഓവർഫ്ലോ ഒഴിവാക്കുക: ശരീരത്തിൽ മറഞ്ഞിരിക്കുന്നതും പോപ്പ്അപ്പുകൾ തടയുന്നതും.</description>
+        <description lang="mn">Халихаас зайлсхий: биед нуугдаж, попапуудыг хаах.</description>
+        <description lang="mr">ओव्हरफ्लो टाळा: शरीरात लपलेले आणि पॉपअप ब्लॉक करा.</description>
+        <description lang="ms">Elakkan limpahan: tersembunyi dalam badan dan sekat pop timbul.</description>
+        <description lang="my">ပြည့်လျှံခြင်းကို ရှောင်ကြဉ်ပါ- ခန္ဓာကိုယ်ထဲတွင် ဝှက်ထားပြီး ပေါ့ပ်အပ်များကို ပိတ်ဆို့ပါ။</description>
+        <description lang="ne">ओभरफ्लोबाट बच्नुहोस्: शरीरमा लुकेको र पपअपहरू रोक्नुहोस्।</description>
+        <description lang="nl">Voorkom overflow: verborgen in de body en blokkeer pop-ups.</description>
+        <description lang="no">Unngå overløp: skjult i kroppen og blokker popup-vinduer.</description>
+        <description lang="pa">ਓਵਰਫਲੋ ਤੋਂ ਬਚੋ: ਸਰੀਰ ਵਿੱਚ ਲੁਕਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਪੌਪਅੱਪ ਨੂੰ ਬਲਾਕ ਕਰੋ।</description>
+        <description lang="pl">Unikaj przepełnienia: ukryj w treści i blokuj wyskakujące okienka.</description>
+        <description lang="pt-rBR">Evite overflow: oculto no corpo e bloqueie pop-ups.</description>
+        <description lang="pt-rPT">Evite overflow: oculto no corpo e bloqueie pop-ups.</description>
+        <description lang="rm">Überlauf vermeiden: Im Text verstecken und Popups blockieren.</description>
+        <description lang="ro">Evitați debordarea: ascuns în corp și blocați ferestrele pop-up.</description>
+        <description lang="ru">Избегайте переполнения: скрывайте в теле и блокируйте всплывающие окна.</description>
+        <description lang="si">පිටාර ගැලීමෙන් වළකින්න: ශරීරයේ සැඟවී ඇති අතර උත්පතන අවහිර කරන්න.</description>
+        <description lang="sk">Vyhnite sa pretečeniu: skryté v tele a blokovanie vyskakovacích okien.</description>
+        <description lang="sq">Shmangni tejmbushjen: të fshehura në trup dhe bllokoni dritaret kërcyese.</description>
+        <description lang="sr">Избегавајте преливање: скривено у телу и блокирајте искачуће прозоре.</description>
+        <description lang="sv">Undvik översvämning: gömd i kroppen och blockera popup-fönster.</description>
+        <description lang="sw">Epuka kufurika: iliyofichwa kwenye mwili na uzuie madirisha ibukizi.</description>
+        <description lang="ta">வழிதல் தவிர்க்கவும்: உடலில் மறைத்து பாப்அப்களைத் தடுக்கவும்.</description>
+        <description lang="te">ఓవర్‌ఫ్లోను నివారించండి: బాడీలో దాగి, పాప్‌అప్‌లను నిరోధించండి.</description>
+        <description lang="th">หลีกเลี่ยงการล้น: ซ่อนอยู่ในเนื้อหาและบล็อกป๊อปอัป</description>
+        <description lang="tr">Taşmayı önleyin: gövdede gizlenir ve açılır pencereleri engeller.</description>
+        <description lang="uk">Уникайте переповнення: приховані в тілі та блокуйте спливаючі вікна.</description>
+        <description lang="ur">اوور فلو سے بچیں: جسم میں پوشیدہ اور بلاک پاپ اپ۔</description>
+        <description lang="vi">Tránh tràn: ẩn trong nội dung và chặn cửa sổ bật lên.</description>
+        <description lang="zu">Gwema ukuchichima: kufihlwe emzimbeni futhi uvimbele izigelekeqe.</description>
+        <description lang="pt">Evite overflow: oculto no corpo e bloqueie pop-ups.</description>
+        <description lang="zh">避免溢出：隐藏在正文中并阻止弹出窗口。</description>
+        <description lang="iw">הימנע מהצפת: מוסתר בגוף וחוסם חלונות קופצים.</description>
+      </descriptions>
+      <urls>
+        <url store="chrome">#</url>
+        <url store="firefox">#</url>
+      </urls>
+    </extension>
+  </extensions>
+</portfolio>

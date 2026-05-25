@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Directorios excluidos
+Disallow: /cyberpunk_demo/
+Disallow: /app/
+
+# Sitemap
+Sitemap: https://juanromerodominguez.dev/sitemap.xml

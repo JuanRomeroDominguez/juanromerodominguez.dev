@@ -1,0 +1,19 @@
+# Ignorar JS y CSS sin minificar
+/assets/js/main.js
+/assets/css/style.ORG.css
+
+# Proyectos de Photoshop
+*.psd
+
+# Carpetas y subcarpetas
+/app/
+/cyberpunk_demo/
+
+# Ficheros específicos de la raíz
+/badges-grid.txt
+
+# Extensiones específicas
+*.ps1
+*.py
+*.zip
+*.7z
