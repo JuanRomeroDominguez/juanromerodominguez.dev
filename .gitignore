@@ -1,5 +1,6 @@
 # Ignorar JS y CSS sin minificar
 /assets/js/main.js
+/assets/js/main.ORG.js
 /assets/css/style.ORG.css
 
 # Proyectos de Photoshop
