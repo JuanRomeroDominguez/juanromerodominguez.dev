@@ -1482,7 +1482,7 @@
         <url store="samsung">#</url>
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
-        <url store="amazon">#</url>
+        <url store="amazon">https://www.amazon.com/gp/product/B0H3HRM868</url>
         <url store="uptodown">#</url>
         <url store="rustore">#</url>
         <url store="aptoide">#</url>
@@ -2672,7 +2672,7 @@
         <url store="samsung">#</url>
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
-        <url store="amazon">#</url>
+        <url store="amazon">https://www.amazon.com/gp/product/B0H3HTXQRX</url>
         <url store="uptodown">#</url>
         <url store="rustore">#</url>
         <url store="aptoide">#</url>
