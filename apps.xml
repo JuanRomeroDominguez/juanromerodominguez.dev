@@ -1312,7 +1312,7 @@
         <url store="samsung">#</url>
         <url store="xiaomi">#</url>
         <url store="apple">#</url>
-        <url store="amazon">#</url>
+        <url store="amazon">https://www.amazon.com/gp/product/B0H3QJ7MKR</url>
         <url store="uptodown">#</url>
         <url store="rustore">#</url>
         <url store="aptoide">#</url>
